@@ -29,7 +29,7 @@ locals {
 
   ros_desktop_repositories = [
     "angles-release",
-    "depthimpage_to_laserscan-release",
+    "depthimage_to_laserscan-release",
     "joy-release",
     "pcl_conversions-release",
     "rviz2-release",
@@ -42,6 +42,7 @@ locals {
   ]
 
   rqt_repositories = [
+    "rqt_action-release",
     "rqt_reconfigure-release",
     "rqt_console-release",
     "rqt_msg-release",
@@ -62,6 +63,50 @@ locals {
     "rqt_bag-release",
     "rqt-release",
     "rqt_tf_tree-release",
+  ]
+
+  ros_team_repositories = [
+    "ament_package-release",
+    "cartographer-release",
+    "cartographer_ros-release",
+    "console_bridge_vendor-release",
+    "domain_bridge-release",
+    "eigen3_cmake_module-release",
+    "example_interfaces-release",
+    "googletest-release",
+    "osrf_pycommon-release",
+    "osrf_testing_tools_cpp-release",
+    "pybind11_vendor-release",
+    "python_cmake_module-release",
+    "python_qt_binding-release",
+    "qt_gui_core-release",
+    "rcl_interfaces-release",
+    "rcpputils-release",
+    "rcutils-release",
+    "realtime_support-release",
+    "resource_retriever-release",
+    "rmw-release",
+    "rmw_dds_common-release",
+    "rmw_implementation-release",
+    "ros1_bridge-release",
+    "ros2cli-release",
+    "ros_workspace-release",
+    "rosidl-release",
+    "rosidl_dds-release",
+    "rosidl_python-release",
+    "rosidl_runtime_py-release",
+    "rosidl_typesupport-release",
+    "rpyutils-release",
+    "rviz-release",
+    "tinyxml_vendor-release",
+    "tinyxml2_vendor-release",
+    "uncrustify_vendor-release",
+    "unique_identifier_msgs-release",
+    "urdfdom-release",
+    "urdfdom_headers-release",
+    "urdfdom_py-release",
+    "variants-release",
+    "yaml_cpp_vendor-release",
   ]
 }
 
@@ -97,8 +142,14 @@ resource "github_repository" "ros_desktop" {
   visibility = "public"
 }
 
+resource "github_repository" "ros_team_repositories" {
+  for_each = toset(local.ros_team_repositories)
+  name = each.value
+  visibility = "public"
+}
+
 resource "github_team_repository" "ros2-team" {
-  for_each = setunion(local.ros_base_repositories, local.ros_core_repositories, local.ros_desktop_repositories, local.rqt_repositories)
+  for_each = setunion(local.ros_base_repositories, local.ros_core_repositories, local.ros_desktop_repositories, local.ros_team_repositories, local.rqt_repositories)
   team_id = github_team.ros2-team.id
   repository = each.value
   permission = "maintain"
