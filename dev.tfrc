@@ -1,0 +1,6 @@
+provider_installation {
+  dev_overrides {
+    "integrations/github" = "/home/steven/go/bin/"
+  }
+}
+
