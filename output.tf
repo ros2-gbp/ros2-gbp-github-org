@@ -11,11 +11,13 @@ output "unmanaged_members" {
 
 output "unmanaged_repositories" {
   value = setsubtract(
-    data.github_organization.ros2-gbp.repositories,
+    [for repo in data.github_organization.ros2-gbp.repositories: trimprefix(repo, "ros2-gbp/")],
     setunion(
+      local.archived_repositories,
       local.ros_core_repositories,
       local.ros_base_repositories,
       local.ros_desktop_repositories,
+      local.ros_team_repositories,
       local.rqt_repositories,
     )
   )
