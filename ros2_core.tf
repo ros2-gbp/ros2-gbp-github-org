@@ -67,12 +67,15 @@ locals {
 
   ros_team_repositories = [
     "ament_package-release",
+    "bond_core-release",
     "cartographer-release",
     "cartographer_ros-release",
     "console_bridge_vendor-release",
     "domain_bridge-release",
     "eigen3_cmake_module-release",
+    "eigen_stl_containers-release",
     "example_interfaces-release",
+    "filters-release",
     "googletest-release",
     "osrf_pycommon-release",
     "osrf_testing_tools_cpp-release",
