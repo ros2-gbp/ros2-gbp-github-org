@@ -7,6 +7,7 @@ locals {
   ]
   control_repositories = [
     "control_toolbox-release",
+    "control_msgs-release",
     "ros2_control-release",
     "ros2_controllers-release",
     "teleop_tools-release",
