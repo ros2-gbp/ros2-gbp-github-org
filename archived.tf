@@ -14,6 +14,7 @@ locals {
     "ros_astra_camera-release",
     "rosidl_typesupport_opensplice-release",
     "system_tests-release",
+    "turtlebot2_demo-release",
     "uncrustify-release",
   ]
 }
