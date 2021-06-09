@@ -16,11 +16,12 @@ output "unmanaged_members" {
       local.fastcdr_team,
       local.fmi_team,
       local.gazebo_team,
+      local.grbl_team,
       local.gurumdds_team,
+      local.ifm3d_team,
       local.lgsvl_team,
       local.libg2o_team,
       local.locator_ros_bridge_team,
-      local.swri_team,
       local.message_filters_team,
       local.mrpt2_team,
       local.navigation_team,
@@ -33,13 +34,18 @@ output "unmanaged_members" {
       local.realsense_team,
       local.rmf_team,
       local.roboception_team,
+      local.ros_canopen_team,
+      local.rosauth_team,
       local.rosbag2_team,
+      local.swri_team,
       local.system_modes_team,
       local.tooling_wg_team,
+      local.v4l2_camera_team,
       local.xacro_team,
     )
   )
 }
+
 
 
 output "unmanaged_repositories" {
@@ -63,11 +69,12 @@ output "unmanaged_repositories" {
       local.fastcdr_repositories,
       local.fmi_repositories,
       local.gazebo_repositories,
+      local.grbl_repositories,
       local.gurumdds_repositories,
+      local.ifm3d_repositories,
       local.lgsvl_repositories,
       local.libg2o_repositories,
       local.locator_ros_bridge_repositories,
-      local.swri_repositories,
       local.message_filters_repositories,
       local.mrpt2_repositories,
       local.navigation_repositories,
@@ -80,9 +87,13 @@ output "unmanaged_repositories" {
       local.realsense_repositories,
       local.rmf_repositories,
       local.roboception_repositories,
+      local.ros_canopen_repositories,
+      local.rosauth_repositories,
       local.rosbag2_repositories,
+      local.swri_repositories,
       local.system_modes_repositories,
       local.tooling_wg_repositories,
+      local.v4l2_camera_repositories,
       local.xacro_repositories,
     )
   )
