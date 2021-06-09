@@ -8,7 +8,9 @@ locals {
     "gtest_vendor-release",
     "osrf_testings_tools_cpp-release",
     "poco_vendor-release",
+    "rmw_opensplice-release",
     "robot_model-release",
+    "rosidl_typesupport_opensplice-release",
     "system_tests-release",
     "uncrustify-release",
   ]
