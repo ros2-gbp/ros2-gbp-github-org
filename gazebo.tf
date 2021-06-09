@@ -10,6 +10,7 @@ locals {
     "gazebo_ros2_control-release",
     "gazebo_ros_pkgs-release",
     "ign_rviz-release",
+    "ros_ign-release",
   ]
 }
 
