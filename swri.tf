@@ -2,13 +2,15 @@
 
 locals {
   swri_team = [
-    "evenator",
-    "pjreed",
+    "daniel-dsouza",
+    "danthony06",
   ]
   swri_repositories = [
     "gps_umd-release",
+    "mapviz-release",
     "marti_common-release",
     "marti_messages-release",
+    "swri_console-release",
   ]
 }
 
