@@ -6,7 +6,7 @@ locals {
     "jolting",
   ]
   mrpt2_repositories = [
-    "mprt2-release",
+    "mrpt2-release",
   ]
 }
 
