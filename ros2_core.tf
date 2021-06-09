@@ -76,6 +76,7 @@ locals {
     "eigen_stl_containers-release",
     "example_interfaces-release",
     "filters-release",
+    "google_benchmark_vendor-release",
     "googletest-release",
     "image_common-release",
     "image_transport_plugins-release",
@@ -119,6 +120,7 @@ locals {
     "rosidl_typesupport_connext-release", #archive after Foxy end-of-support
     "rpyutils-release",
     "rviz-release",
+    "slide_show-release",
     "spdlog_vendor-release",
     "tango_icons_vendor-release",
     "test_interface_files-release",
@@ -131,6 +133,8 @@ locals {
     "urdfdom_headers-release",
     "urdfdom_py-release",
     "variants-release",
+    "velodyne-release",
+    "vision_opencv-release",
     "yaml_cpp_vendor-release",
   ]
 }
