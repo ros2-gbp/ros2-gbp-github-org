@@ -75,6 +75,7 @@ locals {
     "eigen3_cmake_module-release",
     "eigen_stl_containers-release",
     "example_interfaces-release",
+    "fcl-release",
     "filters-release",
     "google_benchmark_vendor-release",
     "googletest-release",
@@ -120,6 +121,7 @@ locals {
     "rosidl_typesupport_connext-release", #archive after Foxy end-of-support
     "rpyutils-release",
     "rviz-release",
+    "sdformat_urdf-release",
     "slide_show-release",
     "spdlog_vendor-release",
     "tango_icons_vendor-release",
