@@ -7,9 +7,12 @@ output "unmanaged_members" {
       local.ros_team,
       local.apex_team,
       local.apriltag_team,
+      local.async_web_server_cpp_team,
       local.autoware_team,
       local.behaviortree_team,
+      local.bno055_team,
       local.connextdds_team,
+      local.control_box_rst_team,
       local.control_team,
       local.cyberbotics_team,
       local.cyclonedds_team,
@@ -17,6 +20,7 @@ output "unmanaged_members" {
       local.fastcdr_team,
       local.fmi_team,
       local.gazebo_team,
+      local.geographic_info_team,
       local.grbl_team,
       local.gurumdds_team,
       local.ifm3d_team,
@@ -28,6 +32,7 @@ output "unmanaged_members" {
       local.navigation_team,
       local.nmea_team,
       local.nodl_team,
+      local.object_analytics_team,
       local.octomap_team,
       local.ouster_drivers_team,
       local.perception_team,
@@ -55,6 +60,7 @@ output "unmanaged_members" {
 
 
 
+
 output "unmanaged_repositories" {
   value = setsubtract(
     [for repo in data.github_organization.ros2-gbp.repositories: trimprefix(repo, "ros2-gbp/")],
@@ -67,9 +73,12 @@ output "unmanaged_repositories" {
       local.rqt_repositories,
       local.apex_repositories,
       local.apriltag_repositories,
+      local.async_web_server_cpp_repositories,
       local.autoware_repositories,
       local.behaviortree_repositories,
+      local.bno055_repositories,
       local.connextdds_repositories,
+      local.control_box_rst_repositories,
       local.control_repositories,
       local.cyberbotics_repositories,
       local.cyclonedds_repositories,
@@ -77,6 +86,7 @@ output "unmanaged_repositories" {
       local.fastcdr_repositories,
       local.fmi_repositories,
       local.gazebo_repositories,
+      local.geographic_info_repositories,
       local.grbl_repositories,
       local.gurumdds_repositories,
       local.ifm3d_repositories,
@@ -88,6 +98,7 @@ output "unmanaged_repositories" {
       local.navigation_repositories,
       local.nmea_repositories,
       local.nodl_repositories,
+      local.object_analytics_repositories,
       local.octomap_repositories,
       local.ouster_drivers_repositories,
       local.perception_repositories,
