@@ -6,6 +6,7 @@ locals {
     "bmagyar",
   ]
   control_repositories = [
+    "control_toolbox-release",
     "ros2_control-release",
     "ros2_controllers-release",
     "teleop_tools-release",
