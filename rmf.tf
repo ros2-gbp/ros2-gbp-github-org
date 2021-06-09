@@ -20,6 +20,7 @@ locals {
     "rmf_utils-release",
     "rmf_visualization-release",
     "rmf_visualization_msgs-release",
+    "stubborn_buddies-release",
   ]
 }
 
