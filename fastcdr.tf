@@ -1,5 +1,3 @@
-# vim:ft=terraform
-
 locals {
   fastcdr_team = [
     "EduPonz",
@@ -13,35 +11,9 @@ locals {
   ]
 }
 
-resource "github_membership" "fastcdr_team" {
-  for_each = toset(local.fastcdr_team)
-  username = each.value
-  role = "member"
-}
-
-resource "github_team" "fastcdr_team" {
-  name = "fastcdr"
-  description = "ROS release managers for the fastcdr project"
-  privacy = "closed"
-  create_default_maintainer = false
-}
-
-resource "github_team_membership" "fastcdr_team" {
-  for_each = toset(local.fastcdr_team)
-  team_id = github_team.fastcdr_team.id
-  username = each.value
-  role = "member"
-}
-
-resource "github_repository" "fastcdr_repositories" {
-  for_each = toset(local.fastcdr_repositories)
-  name = each.value
-  visibility = "public"
-}
-
-resource "github_team_repository" "fastcdr_team" {
-  for_each = toset(local.fastcdr_repositories)
-  team_id = github_team.fastcdr_team.id
-  repository = each.value
-  permission = "maintain"
+module "fastcdr_team" {
+  source = "./modules/release_team"
+  team_name = "fastcdr"
+  members = local.fastcdr_team
+  repositories = local.fastcdr_repositories
 }

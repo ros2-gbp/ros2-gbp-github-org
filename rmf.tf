@@ -1,5 +1,3 @@
-# vim:ft=terraform
-
 locals {
   rmf_team = [
     "marcoag",
@@ -24,35 +22,9 @@ locals {
   ]
 }
 
-resource "github_membership" "rmf_team" {
-  for_each = toset(local.rmf_team)
-  username = each.value
-  role = "member"
-}
-
-resource "github_team" "rmf_team" {
-  name = "rmf"
-  description = "ROS release managers for the rmf project"
-  privacy = "closed"
-  create_default_maintainer = false
-}
-
-resource "github_team_membership" "rmf_team" {
-  for_each = toset(local.rmf_team)
-  team_id = github_team.rmf_team.id
-  username = each.value
-  role = "member"
-}
-
-resource "github_repository" "rmf_repositories" {
-  for_each = toset(local.rmf_repositories)
-  name = each.value
-  visibility = "public"
-}
-
-resource "github_team_repository" "rmf_team" {
-  for_each = toset(local.rmf_repositories)
-  team_id = github_team.rmf_team.id
-  repository = each.value
-  permission = "maintain"
+module "rmf_team" {
+  source = "./modules/release_team"
+  team_name = "rmf"
+  members = local.rmf_team
+  repositories = local.rmf_repositories
 }

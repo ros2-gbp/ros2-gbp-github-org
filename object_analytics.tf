@@ -1,5 +1,3 @@
-# vim:ft=terraform
-
 locals {
   object_analytics_team = [
     "yechun1",
@@ -10,35 +8,9 @@ locals {
   ]
 }
 
-resource "github_membership" "object_analytics_team" {
-  for_each = toset(local.object_analytics_team)
-  username = each.value
-  role = "member"
-}
-
-resource "github_team" "object_analytics_team" {
-  name = "object_analytics.tf"
-  description = "ROS release managers for the object_analytics.tf project"
-  privacy = "closed"
-  create_default_maintainer = false
-}
-
-resource "github_team_membership" "object_analytics_team" {
-  for_each = toset(local.object_analytics_team)
-  team_id = github_team.object_analytics_team.id
-  username = each.value
-  role = "member"
-}
-
-resource "github_repository" "object_analytics_repositories" {
-  for_each = toset(local.object_analytics_repositories)
-  name = each.value
-  visibility = "public"
-}
-
-resource "github_team_repository" "object_analytics_team" {
-  for_each = toset(local.object_analytics_repositories)
-  team_id = github_team.object_analytics_team.id
-  repository = each.value
-  permission = "maintain"
+module "object_analytics_team" {
+  source = "./modules/release_team"
+  team_name = "object_analytics"
+  members = local.object_analytics_team
+  repositories = local.object_analytics_repositories
 }

@@ -1,5 +1,3 @@
-# vim:ft=terraform
-
 locals {
   apex_team = [
     "carlossvg",
@@ -10,35 +8,9 @@ locals {
   ]
 }
 
-resource "github_membership" "apex_team" {
-  for_each = toset(local.apex_team)
-  username = each.value
-  role = "member"
-}
-
-resource "github_team" "apex_team" {
-  name = "apex"
-  description = "ROS release managers for the apex project"
-  privacy = "closed"
-  create_default_maintainer = false
-}
-
-resource "github_team_membership" "apex_team" {
-  for_each = toset(local.apex_team)
-  team_id = github_team.apex_team.id
-  username = each.value
-  role = "member"
-}
-
-resource "github_repository" "apex_repositories" {
-  for_each = toset(local.apex_repositories)
-  name = each.value
-  visibility = "public"
-}
-
-resource "github_team_repository" "apex_team" {
-  for_each = toset(local.apex_repositories)
-  team_id = github_team.apex_team.id
-  repository = each.value
-  permission = "maintain"
+module "apex_team" {
+  source = "./modules/release_team"
+  team_name = "apex"
+  members = local.apex_team
+  repositories = local.apex_repositories
 }

@@ -1,5 +1,3 @@
-# vim:ft=terraform
-
 locals {
   roboception_team = [
     "flixr",
@@ -12,35 +10,9 @@ locals {
   ]
 }
 
-resource "github_membership" "roboception_team" {
-  for_each = toset(local.roboception_team)
-  username = each.value
-  role = "member"
-}
-
-resource "github_team" "roboception_team" {
-  name = "roboception"
-  description = "ROS release managers for the roboception project"
-  privacy = "closed"
-  create_default_maintainer = false
-}
-
-resource "github_team_membership" "roboception_team" {
-  for_each = toset(local.roboception_team)
-  team_id = github_team.roboception_team.id
-  username = each.value
-  role = "member"
-}
-
-resource "github_repository" "roboception_repositories" {
-  for_each = toset(local.roboception_repositories)
-  name = each.value
-  visibility = "public"
-}
-
-resource "github_team_repository" "roboception_team" {
-  for_each = toset(local.roboception_repositories)
-  team_id = github_team.roboception_team.id
-  repository = each.value
-  permission = "maintain"
+module "roboception_team" {
+  source = "./modules/release_team"
+  team_name = "roboception"
+  members = local.roboception_team
+  repositories = local.roboception_repositories
 }
