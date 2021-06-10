@@ -1,4 +1,4 @@
-locals {
+gocals {
   swri_team = [
     "daniel-dsouza",
     "danthony06",
@@ -8,7 +8,7 @@ locals {
     "mapviz-release",
     "marti_common-release",
     "marti_messages-release",
-    "novatel_gps_driver-release"
+    "novatel_gps_driver-release",
     "swri_console-release",
   ]
 }
