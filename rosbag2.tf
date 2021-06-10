@@ -10,35 +10,9 @@ locals {
   ]
 }
 
-resource "github_membership" "rosbag2_team" {
-  for_each = toset(local.rosbag2_team)
-  username = each.value
-  role = "member"
-}
-
-resource "github_team" "rosbag2_team" {
-  name = "rosbag2"
-  description = "ROS release managers for rosbag2"
-  privacy = "closed"
-  create_default_maintainer = false
-}
-
-resource "github_team_membership" "rosbag2_team" {
-  for_each = toset(local.rosbag2_team)
-  team_id = github_team.rosbag2_team.id
-  username = each.value
-  role = "member"
-}
-
-resource "github_repository" "rosbag2_repositories" {
-  for_each = toset(local.rosbag2_repositories)
-  name = each.value
-  visibility = "public"
-}
-
-resource "github_team_repository" "rosbag2_team" {
-  for_each = toset(local.rosbag2_repositories)
-  team_id = github_team.rosbag2_team.id
-  repository = each.value
-  permission = "maintain"
+module "rosbag2_team" {
+  source = "./modules/release_team"
+  team_name = "rosbag2"
+  members = local.rosbag2_team
+  repositories = local.rosbag2_team
 }
