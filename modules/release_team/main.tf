@@ -12,12 +12,6 @@ resource "github_team_membership" "release_team" {
   role = "member"
 }
 
-resource "github_repository" "release_repositories" {
-  for_each = toset(var.repositories)
-  name = each.value
-  visibility = "public"
-}
-
 resource "github_team_repository" "release_team" {
   for_each = toset(var.repositories)
   team_id = github_team.release_team.id
