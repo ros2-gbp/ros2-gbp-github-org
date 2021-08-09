@@ -1,7 +1,11 @@
 locals {
   robotwebtools_team = [
-    "nuclearsandwich",
+    "amacneil",
+    "defunctzombie",
     "dirk-thomas",
+    "jtbandes",
+    "nuclearsandwich",
+
   ]
   robotwebtools_repositories = [
     "rosbridge_suite-release",
