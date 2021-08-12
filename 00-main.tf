@@ -12,9 +12,10 @@ locals {
     "tfoote",
   ]
   ros_team = [
+    "adityapande-1995",
     "ahcorde",
     "audrow",
-    "Blast545", #TODO check status
+    "Blast545",
     "BMarchi", #TODO check status
     "chapulina",
     "gonzodepedro",
