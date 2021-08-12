@@ -1,4 +1,4 @@
-gocals {
+locals {
   swri_team = [
     "daniel-dsouza",
     "danthony06",
