@@ -1,5 +1,5 @@
 locals {
-  archived_repositories = [
+  _archived_repositories = [
     "ament_python-release",
     "ament_tools-release",
     "ceres_solver-release",
@@ -17,10 +17,4 @@ locals {
     "turtlebot2_demo-release",
     "uncrustify-release",
   ]
-}
-
-resource "github_repository" "archived_repositories" {
-  for_each = toset(local.archived_repositories)
-  name = each.value
-  archived = true
 }

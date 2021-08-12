@@ -1,6 +1,7 @@
 # Create memberships for the distinct set of all team members who aren't admins.
 resource "github_repository" "repositories" {
   for_each = setunion(
+    local._archived_repositories,
     local.apex_repositories,
     local.apriltag_repositories,
     local.async_web_server_cpp_repositories,
@@ -54,5 +55,6 @@ resource "github_repository" "repositories" {
   )
 
   name = each.value
+  archived = contains(local._archived_repositories, each.value)
   visibility = "public"
 }
