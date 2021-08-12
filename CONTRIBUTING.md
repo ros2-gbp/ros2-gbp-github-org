@@ -39,7 +39,6 @@ Add new member's GitHub username to the `RELEASE_TEAM_team` local variable in `R
 
 Add the repository to the `RELEASE_TEAM_repositories` local variable in `REALEASE_TEAM.tf`.
 
-
 ## Archiving a release repository
 
 When a release repository is no longer being updated, (which can occur when the packages within are no longer maintained or the repository has been reorganized and a new release repository is now being used) archiving the repositroy prevents unintended changes while preserving availability.
