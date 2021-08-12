@@ -59,8 +59,9 @@ output "unmanaged_members" {
   )
 }
 
-
-
+#output "teams" {
+#  value = [for t in data.github_organization_teams.ros2-gbp.teams: t.slug]
+#}
 
 output "unmanaged_repositories" {
   value = setsubtract(
