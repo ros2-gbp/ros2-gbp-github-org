@@ -46,6 +46,8 @@ When a release repository is no longer being updated, (which can occur when the 
 1. Remove the repository from the `RELEASE_TEAM_repositories` local variable in `REALEASE_TEAM.tf`.
 2. Add the repository to the `archived_repositories` local variable in `00-archived.tf`.
 
+Special handling in terraform needs to be applied in order to safely unarchive repositories.
+
 ## Unarchiving a release repository.
 
 Repositories may be unarchived if development on a package resumes or if changes to an old release repository need to be performed.
