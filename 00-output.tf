@@ -71,7 +71,7 @@ output "unmanaged_repositories" {
       local.ros_core_repositories,
       local.ros_base_repositories,
       local.ros_desktop_repositories,
-      local.ros_team_repositories,
+      local.ros_repositories,
       local.rqt_repositories,
       local.apex_repositories,
       local.apriltag_repositories,

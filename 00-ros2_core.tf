@@ -1,4 +1,24 @@
 locals {
+  ros_team = [
+    "adityapande-1995",
+    "ahcorde",
+    "audrow",
+    "Blast545",
+    "chapulina",
+    "gonzodepedro",
+    "hidmic",
+    "ivanpauno",
+    "j-rivero",
+    "jacobperron",
+    "Karsten1987",
+    "Lobotuerk",
+    "mabelzhang",
+    "mjcarroll",
+    "mjeronimo",
+    "sloretz",
+    "wjwwood",
+  ]
+
   ros_core_repositories = [
     "ament_cmake-release",
     "ament_cmake_ros-release",
@@ -65,7 +85,7 @@ locals {
     "rqt_tf_tree-release",
   ]
 
-  ros_team_repositories = [
+  additional_ros_team_repositories = [
     "ament_package-release",
     "bond_core-release",
     "cartographer-release",
@@ -141,49 +161,19 @@ locals {
     "vision_opencv-release",
     "yaml_cpp_vendor-release",
   ]
+
+  ros_repositories = setunion(
+    local.ros_core_repositories,
+    local.ros_base_repositories,
+    local.ros_desktop_repositories,
+    local.rqt_repositories,
+    local.additional_ros_team_repositories,
+  )
 }
 
-resource "github_team" "ros2-team" {
-  name = "ros2-team"
-  description = "Members of the ROS team at Open Robotics"
-  privacy = "closed"
-  create_default_maintainer = false
-}
-
-resource "github_team_membership" "ros2-team" {
-  for_each = setunion(local.ros_admins, local.ros_team)
-  team_id = github_team.ros2-team.id
-  username = each.value
-  role = "member"
-}
-
-resource "github_repository" "ros_core" {
-  for_each = toset(local.ros_core_repositories)
-  name = each.value
-  visibility = "public"
-}
-
-resource "github_repository" "ros_base" {
-  for_each = toset(local.ros_base_repositories)
-  name = each.value
-  visibility = "public"
-}
-
-resource "github_repository" "ros_desktop" {
-  for_each = toset(local.ros_desktop_repositories)
-  name = each.value
-  visibility = "public"
-}
-
-resource "github_repository" "ros_team_repositories" {
-  for_each = toset(local.ros_team_repositories)
-  name = each.value
-  visibility = "public"
-}
-
-resource "github_team_repository" "ros2-team" {
-  for_each = setunion(local.ros_base_repositories, local.ros_core_repositories, local.ros_desktop_repositories, local.ros_team_repositories, local.rqt_repositories)
-  team_id = github_team.ros2-team.id
-  repository = each.value
-  permission = "maintain"
+module "ros_team" {
+  source = "./modules/release_team"
+  team_name = "ros"
+  members = local.ros_team
+  repositories = local.ros_repositories
 }

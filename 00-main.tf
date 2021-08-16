@@ -11,26 +11,6 @@ locals {
     "nuclearsandwich",
     "tfoote",
   ]
-  ros_team = [
-    "adityapande-1995",
-    "ahcorde",
-    "audrow",
-    "Blast545",
-    "BMarchi", #TODO check status
-    "chapulina",
-    "gonzodepedro",
-    "hidmic",
-    "ivanpauno",
-    "j-rivero",
-    "jacobperron",
-    "Karsten1987",
-    "Lobotuerk",
-    "mabelzhang",
-    "mjcarroll",
-    "mjeronimo",
-    "sloretz",
-    "wjwwood",
-  ]
 }
 
 resource "github_membership" "ros_admins" {
