@@ -57,4 +57,19 @@ resource "github_repository" "repositories" {
   name = each.value
   archived = contains(local._archived_repositories, each.value)
   visibility = "public"
+  lifecycle {
+    # Plans that destroy repository releases will delete the repository on
+    # GitHub and that shouldn't be done in the normal course of operation.
+    prevent_destroy = true
+    # Ignore fields that are not set or managed by this terraform project
+    # to prevent unecessary drift.
+    ignore_changes = [
+      allow_merge_commit,
+      description,
+      has_downloads,
+      has_issues,
+      has_wiki,
+      vulnerability_alerts
+    ]
+  }
 }
