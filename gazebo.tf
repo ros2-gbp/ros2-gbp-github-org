@@ -8,6 +8,8 @@ locals {
     "gazebo_ros2_control-release",
     "gazebo_ros_pkgs-release",
     "ign_rviz-release",
+    "ignition_cmake2_vendor-release",
+    "ignition_math6_vendor-release",
     "ros_ign-release",
   ]
 }
