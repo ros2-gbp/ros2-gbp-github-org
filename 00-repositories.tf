@@ -51,6 +51,7 @@ resource "github_repository" "repositories" {
     local.udp_msgs_repositories,
     local.urg_repositories,
     local.v4l2_camera_repositories,
+    local.velodyne_repositories,
     local.vision_msgs_repositories,
     local.xacro_repositories,
   )

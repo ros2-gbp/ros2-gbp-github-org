@@ -52,6 +52,7 @@ resource "github_membership" "members" {
       local.udp_msgs_team,
       local.urg_team,
       local.v4l2_camera_team,
+      local.velodyne_team,
       local.vision_msgs_team,
       local.xacro_team,
     ),

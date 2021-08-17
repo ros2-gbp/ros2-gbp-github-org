@@ -157,7 +157,6 @@ locals {
     "urdfdom_headers-release",
     "urdfdom_py-release",
     "variants-release",
-    "velodyne-release",
     "vision_opencv-release",
     "yaml_cpp_vendor-release",
   ]
