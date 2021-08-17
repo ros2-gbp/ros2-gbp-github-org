@@ -34,6 +34,7 @@ resource "github_repository" "repositories" {
     local.ouster_drivers_repositories,
     local.perception_repositories,
     local.rclc_repositories,
+    local.rcpputils_repositories,
     local.realsense_repositories,
     local.rmf_repositories,
     local.roboception_repositories,
