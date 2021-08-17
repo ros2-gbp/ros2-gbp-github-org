@@ -34,6 +34,7 @@ resource "github_membership" "members" {
       local.ouster_drivers_team,
       local.perception_team,
       local.rclc_team,
+      local.rcpputils_team,
       local.realsense_team,
       local.rmf_team,
       local.roboception_team,
