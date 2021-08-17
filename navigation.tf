@@ -13,5 +13,5 @@ module "navigation_team" {
   source = "./modules/release_team"
   team_name = "navigation"
   members = local.navigation_team
-  repositories = local.navigation_team
+  repositories = local.navigation_repositories
 }

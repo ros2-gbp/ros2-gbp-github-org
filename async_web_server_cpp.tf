@@ -12,5 +12,5 @@ module "async_web_server_cpp_team" {
   source = "./modules/release_team"
   team_name = "async_web_server_cpp"
   members = local.async_web_server_cpp_team
-  repositories = local.async_web_server_cpp_team
+  repositories = local.async_web_server_cpp_repositories
 }

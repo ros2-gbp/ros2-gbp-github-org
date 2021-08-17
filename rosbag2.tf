@@ -14,5 +14,5 @@ module "rosbag2_team" {
   source = "./modules/release_team"
   team_name = "rosbag2"
   members = local.rosbag2_team
-  repositories = local.rosbag2_team
+  repositories = local.rosbag2_repositories
 }

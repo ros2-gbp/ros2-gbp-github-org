@@ -14,5 +14,5 @@ module "roboception_team" {
   source = "./modules/release_team"
   team_name = "roboception"
   members = local.roboception_team
-  repositories = local.roboception_team
+  repositories = local.roboception_repositories
 }

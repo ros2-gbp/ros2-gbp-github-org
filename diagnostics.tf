@@ -11,5 +11,5 @@ module "diagnostics_team" {
   source = "./modules/release_team"
   team_name = "diagnostics"
   members = local.diagnostics_team
-  repositories = local.diagnostics_team
+  repositories = local.diagnostics_repositories
 }

@@ -13,5 +13,5 @@ module "tracing_team" {
   source = "./modules/release_team"
   team_name = "tracing"
   members = local.tracing_team
-  repositories = local.tracing_team
+  repositories = local.tracing_repositories
 }

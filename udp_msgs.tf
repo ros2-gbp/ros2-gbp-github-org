@@ -11,5 +11,5 @@ module "udp_msgs_team" {
   source = "./modules/release_team"
   team_name = "udp_msgs"
   members = local.udp_msgs_team
-  repositories = local.udp_msgs_team
+  repositories = local.udp_msgs_repositories
 }

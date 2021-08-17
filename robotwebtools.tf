@@ -17,5 +17,5 @@ module "robotwebtools_team" {
   source = "./modules/release_team"
   team_name = "robotwebtools"
   members = local.robotwebtools_team
-  repositories = local.robotwebtools_team
+  repositories = local.robotwebtools_repositories
 }

@@ -11,5 +11,5 @@ module "ouster_drivers_team" {
   source = "./modules/release_team"
   team_name = "ouster_drivers"
   members = local.ouster_drivers_team
-  repositories = local.ouster_drivers_team
+  repositories = local.ouster_drivers_repositories
 }

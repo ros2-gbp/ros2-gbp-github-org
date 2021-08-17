@@ -11,5 +11,5 @@ module "geographic_info_team" {
   source = "./modules/release_team"
   team_name = "geographic_info"
   members = local.geographic_info_team
-  repositories = local.geographic_info_team
+  repositories = local.geographic_info_repositories
 }

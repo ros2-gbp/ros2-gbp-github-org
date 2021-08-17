@@ -12,5 +12,5 @@ module "nmea_team" {
   source = "./modules/release_team"
   team_name = "nmea"
   members = local.nmea_team
-  repositories = local.nmea_team
+  repositories = local.nmea_repositories
 }

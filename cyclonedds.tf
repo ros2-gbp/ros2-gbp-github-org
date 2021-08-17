@@ -15,5 +15,5 @@ module "cyclonedds_team" {
   source = "./modules/release_team"
   team_name = "cyclonedds"
   members = local.cyclonedds_team
-  repositories = local.cyclonedds_team
+  repositories = local.cyclonedds_repositories
 }

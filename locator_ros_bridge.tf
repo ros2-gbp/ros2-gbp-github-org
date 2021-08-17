@@ -11,5 +11,5 @@ module "locator_ros_bridge_team" {
   source = "./modules/release_team"
   team_name = "locator_ros_bridge"
   members = local.locator_ros_bridge_team
-  repositories = local.locator_ros_bridge_team
+  repositories = local.locator_ros_bridge_repositories
 }

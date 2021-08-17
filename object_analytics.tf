@@ -12,5 +12,5 @@ module "object_analytics_team" {
   source = "./modules/release_team"
   team_name = "object_analytics"
   members = local.object_analytics_team
-  repositories = local.object_analytics_team
+  repositories = local.object_analytics_repositories
 }

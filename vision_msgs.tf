@@ -11,5 +11,5 @@ module "vision_msgs_team" {
   source = "./modules/release_team"
   team_name = "vision_msgs"
   members = local.vision_msgs_team
-  repositories = local.vision_msgs_team
+  repositories = local.vision_msgs_repositories
 }
