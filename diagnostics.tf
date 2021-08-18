@@ -1,6 +1,7 @@
 locals {
   diagnostics_team = [
     "Karsten1987",
+    "norro",
   ]
   diagnostics_repositories = [
     "diagnostics-release",
