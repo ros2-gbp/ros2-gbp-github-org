@@ -2,7 +2,6 @@ locals {
   rcpputils_team = [
     "emersonknapp",
     "prajakta-gokhale",
-    "thomas-moulard",
   ]
   rcpputils_repositories = [
     "rcpputils-release"

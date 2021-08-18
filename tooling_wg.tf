@@ -1,9 +1,10 @@
 locals {
   tooling_wg_team = [
     "emersonknapp",
-    "thomas-moulard",
+    "lihui815",
   ]
   tooling_wg_repositories = [
+    "keyboard_handler-release",
     "libstatistics_collector-release",
   ]
 }
