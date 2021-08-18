@@ -1,5 +1,6 @@
 locals {
   apex_team = [
+    "carlossvg",
   ]
   apex_repositories = [
     "apex_containers-release",
