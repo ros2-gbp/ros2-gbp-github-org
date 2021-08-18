@@ -2,6 +2,7 @@ locals {
   rosbag2_team = [
     "Karsten1987",
     "emersonknapp",
+    "lihui815",
   ]
 
   rosbag2_repositories = [
