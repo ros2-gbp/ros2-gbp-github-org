@@ -43,6 +43,7 @@ resource "github_repository" "repositories" {
     local.ros_repositories,
     local.rosauth_repositories,
     local.rosbag2_repositories,
+    local.rqt_repositories,
     local.security_wg_repositories,
     local.swri_repositories,
     local.system_modes_repositories,

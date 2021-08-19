@@ -59,7 +59,7 @@ locals {
     "examples-release",
   ]
 
-  rqt_repositories = [
+  ros_rqt_repositories = [
     "rqt_action-release",
     "rqt_reconfigure-release",
     "rqt_console-release",
@@ -163,7 +163,7 @@ locals {
     local.ros_core_repositories,
     local.ros_base_repositories,
     local.ros_desktop_repositories,
-    local.rqt_repositories,
+    local.ros_rqt_repositories,
     local.additional_ros_team_repositories,
   )
 }

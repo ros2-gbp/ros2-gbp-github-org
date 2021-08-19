@@ -43,6 +43,7 @@ resource "github_membership" "members" {
       local.ros_team,
       local.rosauth_team,
       local.rosbag2_team,
+      local.rqt_team,
       local.security_wg_team,
       local.swri_team,
       local.system_modes_team,
