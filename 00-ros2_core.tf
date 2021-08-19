@@ -50,7 +50,7 @@ locals {
   ros_desktop_repositories = [
     "angles-release",
     "depthimage_to_laserscan-release",
-    "joy-release",
+    "joystick_drivers-release",
     "pcl_conversions-release",
     "teleop_twist_joy-release",
     "teleop_twist_keyboard-release",
