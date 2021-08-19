@@ -170,7 +170,7 @@ locals {
 
 module "ros_team" {
   source = "./modules/release_team"
-  team_name = "ros"
+  team_name = "ros2-team"
   members = local.ros_team
   repositories = local.ros_repositories
 }
