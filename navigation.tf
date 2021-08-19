@@ -2,10 +2,14 @@ locals {
   navigation_team = [
     "JWhitleyWork",
     "SteveMacenski",
+    "paulbovbel",
   ]
   navigation_repositories = [
     "image_pipeline-release",
+    "navigation-release",
     "navigation2-release",
+    "navigation_msgs-release",
+    "pcl_msgs-release",
   ]
 }
 
