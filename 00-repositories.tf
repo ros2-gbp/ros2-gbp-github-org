@@ -40,6 +40,7 @@ resource "github_repository" "repositories" {
     local.roboception_repositories,
     local.robotwebtools_repositories,
     local.ros_canopen_repositories,
+    local.ros_repositories,
     local.rosauth_repositories,
     local.rosbag2_repositories,
     local.security_wg_repositories,
