@@ -1,6 +1,6 @@
 locals {
   tracing_team = [
-    "christophbedard",
+    "christophebedard",
     "iluetkeb",
   ]
   tracing_repositories = [
