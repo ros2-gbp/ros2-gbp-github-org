@@ -52,8 +52,6 @@ locals {
     "depthimage_to_laserscan-release",
     "joy-release",
     "pcl_conversions-release",
-    "rviz2-release",
-    "rviz_default_plugins-release",
     "teleop_twist_joy-release",
     "teleop_twist_keyboard-release",
     "demos-release",
