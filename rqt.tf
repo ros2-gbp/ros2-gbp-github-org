@@ -1,11 +1,25 @@
 locals {
   rqt_team = [
     "arne48",
+    "mlautman",
     "srishtidh",
   ]
   rqt_repositories = [
+    "rqt_action-release",
     "rqt_console-release",
+    "rqt_image_view-release",
+    "rqt_moveit-release",
+    "rqt_msg-release",
+    "rqt_plot-release",
+    "rqt_publisher-release",
+    "rqt_py_console-release",
+    "rqt_robot_monitor-release",
     "rqt_robot_steering-release",
+    "rqt_service_caller-release",
+    "rqt_shell-release",
+    "rqt_srv-release",
+    "rqt_top-release",
+    "rqt_topic-release",
   ]
 }
 
