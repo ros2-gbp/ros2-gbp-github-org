@@ -127,6 +127,7 @@ locals {
     "resource_retriever-release",
     "rmw-release",
     "rmw_connext-release", # archive after Foxy end-of-support
+    "rmw_connextdds-release",
     "rmw_cyclonedds-release",
     "rmw_dds_common-release",
     "rmw_fastrtps-release",
