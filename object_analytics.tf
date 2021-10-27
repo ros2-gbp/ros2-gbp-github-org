@@ -1,6 +1,5 @@
 locals {
   object_analytics_team = [
-    "yechun1",
   ]
   object_analytics_repositories = [
     "ros2_object_analytics-release",

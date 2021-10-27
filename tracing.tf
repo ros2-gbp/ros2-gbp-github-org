@@ -1,7 +1,6 @@
 locals {
   tracing_team = [
     "christophebedard",
-    "iluetkeb",
   ]
   tracing_repositories = [
     "ros2_tracing-release",
