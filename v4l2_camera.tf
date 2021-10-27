@@ -1,6 +1,5 @@
 locals {
   v4l2_camera_team = [
-    "sgvandijk",
   ]
   v4l2_camera_repositories = [
     "ros2_v4l2_camera-release",

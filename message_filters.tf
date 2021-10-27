@@ -1,7 +1,5 @@
 locals {
   message_filters_team = [
-    "gaoethan",
-    "yechun1",
   ]
   message_filters_repositories = [
     "ros2_message_filters-release",

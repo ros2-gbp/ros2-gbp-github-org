@@ -1,8 +1,6 @@
 locals {
   lgsvl_team = [
-    "hadiTab",
     "daviduhm",
-    "zelenovsky",
   ]
   lgsvl_repositories = [
     "lgsvl_msgs-release",

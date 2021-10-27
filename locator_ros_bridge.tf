@@ -1,6 +1,5 @@
 locals {
   locator_ros_bridge_team = [
-    "slaible",
   ]
   locator_ros_bridge_repositories = [
     "locator_ros_bridge-release",

@@ -1,6 +1,5 @@
 locals {
   swri_team = [
-    "daniel-dsouza",
     "danthony06",
   ]
   swri_repositories = [

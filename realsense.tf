@@ -1,9 +1,6 @@
 locals {
   realsense_team = [
-    "RachelRen05",
     "doronhi",
-    "sharonliu",
-    "yechun1",
   ]
   realsense_repositories = [
     "librealsense-release",

@@ -2,7 +2,6 @@ locals {
   cyclonedds_team = [
     "eboasson",
     "JWhitleyWork",
-    "ThijsSassen",
   ]
   cyclonedds_repositories = [
     "cyclonedds-release",
