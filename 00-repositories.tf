@@ -25,6 +25,7 @@ resource "github_repository" "repositories" {
     local.libg2o_repositories,
     local.locator_ros_bridge_repositories,
     local.message_filters_repositories,
+    local.micro_ros_diagnostics_repositories,
     local.mrpt2_repositories,
     local.navigation_repositories,
     local.nmea_repositories,

@@ -1,6 +1,7 @@
 locals {
   system_modes_team = [
     "norro",
+    "ralph-lange",
   ]
   system_modes_repositories = [
     "system_modes-release",
