@@ -1,6 +1,10 @@
 locals {
   cyberbotics_team = [
-    "lukicdarkoo",
+    "BenjaminDeleze",
+    "BenjaminHug8",
+    "ad-daniel",
+    "omichel",
+    "stefaniapedrazzi",
   ]
   cyberbotics_repositories = [
     "webots_ros2-release",
