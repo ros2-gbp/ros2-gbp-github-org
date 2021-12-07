@@ -53,6 +53,7 @@ resource "github_repository" "repositories" {
     local.transport_drivers_repositories,
     local.ublox_repositories,
     local.udp_msgs_repositories,
+    local.urdf_tutorial_repositories,
     local.urg_repositories,
     local.v4l2_camera_repositories,
     local.velodyne_repositories,
