@@ -73,6 +73,7 @@ resource "github_repository" "repositories" {
     ignore_changes = [
       allow_merge_commit,
       description,
+      etag,
       has_downloads,
       has_issues,
       has_wiki,
