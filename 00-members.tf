@@ -53,6 +53,7 @@ resource "github_membership" "members" {
       local.transport_drivers_team,
       local.ublox_team,
       local.udp_msgs_team,
+      local.urdf_tutorial_team,
       local.urg_team,
       local.v4l2_camera_team,
       local.velodyne_team,
