@@ -4,6 +4,7 @@ locals {
   ]
   octomap_repositories = [
     "octomap_msgs-release",
+    "octomap_ros-release",
   ]
 }
 
