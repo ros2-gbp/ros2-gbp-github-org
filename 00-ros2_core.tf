@@ -5,6 +5,7 @@ locals {
     "audrow",
     "Blast545",
     "chapulina",
+    "gbiggs",
     "gonzodepedro",
     "hidmic",
     "ivanpauno",
