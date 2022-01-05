@@ -3,8 +3,10 @@ locals {
     "wxmerkt",
   ]
   octomap_repositories = [
+    "octomap_mapping-release",
     "octomap_msgs-release",
     "octomap_ros-release",
+    "octomap_rviz_plugins-release",
   ]
 }
 
