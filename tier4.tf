@@ -1,5 +1,6 @@
 locals {
   tier4_team = [
+    "kenji-miyake",
     "wep21",
   ]
   tier4_repositories = [
