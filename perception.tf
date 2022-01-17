@@ -1,8 +1,9 @@
 locals {
   perception_team = [
     "SteveMacenski",
-    "paulbovbel",
+    "jacobperron",
     "jonbinney",
+    "paulbovbel",
   ]
   perception_repositories = [
     "laser_geometry-release",
