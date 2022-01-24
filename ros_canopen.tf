@@ -1,6 +1,6 @@
 locals {
   ros_canopen_team = [
-    "ipa-mdl",
+    "mathias-luedtke",
   ]
   ros_canopen_repositories = [
     "ros_canopen-release",
