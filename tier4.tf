@@ -4,8 +4,10 @@ locals {
     "wep21",
   ]
   tier4_repositories = [
+    "cudnn_cmake_module-release",
     "hash_library_vendor-release",
     "osqp_vendor-release",
+    "tensorrt_cmake_module-release",
   ]
 }
 
