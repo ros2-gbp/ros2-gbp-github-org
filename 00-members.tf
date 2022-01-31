@@ -1,6 +1,7 @@
 # Create memberships for the distinct set of all team members who aren't admins.
-resource "github_membership" "members" {
-  for_each = setsubtract(
+
+locals {
+  non_admin_members = setsubtract(
     setunion(
       local.apex_team,
       local.apriltag_team,
@@ -65,6 +66,10 @@ resource "github_membership" "members" {
     ),
     local.ros_admins
   )
+}
+
+resource "github_membership" "members" {
+  for_each = local.non_admin_members
 
   username = each.value
   role = "member"
