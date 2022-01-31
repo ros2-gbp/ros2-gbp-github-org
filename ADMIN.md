@@ -11,14 +11,14 @@ egenerated each time that you need them rather than keeping an exported token in
 
 ### AWS credentials
 
-Terraform state is state in a shared dynamodb instance.
+Terraform state is stored in a shared dynamodb instance.
 Open Robotics staff with AWS console access can create credentials and set up their local workstation using the `aws configure` command from the AWS cli.
 
 ### Terraform
 
 Terraform is available from <https://terraform.io>.
 If you are running on Arch Linux terraform is packaged in the Arch repositories and stays up to date.
-If you're running on Ubuntu or Debian TODO when the Terraform website isn't down.
+If you're running on Ubuntu, Debian, or Fedora you can add the Hashicorp repository to [download terraform](https://www.terraform.io/downloads).
 
 Once changes to this repository are merged, terraform changes must be planned and applied before taking effect.
 This terraform project is not currently set up to run automatically in order to require a human in the loop for safety.
@@ -31,8 +31,10 @@ If you're developing the terraform project and need to upgrade any providers be 
 
 ## Reviewing terraform changes
 
-In a configured workspace run `terraform plan -out plan.out`.
-This will display a list of changes terraform will make for you to review and save the plan to be applied in the future.
+In a configured workspace run `terraform plan -out plan.out > plan.txt`.
+The output, piped to `plan.txt` can be viewed with `less -R plan.txt`
+This will display a list of changes terraform will make for you to review. 
+The `plan.out` file is used to automatically apply the plan exactly as it was previously reviewed, the plan will fail to apply if it becomes stale because state changed between plan and application thus preventing unintended changes between reviewing and applying a plan.
 
 Terraform organizes managed objects into resources which can be added, changed, and destroyed.
 This project uses the GitHub provider to manage a GitHub organization with terraform.
@@ -43,4 +45,4 @@ In most situations for this project you should only see changed and added resour
 `github_membership` resources will be created for each individual member of the ros2-gbp organization.
 
 `github_team_membership` and `github_team_repository` resources are created within the `release_team` module.
-These will be created or destroyed whenever repositories are added or removed from a release team.
+These will be created or destroyed whenever members or repositories are added or removed from a release team.
