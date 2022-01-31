@@ -26,6 +26,7 @@ resource "github_membership" "members" {
       local.locator_ros_bridge_team,
       local.message_filters_team,
       local.micro_ros_diagnostics_team,
+      local.micro_ros_msgs_team,
       local.microstrain_team,
       local.mrpt2_team,
       local.navigation_team,
