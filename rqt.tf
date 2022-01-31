@@ -15,6 +15,7 @@ locals {
     "rqt_py_console-release",
     "rqt_robot_monitor-release",
     "rqt_robot_steering-release",
+    "rqt_runtime_monitor-release",
     "rqt_service_caller-release",
     "rqt_shell-release",
     "rqt_srv-release",
