@@ -6,6 +6,7 @@ locals {
     "paulbovbel",
   ]
   perception_repositories = [
+    "laser_filters-release",
     "laser_geometry-release",
     "pcl_msgs-release",
     "perception_pcl-release",
