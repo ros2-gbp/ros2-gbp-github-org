@@ -1,6 +1,6 @@
 # Create memberships for the distinct set of all team members who aren't admins.
-resource "github_repository" "repositories" {
-  for_each = setunion(
+locals {
+  organization_repositories = setunion(
     local._archived_repositories,
     local.apex_repositories,
     local.apriltag_repositories,
@@ -63,6 +63,10 @@ resource "github_repository" "repositories" {
     local.vision_msgs_repositories,
     local.xacro_repositories,
   )
+}
+
+resource "github_repository" "repositories" {
+  for_each = local.organization_repositories 
 
   name = each.value
   archived = contains(local._archived_repositories, each.value)
