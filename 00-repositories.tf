@@ -27,6 +27,7 @@ resource "github_repository" "repositories" {
     local.message_filters_repositories,
     local.microstrain_repositories,
     local.micro_ros_diagnostics_repositories,
+    local.micro_ros_msgs_repositories,
     local.mrpt2_repositories,
     local.navigation_repositories,
     local.nmea_repositories,
