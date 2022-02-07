@@ -1,5 +1,6 @@
 locals {
   micro_ros_diagnostics_team = [
+    "bjv-capra",
     "norro",
     "ralph-lange",
   ]
