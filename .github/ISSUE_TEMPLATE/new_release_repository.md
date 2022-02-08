@@ -1,3 +1,9 @@
+---
+name: New release repositories
+about: Add release repositories to an existing release team.
+title: 'Add new release repositories'
+---
+
 * Name of the release team: 
 
 * Release repositories to add:

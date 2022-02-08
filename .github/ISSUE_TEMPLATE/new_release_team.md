@@ -1,3 +1,9 @@
+---
+name: New release team
+about: Create a new release team.
+title: 'Add release team'
+---
+
 * Name of the new release team: <!-- all lower case with words separated by `_`. -->
 * Release repositories to add:
   * [FIRST_REPOSITORY](SOURCE URL)
