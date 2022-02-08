@@ -7,6 +7,7 @@ locals {
     "acado_vendor-release",
     "autoware_auto_msgs-release",
     "ros2_socketcan-release",
+    "tvm_vendor-release",
   ]
 }
 
