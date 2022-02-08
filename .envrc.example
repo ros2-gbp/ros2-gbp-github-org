@@ -1,2 +1,2 @@
 export GITHUB_TOKEN=""
-export TF_CLI_CONFIG_FILE=".dev.tfrc"
+export GITHUB_OWNER="ros2-gbp"
