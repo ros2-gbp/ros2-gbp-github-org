@@ -28,8 +28,9 @@ module "RELEASE_TEAM" {
 }
 ```
 
-2. Add the release team to the list of organization members.
-In `00-members.tf`
+2. Add the release team to the list of organization members in `00-members.tf`.
+
+3. Add the release repositories to the list of organization repositories in `00-repositories.tf`.
 
 ## Updating team membership
 
@@ -41,20 +42,13 @@ Add the repository to the `RELEASE_TEAM_repositories` local variable in `REALEAS
 
 ## Archiving a release repository
 
-When a release repository is no longer being updated, (which can occur when the packages within are no longer maintained or the repository has been reorganized and a new release repository is now being used) archiving the repositroy prevents unintended changes while preserving availability.
+When a release repository is no longer being updated, (which can occur when the packages within are no longer maintained or the repository has been reorganized and a new release repository is now being used) archiving the repository prevents unintended changes while preserving availability.
 
-1. Remove the repository from the `RELEASE_TEAM_repositories` local variable in `REALEASE_TEAM.tf`.
-2. Add the repository to the `archived_repositories` local variable in `00-archived.tf`.
-
-Special handling in terraform needs to be applied in order to safely unarchive repositories.
+1. Add the repository to the `_archived_repositories` local variable in `00-archived.tf`.
 
 ## Unarchiving a release repository.
 
 Repositories may be unarchived if development on a package resumes or if changes to an old release repository need to be performed.
 Repositories can not currently be unarchived by the GitHub Terraform provider.
 
-1. Add the repository to the `RELEASE_TEAM_repositories` local variable in `REALEASE_TEAM.tf`.
-2. Remove the repository from the `archived_repositories` local variable in `00-archived.tf`.
-3. Notify a maintainer of this project that the repository needs to be manually unarchived.
-
-
+1. Remove the repository from the `_archived_repositories` local variable in `00-archived.tf`.
