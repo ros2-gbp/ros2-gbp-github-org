@@ -21,6 +21,7 @@ locals {
     local.grbl_repositories,
     local.gscam_repositories,
     local.gurumdds_repositories,
+    local.iceoryx_repositories,
     local.ifm3d_repositories,
     local.lgsvl_repositories,
     local.libg2o_repositories,
