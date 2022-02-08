@@ -42,7 +42,7 @@ This project uses the GitHub provider to manage a GitHub organization with terra
 In most situations for this project you should only see changed and added resources.
 
 `github_repository` resources _must not_ be destroyed or the corresponding repository will be deleted on GitHub.
-`github_membership` resources will be created for each individual member of the ros2-gbp organization.
+`github_membership` resources will be created for each individual member of the ros2-gbp organization or destroyed when a member is removed from all teams in the organization.
 
 `github_team_membership` and `github_team_repository` resources are created within the `release_team` module.
 These will be created or destroyed whenever members or repositories are added or removed from a release team.
