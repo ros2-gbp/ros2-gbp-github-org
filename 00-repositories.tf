@@ -90,3 +90,26 @@ resource "github_repository" "repositories" {
     ]
   }
 }
+
+# No team manages this repository.
+# It is writable by organization admins only.
+resource "github_repository" "ros2-gbp-github-org" {
+  name = "ros2-gbp-github-org"
+  visibility = "public"
+  lifecycle {
+    # Plans that destroy repository releases will delete the repository on
+    # GitHub and that shouldn't be done in the normal course of operation.
+    prevent_destroy = true
+    # Ignore fields that are not set or managed by this terraform project
+    # to prevent unecessary drift.
+    ignore_changes = [
+      allow_merge_commit,
+      description,
+      etag,
+      has_downloads,
+      has_issues,
+      has_wiki,
+      vulnerability_alerts
+    ]
+  }
+}
