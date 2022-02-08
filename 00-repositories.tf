@@ -19,6 +19,7 @@ locals {
     local.gazebo_repositories,
     local.geographic_info_repositories,
     local.grbl_repositories,
+    local.gscam_repositories,
     local.gurumdds_repositories,
     local.ifm3d_repositories,
     local.lgsvl_repositories,
