@@ -5,7 +5,6 @@ locals {
   ]
   cyclonedds_repositories = [
     "cyclonedds-release",
-    "iceoryx-release",
     "rmw_cyclonedds-release",
   ]
 }
