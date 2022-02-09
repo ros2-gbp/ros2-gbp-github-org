@@ -1,6 +1,9 @@
 locals {
   autoware_team = [
     "JWhitleyWork",
+    "kenji-miyake",
+    "mitsudome-r",
+    "wep21",
   ]
 
   autoware_repositories = [
