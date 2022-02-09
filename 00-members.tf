@@ -51,6 +51,7 @@ locals {
       local.rosbag2_team,
       local.rqt_team,
       local.security_wg_team,
+      local.smacc2_team,
       local.swri_team,
       local.system_modes_team,
       local.tier4_team,
