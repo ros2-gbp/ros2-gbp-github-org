@@ -50,6 +50,7 @@ locals {
     local.rosbag2_repositories,
     local.rqt_repositories,
     local.security_wg_repositories,
+    local.smacc2_repositories,
     local.swri_repositories,
     local.system_modes_repositories,
     local.tier4_repositories,
