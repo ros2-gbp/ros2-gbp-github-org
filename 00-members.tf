@@ -3,6 +3,7 @@
 locals {
   non_admin_members = setsubtract(
     setunion(
+      local.ackermann_msgs_team,
       local.apex_team,
       local.apriltag_team,
       local.async_web_server_cpp_team,
