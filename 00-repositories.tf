@@ -42,6 +42,7 @@ locals {
     local.mrpt2_repositories,
     local.mrt_cmake_modules_repositories,
     local.navigation_repositories,
+    local.neobotix_repositories,
     local.nmea_repositories,
     local.nobleo_repositories,
     local.nodl_repositories,
