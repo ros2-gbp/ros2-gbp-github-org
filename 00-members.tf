@@ -41,6 +41,7 @@ locals {
       local.object_analytics_team,
       local.octomap_team,
       local.ouster_drivers_team,
+      local.ouxt_team,
       local.pal_robotics_team,
       local.perception_team,
       local.rclc_team,

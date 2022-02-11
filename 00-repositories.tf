@@ -40,6 +40,7 @@ locals {
     local.object_analytics_repositories,
     local.octomap_repositories,
     local.ouster_drivers_repositories,
+    local.ouxt_repositories,
     local.pal_robotics_repositories,
     local.perception_repositories,
     local.rclc_repositories,
