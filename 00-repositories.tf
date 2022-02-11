@@ -92,6 +92,7 @@ locals {
     local.velodyne_repositories,
     local.velodyne_simulator_repositories,
     local.vision_msgs_repositories,
+    local.visp_repositories,
     local.xacro_repositories,
   )
 }
