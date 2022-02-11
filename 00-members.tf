@@ -29,6 +29,7 @@ locals {
       local.gurumdds_team,
       local.iceoryx_team,
       local.ifm3d_team,
+      local.lanelet2_team,
       local.lgsvl_team,
       local.libg2o_team,
       local.locator_ros_bridge_team,
