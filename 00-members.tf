@@ -18,6 +18,7 @@ locals {
       local.cyberbotics_team,
       local.cyclonedds_team,
       local.diagnostics_team,
+      local.dolly_team,
       local.fastcdr_team,
       local.fmi_team,
       local.gazebo_team,
