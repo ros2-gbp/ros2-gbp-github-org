@@ -40,6 +40,7 @@ locals {
     local.mrpt2_repositories,
     local.navigation_repositories,
     local.nmea_repositories,
+    local.nobleo_repositories,
     local.nodl_repositories,
     local.object_analytics_repositories,
     local.octomap_repositories,
