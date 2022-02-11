@@ -77,6 +77,7 @@ locals {
     local.smacc2_repositories,
     local.swri_repositories,
     local.system_modes_repositories,
+    local.tf_transformations_repositories,
     local.tier4_repositories,
     local.tooling_wg_repositories,
     local.tracing_repositories,
