@@ -73,6 +73,7 @@ locals {
     local.rtabmap_repositories,
     local.ruckig_repositories,
     local.security_wg_repositories,
+    local.simple_launch_repositories,
     local.smacc2_repositories,
     local.swri_repositories,
     local.system_modes_repositories,
