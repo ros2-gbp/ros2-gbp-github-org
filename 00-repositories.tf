@@ -32,6 +32,7 @@ locals {
     local.lgsvl_repositories,
     local.libg2o_repositories,
     local.locator_ros_bridge_repositories,
+    local.mavlink_repositories,
     local.message_filters_repositories,
     local.microstrain_repositories,
     local.micro_ros_diagnostics_repositories,
