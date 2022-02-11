@@ -21,6 +21,7 @@ locals {
       local.dolly_team,
       local.fastcdr_team,
       local.fmi_team,
+      local.four_wheel_steering_msgs_team,
       local.gazebo_team,
       local.geographic_info_team,
       local.grbl_team,
