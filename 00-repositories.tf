@@ -46,6 +46,7 @@ locals {
     local.ouxt_repositories,
     local.pal_robotics_repositories,
     local.perception_repositories,
+    local.picknik_repositories,
     local.rclc_repositories,
     local.rcpputils_repositories,
     local.realsense_repositories,
