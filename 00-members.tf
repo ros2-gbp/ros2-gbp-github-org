@@ -76,6 +76,7 @@ locals {
       local.security_wg_team,
       local.simple_launch_team,
       local.smacc2_team,
+      local.sports,
       local.swri_team,
       local.system_modes_team,
       local.tf_transformations_team,
