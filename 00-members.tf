@@ -93,6 +93,7 @@ locals {
       local.velodyne_simulator_team,
       local.velodyne_team,
       local.vision_msgs_team,
+      local.visp_team,
       local.xacro_team,
     ),
     local.ros_admins
