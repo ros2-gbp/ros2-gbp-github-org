@@ -83,6 +83,7 @@ locals {
       local.tooling_wg_team,
       local.tracing_team,
       local.transport_drivers_team,
+      local.twist_mux_team,
       local.ublox_team,
       local.udp_msgs_team,
       local.urdf_tutorial_team,
