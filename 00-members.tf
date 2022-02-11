@@ -40,6 +40,7 @@ locals {
       local.microstrain_team,
       local.moveit_team,
       local.mrpt2_team,
+      local.mrt_cmake_modules_team,
       local.navigation_team,
       local.nmea_team,
       local.nobleo_team,
