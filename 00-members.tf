@@ -6,6 +6,7 @@ locals {
       local.ackermann_msgs_team,
       local.apex_team,
       local.apriltag_team,
+      local.astuff_team,
       local.async_web_server_cpp_team,
       local.autoware_team,
       local.behaviortree_team,

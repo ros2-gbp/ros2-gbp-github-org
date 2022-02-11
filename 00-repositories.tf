@@ -5,6 +5,7 @@ locals {
     local.ackermann_msgs_repositories,
     local.apex_repositories,
     local.apriltag_repositories,
+    local.astuff_repositories,
     local.async_web_server_cpp_repositories,
     local.autoware_repositories,
     local.behaviortree_repositories,
