@@ -39,6 +39,7 @@ locals {
     local.micro_ros_msgs_repositories,
     local.moveit_repositories,
     local.mrpt2_repositories,
+    local.mrt_cmake_modules_repositories,
     local.navigation_repositories,
     local.nmea_repositories,
     local.nobleo_repositories,
