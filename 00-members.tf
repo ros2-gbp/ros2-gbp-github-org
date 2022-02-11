@@ -47,6 +47,7 @@ locals {
       local.nmea_team,
       local.nobleo_team,
       local.nodl_team,
+      local.ntpd_driver_team,
       local.object_analytics_team,
       local.octomap_team,
       local.ouster_drivers_team,

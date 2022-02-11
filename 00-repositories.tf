@@ -46,6 +46,7 @@ locals {
     local.nmea_repositories,
     local.nobleo_repositories,
     local.nodl_repositories,
+    local.ntpd_driver_repositories,
     local.object_analytics_repositories,
     local.octomap_repositories,
     local.ouster_drivers_repositories,
