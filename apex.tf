@@ -5,6 +5,7 @@ locals {
   apex_repositories = [
     "apex_containers-release",
     "apex_test_tools-release",
+    "point_cloud_msg_wrapper-release",
   ]
 }
 
