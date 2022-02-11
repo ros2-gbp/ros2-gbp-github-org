@@ -8,6 +8,7 @@ locals {
   perception_repositories = [
     "laser_filters-release",
     "laser_geometry-release",
+    "object_recognition_msgs-release",
     "pcl_msgs-release",
     "perception_pcl-release",
     "pointcloud_to_laserscan-release",
