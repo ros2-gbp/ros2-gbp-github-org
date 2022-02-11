@@ -7,6 +7,7 @@ locals {
   picknik_repositories = [
     "graph_msgs-release",
     "launch_ros_param_builder-release",
+    "picknik_ament_copyright-release",
     "rviz_visual_tools-release",
     "snowbot_release",
   ]
