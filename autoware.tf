@@ -9,6 +9,7 @@ locals {
   autoware_repositories = [
     "acado_vendor-release",
     "autoware_auto_msgs-release",
+    "qpoases_vendor-release",
     "ros2_socketcan-release",
     "tvm_vendor-release",
   ]
