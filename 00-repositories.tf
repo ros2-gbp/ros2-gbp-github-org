@@ -28,6 +28,7 @@ locals {
     local.gurumdds_repositories,
     local.iceoryx_repositories,
     local.ifm3d_repositories,
+    local.lanelet2_repositories,
     local.lgsvl_repositories,
     local.libg2o_repositories,
     local.locator_ros_bridge_repositories,
