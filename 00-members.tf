@@ -36,6 +36,7 @@ locals {
       local.micro_ros_diagnostics_team,
       local.micro_ros_msgs_team,
       local.microstrain_team,
+      local.moveit_team,
       local.mrpt2_team,
       local.navigation_team,
       local.nmea_team,

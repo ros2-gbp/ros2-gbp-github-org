@@ -35,6 +35,7 @@ locals {
     local.microstrain_repositories,
     local.micro_ros_diagnostics_repositories,
     local.micro_ros_msgs_repositories,
+    local.moveit_repositories,
     local.mrpt2_repositories,
     local.navigation_repositories,
     local.nmea_repositories,
