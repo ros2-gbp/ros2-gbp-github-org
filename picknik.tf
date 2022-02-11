@@ -3,6 +3,7 @@ locals {
     "DLu",
     "JafarAbdi",
     "davetcoleman",
+    "tylerjw",
   ]
   picknik_repositories = [
     "graph_msgs-release",
