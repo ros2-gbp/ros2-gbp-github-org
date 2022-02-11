@@ -99,6 +99,7 @@ locals {
     "fastrtps-release",
     "fcl-release",
     "filters-release",
+    "geometry_tutorials-release",
     "google_benchmark_vendor-release",
     "googletest-release",
     "image_common-release",
