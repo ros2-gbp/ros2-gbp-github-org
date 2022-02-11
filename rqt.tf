@@ -1,5 +1,6 @@
 locals {
   rqt_team = [
+    "DLu",
     "arne48",
     "mlautman",
     "srishtidh",
@@ -13,6 +14,7 @@ locals {
     "rqt_plot-release",
     "rqt_publisher-release",
     "rqt_py_console-release",
+    "rqt_robot_dashboard-release",
     "rqt_robot_monitor-release",
     "rqt_robot_steering-release",
     "rqt_runtime_monitor-release",
