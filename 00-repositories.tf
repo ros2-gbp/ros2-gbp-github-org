@@ -71,6 +71,7 @@ locals {
     local.rplidar_ros_repositories,
     local.rqt_repositories,
     local.rtabmap_repositories,
+    local.ruckig_repositories,
     local.security_wg_repositories,
     local.smacc2_repositories,
     local.swri_repositories,
