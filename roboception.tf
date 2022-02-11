@@ -7,6 +7,8 @@ locals {
     "rc_dynamics_api-release",
     "rc_genicam_api-release",
     "rc_genicam_driver_ros2-release",
+    "rc_reason_clients-release",
+    "rcdiscover-release",
   ]
 }
 
