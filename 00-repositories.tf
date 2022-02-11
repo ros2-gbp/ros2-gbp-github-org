@@ -49,6 +49,7 @@ locals {
     local.realsense_repositories,
     local.rmf_repositories,
     local.roboception_repositories,
+    local.robotis_repositories,
     local.robotwebtools_repositories,
     local.ros_canopen_repositories,
     local.ros_repositories,
