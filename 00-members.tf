@@ -41,6 +41,7 @@ locals {
       local.mrpt2_team,
       local.navigation_team,
       local.nmea_team,
+      local.nobleo_team,
       local.nodl_team,
       local.object_analytics_team,
       local.octomap_team,
