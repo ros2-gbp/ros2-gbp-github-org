@@ -71,6 +71,7 @@ locals {
       local.rosbag2_team,
       local.rplidar_ros_team,
       local.rqt_team,
+      local.rtabmap_team,
       local.security_wg_team,
       local.smacc2_team,
       local.swri_team,
