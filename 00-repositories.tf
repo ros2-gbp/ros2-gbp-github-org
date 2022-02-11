@@ -87,6 +87,7 @@ locals {
     local.udp_msgs_repositories,
     local.urdf_tutorial_repositories,
     local.urg_repositories,
+    local.usb_cam_repositories,
     local.v4l2_camera_repositories,
     local.velodyne_repositories,
     local.velodyne_simulator_repositories,
