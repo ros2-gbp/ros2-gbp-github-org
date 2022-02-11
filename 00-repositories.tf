@@ -17,6 +17,7 @@ locals {
     local.cyberbotics_repositories,
     local.cyclonedds_repositories,
     local.diagnostics_repositories,
+    local.dolly_repositories,
     local.fastcdr_repositories,
     local.fmi_repositories,
     local.gazebo_repositories,
