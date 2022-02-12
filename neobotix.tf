@@ -1,6 +1,6 @@
 locals {
   neobotix_team = [
-    "padhupradeep",
+    "padhupradheep",
   ]
   neobotix_repositories = [
     "neo_simulation2-release",
