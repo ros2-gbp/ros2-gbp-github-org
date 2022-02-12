@@ -1,6 +1,6 @@
 locals {
   visp_team = [
-    "fspidle",
+    "fspindle",
   ]
   visp_repositories = [
     "visp-release",
