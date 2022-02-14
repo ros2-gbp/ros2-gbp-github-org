@@ -10,7 +10,8 @@ locals {
   ]
 }
 
-module "sports" {
+module "sports_team" {
+  source = "./modules/release_team"
   team_name = "sports"
   members = local.sports_team
   repositories = local.sports_repositories
