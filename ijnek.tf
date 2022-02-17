@@ -3,7 +3,9 @@ locals {
     "ijnek",
   ]
   ijnek_repositories = [
+    "nao_button_sim-release",
     "nao_interfaces-release",
+    "nao_lola-release",
     "soccer_object_msgs-release",
     "soccer_visualization-release",
   ]
