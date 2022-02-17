@@ -75,6 +75,7 @@ locals {
     local.security_wg_repositories,
     local.simple_launch_repositories,
     local.smacc2_repositories,
+    local.sports_repositories,
     local.swri_repositories,
     local.system_modes_repositories,
     local.tf_transformations_repositories,

@@ -4,9 +4,6 @@ locals {
   ]
   ijnek_repositories = [
     "nao_interfaces-release",
-    "rcss3d_agent-release",
-    "ros_image_to_qimage-release",
-    "rqt_image_overlay-release",
     "soccer_object_msgs-release",
     "soccer_visualization-release",
   ]
