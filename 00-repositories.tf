@@ -54,6 +54,7 @@ locals {
     local.ouxt_repositories,
     local.pal_robotics_repositories,
     local.perception_repositories,
+    local.phidgets_repositories,
     local.picknik_repositories,
     local.plotjuggler_repositories,
     local.rclc_repositories,
