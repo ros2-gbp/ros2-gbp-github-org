@@ -13,6 +13,6 @@ output "unmanaged_members" {
 output "unmanaged_repositories" {
   value = setsubtract(
     [for repo in data.github_organization.ros2-gbp.repositories : trimprefix(repo, "ros2-gbp/")],
-    local.organization_repositories,
+    setunion(local.organization_repositories, ["ros2-gbp-github-org"])
   )
 }
