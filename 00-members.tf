@@ -55,6 +55,7 @@ locals {
       local.ouxt_team,
       local.pal_robotics_team,
       local.perception_team,
+      local.phidgets_team,
       local.picknik_team,
       local.plotjuggler_team,
       local.rclc_team,
