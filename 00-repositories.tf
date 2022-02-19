@@ -96,6 +96,7 @@ locals {
     local.vision_msgs_repositories,
     local.visp_repositories,
     local.xacro_repositories,
+    local.zbar_ros_repositories,
     local.zenoh_bridge_dds_repositories,
   )
 }
