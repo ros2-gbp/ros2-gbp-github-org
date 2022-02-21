@@ -1,0 +1,14 @@
+name: terraform-lint
+on:
+  push:
+    branches: [latest]
+  pull_request:
+jobs:
+  terraform-lint:
+    name: Run terraform fmt checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@main
+      - name: terraform fmt
+        uses: actionshub/terraform-lint@main
