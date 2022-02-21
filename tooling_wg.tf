@@ -2,10 +2,12 @@ locals {
   tooling_wg_team = [
     "emersonknapp",
     "lihui815",
+    "wep21",
   ]
   tooling_wg_repositories = [
     "keyboard_handler-release",
     "libstatistics_collector-release",
+    "topic_tools-release",
   ]
 }
 
