@@ -1,14 +1,14 @@
-name: terraform-lint
+name: terraform-fmt
 on:
   push:
     branches: [latest]
   pull_request:
 jobs:
-  terraform-lint:
+  terraform-fmt:
     name: Run terraform fmt checks
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@main
-      - name: terraform fmt
-        uses: actionshub/terraform-lint@main
+      - uses: actions/checkout@main
+      - uses: hashicorp/setup-terraform@v1
+      - name: terraform-fmt
+        run: terraform fmt -check -diff -recursive
