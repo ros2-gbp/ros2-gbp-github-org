@@ -1,12 +1,12 @@
 locals {
   zbar_ros_team = [
-    "ijnek"
-    "mikepurvis"
-    "paulbovbel"
+    "ijnek",
+    "mikepurvis",
+    "paulbovbel",
   ]
 
   zbar_ros_repositories = [
-    "zbar_ros-release"
+    "zbar_ros-release",
   ]
 }
 
