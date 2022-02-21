@@ -13,8 +13,8 @@ locals {
 }
 
 module "swri_team" {
-  source = "./modules/release_team"
-  team_name = "swri"
-  members = local.swri_team
+  source       = "./modules/release_team"
+  team_name    = "swri"
+  members      = local.swri_team
   repositories = local.swri_repositories
 }

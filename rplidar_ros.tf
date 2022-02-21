@@ -8,8 +8,8 @@ locals {
 }
 
 module "rplidar_ros_team" {
-  source = "./modules/release_team"
-  team_name = "rplidar_ros"
-  members = local.rplidar_ros_team
+  source       = "./modules/release_team"
+  team_name    = "rplidar_ros"
+  members      = local.rplidar_ros_team
   repositories = local.rplidar_ros_repositories
 }

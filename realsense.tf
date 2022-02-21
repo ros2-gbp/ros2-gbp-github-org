@@ -9,8 +9,8 @@ locals {
 }
 
 module "realsense_team" {
-  source = "./modules/release_team"
-  team_name = "realsense"
-  members = local.realsense_team
+  source       = "./modules/release_team"
+  team_name    = "realsense"
+  members      = local.realsense_team
   repositories = local.realsense_repositories
 }

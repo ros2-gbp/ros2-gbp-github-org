@@ -9,9 +9,9 @@ locals {
 }
 
 module "rcpputils_team" {
-  source = "./modules/release_team"
-  team_name = "rcpputils"
-  members = local.rcpputils_team
+  source       = "./modules/release_team"
+  team_name    = "rcpputils"
+  members      = local.rcpputils_team
   repositories = local.rcpputils_repositories
 }
 

@@ -12,8 +12,8 @@ locals {
 }
 
 module "ouxt_team" {
-  source = "./modules/release_team"
-  team_name = "ouxt"
-  members = local.ouxt_team
+  source       = "./modules/release_team"
+  team_name    = "ouxt"
+  members      = local.ouxt_team
   repositories = local.ouxt_repositories
 }

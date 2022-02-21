@@ -12,9 +12,9 @@ locals {
 }
 
 module "tier4_team" {
-  source = "./modules/release_team"
-  team_name = "tier4"
-  members = local.tier4_team
+  source       = "./modules/release_team"
+  team_name    = "tier4"
+  members      = local.tier4_team
   repositories = local.tier4_repositories
 }
 

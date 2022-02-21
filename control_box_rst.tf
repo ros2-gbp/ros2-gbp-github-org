@@ -8,8 +8,8 @@ locals {
 }
 
 module "control_box_rst_team" {
-  source = "./modules/release_team"
-  team_name = "control_box_rst"
-  members = local.control_box_rst_team
+  source       = "./modules/release_team"
+  team_name    = "control_box_rst"
+  members      = local.control_box_rst_team
   repositories = local.control_box_rst_repositories
 }

@@ -12,8 +12,8 @@ locals {
 }
 
 module "fastcdr_team" {
-  source = "./modules/release_team"
-  team_name = "fastcdr"
-  members = local.fastcdr_team
+  source       = "./modules/release_team"
+  team_name    = "fastcdr"
+  members      = local.fastcdr_team
   repositories = local.fastcdr_repositories
 }

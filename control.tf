@@ -14,8 +14,8 @@ locals {
 }
 
 module "control_team" {
-  source = "./modules/release_team"
-  team_name = "control"
-  members = local.control_team
+  source       = "./modules/release_team"
+  team_name    = "control"
+  members      = local.control_team
   repositories = local.control_repositories
 }

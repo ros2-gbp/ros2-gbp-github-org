@@ -15,8 +15,8 @@ locals {
 }
 
 module "picknik_team" {
-  source = "./modules/release_team"
-  team_name = "picknik"
-  members = local.picknik_team
+  source       = "./modules/release_team"
+  team_name    = "picknik"
+  members      = local.picknik_team
   repositories = local.picknik_repositories
 }

@@ -16,8 +16,8 @@ locals {
 }
 
 module "autoware_team" {
-  source = "./modules/release_team"
-  team_name = "autoware"
-  members = local.autoware_team
+  source       = "./modules/release_team"
+  team_name    = "autoware"
+  members      = local.autoware_team
   repositories = local.autoware_repositories
 }

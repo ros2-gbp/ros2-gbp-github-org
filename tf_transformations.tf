@@ -8,8 +8,8 @@ locals {
 }
 
 module "tf_transformations_team" {
-  source = "./modules/release_team"
-  team_name = "tf_transformations"
-  members = local.tf_transformations_team
+  source       = "./modules/release_team"
+  team_name    = "tf_transformations"
+  members      = local.tf_transformations_team
   repositories = local.tf_transformations_repositories
 }

@@ -10,8 +10,8 @@ locals {
 }
 
 module "plotjuggler_team" {
-  source = "./modules/release_team"
-  team_name = "plotjuggler"
-  members = local.plotjuggler_team
+  source       = "./modules/release_team"
+  team_name    = "plotjuggler"
+  members      = local.plotjuggler_team
   repositories = local.plotjuggler_repositories
 }

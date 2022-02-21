@@ -9,8 +9,8 @@ locals {
 }
 
 module "nobleo_team" {
-  source = "./modules/release_team"
-  team_name = "nobleo"
-  members = local.nobleo_team
+  source       = "./modules/release_team"
+  team_name    = "nobleo"
+  members      = local.nobleo_team
   repositories = local.nobleo_repositories
 }

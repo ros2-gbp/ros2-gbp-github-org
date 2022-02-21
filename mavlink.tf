@@ -9,8 +9,8 @@ locals {
 }
 
 module "mavlink_team" {
-  source = "./modules/release_team"
-  team_name = "mavlink"
-  members = local.mavlink_team
+  source       = "./modules/release_team"
+  team_name    = "mavlink"
+  members      = local.mavlink_team
   repositories = local.mavlink_repositories
 }

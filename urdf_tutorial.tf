@@ -8,9 +8,9 @@ locals {
 }
 
 module "urdf_tutorial_team" {
-  source = "./modules/release_team"
-  team_name = "urdf_tutorial"
-  members = local.urdf_tutorial_team
+  source       = "./modules/release_team"
+  team_name    = "urdf_tutorial"
+  members      = local.urdf_tutorial_team
   repositories = local.urdf_tutorial_repositories
 }
 

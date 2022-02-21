@@ -8,8 +8,8 @@ locals {
 }
 
 module "ifm3d_team" {
-  source = "./modules/release_team"
-  team_name = "ifm3d"
-  members = local.ifm3d_team
+  source       = "./modules/release_team"
+  team_name    = "ifm3d"
+  members      = local.ifm3d_team
   repositories = local.ifm3d_repositories
 }

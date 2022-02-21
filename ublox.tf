@@ -8,8 +8,8 @@ locals {
 }
 
 module "ublox_team" {
-  source = "./modules/release_team"
-  team_name = "ublox"
-  members = local.ublox_team
+  source       = "./modules/release_team"
+  team_name    = "ublox"
+  members      = local.ublox_team
   repositories = local.ublox_repositories
 }

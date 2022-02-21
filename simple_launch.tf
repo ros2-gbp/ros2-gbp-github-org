@@ -8,8 +8,8 @@ locals {
 }
 
 module "simple_launch_team" {
-  source = "./modules/release_team"
-  team_name = "simple_launch"
-  members = local.simple_launch_team
+  source       = "./modules/release_team"
+  team_name    = "simple_launch"
+  members      = local.simple_launch_team
   repositories = local.simple_launch_repositories
 }

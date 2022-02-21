@@ -19,8 +19,8 @@ locals {
 }
 
 module "moveit_team" {
-  source = "./modules/release_team"
-  team_name = "moveit"
-  members = local.moveit_team
+  source       = "./modules/release_team"
+  team_name    = "moveit"
+  members      = local.moveit_team
   repositories = local.moveit_repositories
 }

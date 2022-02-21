@@ -8,8 +8,8 @@ locals {
 }
 
 module "zenoh_bridge_dds_team" {
-  source = "./modules/release_team"
-  team_name = "zenoh_bridge_dds"
-  members = local.zenoh_bridge_dds_team
+  source       = "./modules/release_team"
+  team_name    = "zenoh_bridge_dds"
+  members      = local.zenoh_bridge_dds_team
   repositories = local.zenoh_bridge_dds_repositories
 }

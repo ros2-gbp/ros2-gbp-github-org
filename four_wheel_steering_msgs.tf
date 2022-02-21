@@ -8,8 +8,8 @@ locals {
 }
 
 module "four_wheel_steering_msgs_team" {
-  source = "./modules/release_team"
-  team_name = "four_wheel_steering_msgs"
-  members = local.four_wheel_steering_msgs_team
+  source       = "./modules/release_team"
+  team_name    = "four_wheel_steering_msgs"
+  members      = local.four_wheel_steering_msgs_team
   repositories = local.four_wheel_steering_msgs_repositories
 }

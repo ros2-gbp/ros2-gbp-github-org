@@ -10,8 +10,8 @@ locals {
 }
 
 module "gurumdds_team" {
-  source = "./modules/release_team"
-  team_name = "gurumdds"
-  members = local.gurumdds_team
+  source       = "./modules/release_team"
+  team_name    = "gurumdds"
+  members      = local.gurumdds_team
   repositories = local.gurumdds_repositories
 }

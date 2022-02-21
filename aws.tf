@@ -8,8 +8,8 @@ locals {
 }
 
 module "aws_team" {
-  source = "./modules/release_team"
-  team_name = "aws"
-  members = local.aws_team
+  source       = "./modules/release_team"
+  team_name    = "aws"
+  members      = local.aws_team
   repositories = local.aws_repositories
 }
