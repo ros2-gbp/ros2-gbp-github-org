@@ -102,10 +102,10 @@ locals {
 }
 
 resource "github_repository" "repositories" {
-  for_each = local.organization_repositories 
+  for_each = local.organization_repositories
 
-  name = each.value
-  archived = contains(local._archived_repositories, each.value)
+  name       = each.value
+  archived   = contains(local._archived_repositories, each.value)
   visibility = "public"
   lifecycle {
     # Plans that destroy repository releases will delete the repository on
@@ -128,7 +128,7 @@ resource "github_repository" "repositories" {
 # No team manages this repository.
 # It is writable by organization admins only.
 resource "github_repository" "ros2-gbp-github-org" {
-  name = "ros2-gbp-github-org"
+  name       = "ros2-gbp-github-org"
   visibility = "public"
   lifecycle {
     # Plans that destroy repository releases will delete the repository on

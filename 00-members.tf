@@ -108,6 +108,6 @@ resource "github_membership" "members" {
   for_each = local.non_admin_members
 
   username = each.value
-  role = "member"
+  role     = "member"
 }
 
