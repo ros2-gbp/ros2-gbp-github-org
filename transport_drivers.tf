@@ -8,8 +8,8 @@ locals {
 }
 
 module "transport_drivers_team" {
-  source = "./modules/release_team"
-  team_name = "transport_drivers"
-  members = local.transport_drivers_team
+  source       = "./modules/release_team"
+  team_name    = "transport_drivers"
+  members      = local.transport_drivers_team
   repositories = local.transport_drivers_repositories
 }

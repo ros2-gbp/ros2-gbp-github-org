@@ -11,8 +11,8 @@ locals {
 }
 
 module "zbar_ros_team" {
-  source = "./modules/release_team"
-  team_name = "zbar_ros"
-  members = local.zbar_ros_team
+  source       = "./modules/release_team"
+  team_name    = "zbar_ros"
+  members      = local.zbar_ros_team
   repositories = local.zbar_ros_repositories
 }

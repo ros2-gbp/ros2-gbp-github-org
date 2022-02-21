@@ -9,8 +9,8 @@ locals {
 }
 
 module "phidgets_team" {
-  source = "./modules/release_team"
-  team_name = "phidgets"
-  members = local.phidgets_team
+  source       = "./modules/release_team"
+  team_name    = "phidgets"
+  members      = local.phidgets_team
   repositories = local.phidgets_repositories
 }

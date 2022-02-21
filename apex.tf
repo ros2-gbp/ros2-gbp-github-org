@@ -10,8 +10,8 @@ locals {
 }
 
 module "apex_team" {
-  source = "./modules/release_team"
-  team_name = "apex"
-  members = local.apex_team
+  source       = "./modules/release_team"
+  team_name    = "apex"
+  members      = local.apex_team
   repositories = local.apex_repositories
 }

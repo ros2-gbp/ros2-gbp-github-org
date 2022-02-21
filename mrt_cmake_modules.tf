@@ -8,8 +8,8 @@ locals {
 }
 
 module "mrt_cmake_modules_team" {
-  source = "./modules/release_team"
-  team_name = "mrt_cmake_modules"
-  members = local.mrt_cmake_modules_team
+  source       = "./modules/release_team"
+  team_name    = "mrt_cmake_modules"
+  members      = local.mrt_cmake_modules_team
   repositories = local.mrt_cmake_modules_repositories
 }

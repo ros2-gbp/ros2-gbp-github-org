@@ -8,8 +8,8 @@ locals {
 }
 
 module "pal_robotics_team" {
-  source = "./modules/release_team"
-  team_name = "pal_robotics"
-  members = local.pal_robotics_team
+  source       = "./modules/release_team"
+  team_name    = "pal_robotics"
+  members      = local.pal_robotics_team
   repositories = local.pal_robotics_repositories
 }

@@ -17,8 +17,8 @@ locals {
 }
 
 module "gazebo_team" {
-  source = "./modules/release_team"
-  team_name = "gazebo"
-  members = local.gazebo_team
+  source       = "./modules/release_team"
+  team_name    = "gazebo"
+  members      = local.gazebo_team
   repositories = local.gazebo_repositories
 }

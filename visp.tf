@@ -8,8 +8,8 @@ locals {
 }
 
 module "visp_team" {
-  source = "./modules/release_team"
-  team_name = "visp"
-  members = local.visp_team
+  source       = "./modules/release_team"
+  team_name    = "visp"
+  members      = local.visp_team
   repositories = local.visp_repositories
 }

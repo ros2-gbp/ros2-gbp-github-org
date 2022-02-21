@@ -9,8 +9,8 @@ locals {
 }
 
 module "fmi_team" {
-  source = "./modules/release_team"
-  team_name = "fmi"
-  members = local.fmi_team
+  source       = "./modules/release_team"
+  team_name    = "fmi"
+  members      = local.fmi_team
   repositories = local.fmi_repositories
 }

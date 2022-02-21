@@ -27,8 +27,8 @@ locals {
 }
 
 module "rqt_team" {
-  source = "./modules/release_team"
-  team_name = "rqt"
-  members = local.rqt_team
+  source       = "./modules/release_team"
+  team_name    = "rqt"
+  members      = local.rqt_team
   repositories = local.rqt_repositories
 }

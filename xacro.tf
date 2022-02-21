@@ -9,8 +9,8 @@ locals {
 }
 
 module "xacro_team" {
-  source = "./modules/release_team"
-  team_name = "xacro"
-  members = local.xacro_team
+  source       = "./modules/release_team"
+  team_name    = "xacro"
+  members      = local.xacro_team
   repositories = local.xacro_repositories
 }

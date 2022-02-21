@@ -9,8 +9,8 @@ locals {
 }
 
 module "microstrain_team" {
-  source = "./modules/release_team"
-  team_name = "microstrain"
-  members = local.microstrain_team
+  source       = "./modules/release_team"
+  team_name    = "microstrain"
+  members      = local.microstrain_team
   repositories = local.microstrain_repositories
 }

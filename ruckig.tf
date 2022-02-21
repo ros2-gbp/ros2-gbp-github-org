@@ -8,8 +8,8 @@ locals {
 }
 
 module "ruckig_team" {
-  source = "./modules/release_team"
-  team_name = "ruckig"
-  members = local.ruckig_team
+  source       = "./modules/release_team"
+  team_name    = "ruckig"
+  members      = local.ruckig_team
   repositories = local.ruckig_repositories
 }

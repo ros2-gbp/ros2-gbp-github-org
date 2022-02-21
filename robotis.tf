@@ -11,8 +11,8 @@ locals {
 }
 
 module "robotis_team" {
-  source = "./modules/release_team"
-  team_name = "robotis"
-  members = local.robotis_team
+  source       = "./modules/release_team"
+  team_name    = "robotis"
+  members      = local.robotis_team
   repositories = local.robotis_repositories
 }

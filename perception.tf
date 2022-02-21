@@ -17,8 +17,8 @@ locals {
 }
 
 module "perception_team" {
-  source = "./modules/release_team"
-  team_name = "perception"
-  members = local.perception_team
+  source       = "./modules/release_team"
+  team_name    = "perception"
+  members      = local.perception_team
   repositories = local.perception_repositories
 }

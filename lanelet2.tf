@@ -8,8 +8,8 @@ locals {
 }
 
 module "lanelet2_team" {
-  source = "./modules/release_team"
-  team_name = "lanelet2"
-  members = local.lanelet2_team
+  source       = "./modules/release_team"
+  team_name    = "lanelet2"
+  members      = local.lanelet2_team
   repositories = local.lanelet2_repositories
 }

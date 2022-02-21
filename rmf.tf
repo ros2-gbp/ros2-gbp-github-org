@@ -23,8 +23,8 @@ locals {
 }
 
 module "rmf_team" {
-  source = "./modules/release_team"
-  team_name = "rmf"
-  members = local.rmf_team
+  source       = "./modules/release_team"
+  team_name    = "rmf"
+  members      = local.rmf_team
   repositories = local.rmf_repositories
 }

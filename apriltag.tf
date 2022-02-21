@@ -9,8 +9,8 @@ locals {
 }
 
 module "apriltag_team" {
-  source = "./modules/release_team"
-  team_name = "apriltag"
-  members = local.apriltag_team
+  source       = "./modules/release_team"
+  team_name    = "apriltag"
+  members      = local.apriltag_team
   repositories = local.apriltag_repositories
 }

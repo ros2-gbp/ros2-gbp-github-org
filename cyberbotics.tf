@@ -12,8 +12,8 @@ locals {
 }
 
 module "cyberbotics_team" {
-  source = "./modules/release_team"
-  team_name = "cyberbotics"
-  members = local.cyberbotics_team
+  source       = "./modules/release_team"
+  team_name    = "cyberbotics"
+  members      = local.cyberbotics_team
   repositories = local.cyberbotics_repositories
 }

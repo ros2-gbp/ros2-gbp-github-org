@@ -10,8 +10,8 @@ locals {
 }
 
 module "nodl_team" {
-  source = "./modules/release_team"
-  team_name = "nodl"
-  members = local.nodl_team
+  source       = "./modules/release_team"
+  team_name    = "nodl"
+  members      = local.nodl_team
   repositories = local.nodl_repositories
 }

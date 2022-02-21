@@ -10,8 +10,8 @@ locals {
 }
 
 module "urg_team" {
-  source = "./modules/release_team"
-  team_name = "urg"
-  members = local.urg_team
+  source       = "./modules/release_team"
+  team_name    = "urg"
+  members      = local.urg_team
   repositories = local.urg_repositories
 }

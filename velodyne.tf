@@ -10,9 +10,9 @@ locals {
 }
 
 module "velodyne_team" {
-  source = "./modules/release_team"
-  team_name = "velodyne"
-  members = local.velodyne_team
+  source       = "./modules/release_team"
+  team_name    = "velodyne"
+  members      = local.velodyne_team
   repositories = local.velodyne_repositories
 }
 

@@ -8,8 +8,8 @@ locals {
 }
 
 module "dolly_team" {
-  source = "./modules/release_team"
-  team_name = "dolly"
-  members = local.dolly_team
+  source       = "./modules/release_team"
+  team_name    = "dolly"
+  members      = local.dolly_team
   repositories = local.dolly_repositories
 }
