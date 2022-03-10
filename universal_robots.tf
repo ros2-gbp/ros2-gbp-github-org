@@ -8,8 +8,8 @@ locals {
 }
 
 module "universal_robots_team" {
-  source = "./modules/release_team"
-  team_name = "universal_robots"
-  members = local.universal_robots_team
+  source       = "./modules/release_team"
+  team_name    = "universal_robots"
+  members      = local.universal_robots_team
   repositories = local.universal_robots_repositories
 }
