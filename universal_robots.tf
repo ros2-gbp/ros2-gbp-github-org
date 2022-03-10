@@ -1,6 +1,7 @@
 locals {
   universal_robots_team = [
     "fmauch",
+    "t-schnell",
   ]
   universal_robots_repositories = [
     "universal_robots-release",
