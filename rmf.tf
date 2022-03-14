@@ -1,5 +1,6 @@
 locals {
   rmf_team = [
+    "codebot",
     "marcoag",
   ]
   rmf_repositories = [
