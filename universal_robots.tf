@@ -4,7 +4,7 @@ locals {
     "t-schnell",
   ]
   universal_robots_repositories = [
-    "universal_robots-release",
+    "Universal_Robots_Client_Library-release",
   ]
 }
 
