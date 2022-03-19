@@ -8,6 +8,7 @@ locals {
     "keyboard_handler-release",
     "libstatistics_collector-release",
     "topic_tools-release",
+    "rosbag2_storage_mcap-release",
   ]
 }
 
