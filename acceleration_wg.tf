@@ -1,0 +1,20 @@
+locals {
+  acceleration_wg_team = [
+    "methylDragon",
+    "vmayoral",
+  ]
+  acceleration_wg_repositories = [
+    "ament_acceleration-release",
+    "ament_vitis-release",
+    "ros2acceleration-release",
+    "tracetools_acceleration-release",
+    "vitis_common-release",
+  ]
+}
+
+module "acceleration_wg_team" {
+  source       = "./modules/release_team"
+  team_name    = "acceleration_wg"
+  members      = local.acceleration_wg_team
+  repositories = local.acceleration_wg_repositories
+}
