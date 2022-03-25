@@ -2,6 +2,7 @@
 locals {
   organization_repositories = setunion(
     local._archived_repositories,
+    local.acceleration_wg_repositories,
     local.ackermann_msgs_repositories,
     local.apex_repositories,
     local.apriltag_repositories,
