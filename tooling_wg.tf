@@ -7,8 +7,8 @@ locals {
   tooling_wg_repositories = [
     "keyboard_handler-release",
     "libstatistics_collector-release",
-    "topic_tools-release",
     "rosbag2_storage_mcap-release",
+    "topic_tools-release",
   ]
 }
 
