@@ -136,6 +136,7 @@ locals {
     "rmw_fastrtps-release",
     "rmw_implementation-release",
     "ros1_bridge-release",
+    "ros2_message_filters-release",
     "ros2cli-release",
     "ros2launch_security-release",
     "ros_testing-release",
