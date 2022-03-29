@@ -36,7 +36,6 @@ locals {
       local.libg2o_team,
       local.locator_ros_bridge_team,
       local.mavlink_team,
-      local.message_filters_team,
       local.micro_ros_diagnostics_team,
       local.micro_ros_msgs_team,
       local.microstrain_team,
