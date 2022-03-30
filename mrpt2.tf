@@ -4,7 +4,12 @@ locals {
     "jolting",
   ]
   mrpt2_repositories = [
+    "mprt_navigation-release",
+    "mprt_sensors-release",
+    "mprt_slam-release",
     "mrpt2-release",
+    "mrpt_msgs-release",
+    "pose_cov_ops-release",
   ]
 }
 
