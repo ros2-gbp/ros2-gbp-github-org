@@ -5,6 +5,7 @@ locals {
   ]
   universal_robots_repositories = [
     "Universal_Robots_Client_Library-release",
+    "ur_description-release",
   ]
 }
 
