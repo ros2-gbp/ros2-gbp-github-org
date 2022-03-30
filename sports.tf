@@ -6,6 +6,7 @@ locals {
   sports_repositories = [
     "rcss3d_agent-release",
     "ros_image_to_qimage-release",
+    "rot_conv_lib-release",
     "rqt_image_overlay-release",
   ]
 }
