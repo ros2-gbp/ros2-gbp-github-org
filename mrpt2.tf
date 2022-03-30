@@ -5,6 +5,11 @@ locals {
   ]
   mrpt2_repositories = [
     "mrpt2-release",
+    "mrpt_msgs-release",
+    "mrpt_navigation-release",
+    "mrpt_sensors-release",
+    "mrpt_slam-release",
+    "pose_cov_ops-release",
   ]
 }
 
