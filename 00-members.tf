@@ -31,6 +31,7 @@ locals {
       local.iceoryx_team,
       local.ifm3d_team,
       local.ijnek_team,
+      local.irobot_education_team,
       local.lanelet2_team,
       local.lgsvl_team,
       local.libg2o_team,
