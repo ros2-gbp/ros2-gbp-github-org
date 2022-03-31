@@ -12,4 +12,5 @@ module "smacc2_team" {
   team_name    = "smacc2"
   members      = local.smacc2_team
   repositories = local.smacc2_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

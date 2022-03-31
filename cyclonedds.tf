@@ -14,4 +14,5 @@ module "cyclonedds_team" {
   team_name    = "cyclonedds"
   members      = local.cyclonedds_team
   repositories = local.cyclonedds_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

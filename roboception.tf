@@ -17,4 +17,5 @@ module "roboception_team" {
   team_name    = "roboception"
   members      = local.roboception_team
   repositories = local.roboception_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

@@ -16,4 +16,5 @@ module "fastcdr_team" {
   team_name    = "fastcdr"
   members      = local.fastcdr_team
   repositories = local.fastcdr_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

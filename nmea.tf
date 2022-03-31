@@ -13,4 +13,5 @@ module "nmea_team" {
   team_name    = "nmea"
   members      = local.nmea_team
   repositories = local.nmea_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

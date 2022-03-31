@@ -15,4 +15,5 @@ module "pal_robotics_team" {
   team_name    = "pal_robotics"
   members      = local.pal_robotics_team
   repositories = local.pal_robotics_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

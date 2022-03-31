@@ -12,4 +12,5 @@ module "aws_team" {
   team_name    = "aws"
   members      = local.aws_team
   repositories = local.aws_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

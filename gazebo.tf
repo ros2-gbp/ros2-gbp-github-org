@@ -23,4 +23,5 @@ module "gazebo_team" {
   team_name    = "gazebo"
   members      = local.gazebo_team
   repositories = local.gazebo_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

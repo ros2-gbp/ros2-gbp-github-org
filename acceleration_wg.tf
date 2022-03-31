@@ -18,4 +18,5 @@ module "acceleration_wg_team" {
   team_name    = "acceleration_wg"
   members      = local.acceleration_wg_team
   repositories = local.acceleration_wg_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

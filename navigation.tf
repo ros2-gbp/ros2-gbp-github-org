@@ -18,4 +18,5 @@ module "navigation_team" {
   team_name    = "navigation"
   members      = local.navigation_team
   repositories = local.navigation_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

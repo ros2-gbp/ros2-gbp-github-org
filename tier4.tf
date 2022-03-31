@@ -16,5 +16,6 @@ module "tier4_team" {
   team_name    = "tier4"
   members      = local.tier4_team
   repositories = local.tier4_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }
 

@@ -13,4 +13,5 @@ module "fmi_team" {
   team_name    = "fmi"
   members      = local.fmi_team
   repositories = local.fmi_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

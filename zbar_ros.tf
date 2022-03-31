@@ -15,4 +15,5 @@ module "zbar_ros_team" {
   team_name    = "zbar_ros"
   members      = local.zbar_ros_team
   repositories = local.zbar_ros_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

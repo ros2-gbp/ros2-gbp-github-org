@@ -13,4 +13,5 @@ module "apriltag_team" {
   team_name    = "apriltag"
   members      = local.apriltag_team
   repositories = local.apriltag_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

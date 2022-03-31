@@ -14,4 +14,5 @@ module "gurumdds_team" {
   team_name    = "gurumdds"
   members      = local.gurumdds_team
   repositories = local.gurumdds_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

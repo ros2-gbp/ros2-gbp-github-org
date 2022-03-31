@@ -14,4 +14,5 @@ module "plotjuggler_team" {
   team_name    = "plotjuggler"
   members      = local.plotjuggler_team
   repositories = local.plotjuggler_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

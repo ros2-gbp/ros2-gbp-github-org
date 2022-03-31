@@ -17,4 +17,5 @@ module "sports_team" {
   team_name    = "sports"
   members      = local.sports_team
   repositories = local.sports_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

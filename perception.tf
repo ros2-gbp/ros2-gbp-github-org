@@ -21,4 +21,5 @@ module "perception_team" {
   team_name    = "perception"
   members      = local.perception_team
   repositories = local.perception_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }
