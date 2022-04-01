@@ -1,5 +1,8 @@
 locals {
   pal_robotics_team = [
+    "jordan-palacios",
+    "lucamarchionni",
+    "saikishor",
     "v-lopez",
   ]
   pal_robotics_repositories = [
