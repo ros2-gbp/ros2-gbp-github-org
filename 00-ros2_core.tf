@@ -42,11 +42,12 @@ locals {
   ]
 
   ros_base_repositories = [
-    "rosbag2-release",
     "geometry2-release",
     "kdl_parser-release",
-    "urdf-release",
+    "orocos_kdl_vendor-release",
     "robot_state_publisher-release",
+    "rosbag2-release",
+    "urdf-release",
   ]
 
   ros_desktop_repositories = [
