@@ -21,6 +21,7 @@ locals {
     local.dolly_repositories,
     local.fastcdr_repositories,
     local.fmi_repositories,
+    local.fogros2_repositories,
     local.four_wheel_steering_msgs_repositories,
     local.gazebo_repositories,
     local.geographic_info_repositories,
