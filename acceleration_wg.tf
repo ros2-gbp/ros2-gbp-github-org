@@ -9,7 +9,7 @@ locals {
     "ament_vitis-release",
     "ros2acceleration-release",
     "tracetools_acceleration-release",
-    "vitis_common-release"
+    "vitis_common-release",
   ]
 }
 
