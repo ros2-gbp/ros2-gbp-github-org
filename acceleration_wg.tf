@@ -4,7 +4,7 @@ locals {
     "vmayoral",
   ]
   acceleration_wg_repositories = [
-    "adaptive_component-release", 
+    "adaptive_component-release",
     "ament_acceleration-release",
     "ament_vitis-release",
     "ros2acceleration-release",
