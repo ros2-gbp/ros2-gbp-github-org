@@ -23,6 +23,7 @@ locals {
     local.fmi_repositories,
     local.fogros2_repositories,
     local.four_wheel_steering_msgs_repositories,
+    local.foxglove_msgs_repositories,
     local.gazebo_repositories,
     local.geographic_info_repositories,
     local.grbl_repositories,

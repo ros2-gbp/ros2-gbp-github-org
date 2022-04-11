@@ -24,6 +24,7 @@ locals {
       local.fmi_team,
       local.fogros2_team,
       local.four_wheel_steering_msgs_team,
+      local.foxglove_msgs_team,
       local.gazebo_team,
       local.geographic_info_team,
       local.grbl_team,
