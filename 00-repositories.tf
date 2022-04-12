@@ -32,6 +32,7 @@ locals {
     local.iceoryx_repositories,
     local.ifm3d_repositories,
     local.ijnek_repositories,
+    local.imu_tools_repositories,
     local.irobot_education_repositories,
     local.lanelet2_repositories,
     local.lgsvl_repositories,
