@@ -8,6 +8,7 @@ locals {
     "ros_image_to_qimage-release",
     "rot_conv_lib-release",
     "rqt_image_overlay-release",
+    "soccer_interfaces-release",
   ]
 }
 
