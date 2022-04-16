@@ -6,6 +6,9 @@ locals {
   rmf_repositories = [
     "ament_cmake_catch2-release",
     "menge_vendor-release",
+    "nlohmann_json_schema_validator_vendor-release",
+    "pybind11_json_vendor-release",
+    "rmf_api_msgs-release",
     "rmf_battery-release",
     "rmf_building_map_msgs-release",
     "rmf_cmake_uncrustify-release",
