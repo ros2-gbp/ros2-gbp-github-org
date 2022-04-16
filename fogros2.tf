@@ -5,9 +5,9 @@ locals {
     "KeplerC",
     "KDharmarajanDev",
     "mjd3",
-    "simeonoa",
+    "SimeonOA",
     "Zhanhugo",
-    "Ghassemiramtin",
+    "ghassemiramtin",
     "xzrderek",
   ]
   fogros2_repositories = [
