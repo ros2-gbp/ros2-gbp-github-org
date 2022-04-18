@@ -6,6 +6,7 @@ data "github_organization_teams" "ros2-gbp" {}
 
 locals {
   ros_admins = [
+    "audrow",
     "clalancette",
     "cottsay",
     "nuclearsandwich",
