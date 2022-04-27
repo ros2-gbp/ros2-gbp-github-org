@@ -88,6 +88,7 @@ locals {
     local.tooling_wg_repositories,
     local.tracing_repositories,
     local.transport_drivers_repositories,
+    local.turtlebot4_repositories,
     local.twist_mux_repositories,
     local.ublox_repositories,
     local.udp_msgs_repositories,
