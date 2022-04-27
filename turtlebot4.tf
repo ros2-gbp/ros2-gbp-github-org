@@ -1,9 +1,9 @@
 locals {
   turtlebot4_team = [
-    "roni-kreinin",
-    "tonybaltovski",
-    "tfoote",
     "kscottz",
+    "roni-kreinin",
+    "tfoote",
+    "tonybaltovski",
   ]
   turtlebot4_repositories = [
     "turtlebot4-release",
