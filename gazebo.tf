@@ -4,6 +4,7 @@ locals {
     "chapulina",
     "clalancette",
     "j-rivero",
+    "jacobperron",
     "mjcarroll",
   ]
   gazebo_repositories = [
