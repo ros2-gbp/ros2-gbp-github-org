@@ -6,7 +6,7 @@ locals {
     "KDharmarajanDev",
     "mjd3",
     "SimeonOA",
-    "Zhanhugo",
+    "zhanhugo",
     "ghassemiramtin",
     "xzrderek",
   ]
