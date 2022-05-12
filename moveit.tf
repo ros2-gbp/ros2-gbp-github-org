@@ -2,7 +2,10 @@ locals {
   moveit_team = [
     "JafarAbdi",
     "henningkayser",
+    "rhaschke",
     "tylerjw",
+    "v4hn",
+    "vatanaksoytezer",
   ]
   moveit_repositories = [
     "geometric_shapes-release",
