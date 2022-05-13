@@ -16,4 +16,5 @@ module "ouxt_team" {
   team_name    = "ouxt"
   members      = local.ouxt_team
   repositories = local.ouxt_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

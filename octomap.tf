@@ -17,4 +17,5 @@ module "octomap_team" {
   team_name    = "octomap"
   members      = local.octomap_team
   repositories = local.octomap_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

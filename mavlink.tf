@@ -13,4 +13,5 @@ module "mavlink_team" {
   team_name    = "mavlink"
   members      = local.mavlink_team
   repositories = local.mavlink_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

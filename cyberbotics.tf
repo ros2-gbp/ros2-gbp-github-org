@@ -16,4 +16,5 @@ module "cyberbotics_team" {
   team_name    = "cyberbotics"
   members      = local.cyberbotics_team
   repositories = local.cyberbotics_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

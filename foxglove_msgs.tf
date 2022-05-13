@@ -13,4 +13,5 @@ module "foxglove_msgs_team" {
   team_name    = "foxglove_msgs"
   members      = local.foxglove_msgs_team
   repositories = local.foxglove_msgs_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

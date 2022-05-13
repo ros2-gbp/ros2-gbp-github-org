@@ -31,4 +31,5 @@ module "rmf_team" {
   team_name    = "rmf"
   members      = local.rmf_team
   repositories = local.rmf_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

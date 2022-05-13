@@ -14,5 +14,6 @@ module "velodyne_team" {
   team_name    = "velodyne"
   members      = local.velodyne_team
   repositories = local.velodyne_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }
 

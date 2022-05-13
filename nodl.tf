@@ -14,4 +14,5 @@ module "nodl_team" {
   team_name    = "nodl"
   members      = local.nodl_team
   repositories = local.nodl_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

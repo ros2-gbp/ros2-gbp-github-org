@@ -12,4 +12,5 @@ module "usb_cam_team" {
   team_name    = "usb_cam"
   members      = local.usb_cam_team
   repositories = local.usb_cam_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

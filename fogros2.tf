@@ -20,4 +20,5 @@ module "fogros2_team" {
   team_name    = "fogros2"
   members      = local.fogros2_team
   repositories = local.fogros2_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

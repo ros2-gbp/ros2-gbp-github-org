@@ -13,4 +13,5 @@ module "xacro_team" {
   team_name    = "xacro"
   members      = local.xacro_team
   repositories = local.xacro_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

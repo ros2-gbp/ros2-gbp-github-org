@@ -12,4 +12,5 @@ module "tf_transformations_team" {
   team_name    = "tf_transformations"
   members      = local.tf_transformations_team
   repositories = local.tf_transformations_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

@@ -13,4 +13,5 @@ module "microstrain_team" {
   team_name    = "microstrain"
   members      = local.microstrain_team
   repositories = local.microstrain_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

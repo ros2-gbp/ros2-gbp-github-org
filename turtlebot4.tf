@@ -18,4 +18,5 @@ module "turtlebot4_team" {
   team_name    = "turtlebot4"
   members      = local.turtlebot4_team
   repositories = local.turtlebot4_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

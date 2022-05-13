@@ -12,4 +12,5 @@ module "lanelet2_team" {
   team_name    = "lanelet2"
   members      = local.lanelet2_team
   repositories = local.lanelet2_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

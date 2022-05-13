@@ -12,4 +12,5 @@ module "connextdds_team" {
   team_name    = "connextdds"
   members      = local.connextdds_team
   repositories = local.connextdds_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

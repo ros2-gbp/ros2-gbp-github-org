@@ -20,4 +20,5 @@ module "autoware_team" {
   team_name    = "autoware"
   members      = local.autoware_team
   repositories = local.autoware_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

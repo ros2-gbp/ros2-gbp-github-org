@@ -31,4 +31,5 @@ module "rqt_team" {
   team_name    = "rqt"
   members      = local.rqt_team
   repositories = local.rqt_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

@@ -18,4 +18,5 @@ module "mrpt2_team" {
   team_name    = "mrpt2"
   members      = local.mrpt2_team
   repositories = local.mrpt2_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

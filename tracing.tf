@@ -13,4 +13,5 @@ module "tracing_team" {
   team_name    = "tracing"
   members      = local.tracing_team
   repositories = local.tracing_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

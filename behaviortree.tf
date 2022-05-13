@@ -12,4 +12,5 @@ module "behaviortree_team" {
   team_name    = "behaviortree"
   members      = local.behaviortree_team
   repositories = local.behaviortree_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

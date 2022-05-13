@@ -18,4 +18,5 @@ module "control_team" {
   team_name    = "control"
   members      = local.control_team
   repositories = local.control_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

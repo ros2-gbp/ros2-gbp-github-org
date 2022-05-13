@@ -19,4 +19,5 @@ module "picknik_team" {
   team_name    = "picknik"
   members      = local.picknik_team
   repositories = local.picknik_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

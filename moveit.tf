@@ -26,4 +26,5 @@ module "moveit_team" {
   team_name    = "moveit"
   members      = local.moveit_team
   repositories = local.moveit_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

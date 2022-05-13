@@ -19,4 +19,5 @@ module "apex_team" {
   team_name    = "apex"
   members      = local.apex_team
   repositories = local.apex_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }
