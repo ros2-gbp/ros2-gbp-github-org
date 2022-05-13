@@ -1,5 +1,6 @@
 locals {
   apex_team = [
+    "LanderU",
     "carlossvg",
     "erikatapex",
     "flynneva",
