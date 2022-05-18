@@ -1,6 +1,9 @@
 locals {
   foxglove_msgs_team = [
+    "amacneil",
+    "defunctzombie",
     "jhurliman",
+    "jtbandes",
     "wep21"
   ]
   foxglove_msgs_repositories = [
