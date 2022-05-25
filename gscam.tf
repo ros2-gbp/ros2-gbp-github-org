@@ -1,6 +1,5 @@
 locals {
   gscam_team = [
-    "jbohren",
     "wep21",
   ]
   gscam_repositories = [
