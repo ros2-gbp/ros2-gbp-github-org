@@ -4,7 +4,6 @@ locals {
     "emersonknapp",
     "jhurliman",
     "jtbandes",
-    "lihui815",
     "wep21",
   ]
   tooling_wg_repositories = [
