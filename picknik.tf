@@ -2,7 +2,6 @@ locals {
   picknik_team = [
     "DLu",
     "JafarAbdi",
-    "davetcoleman",
     "tylerjw",
   ]
   picknik_repositories = [
