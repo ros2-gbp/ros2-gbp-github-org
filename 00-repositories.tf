@@ -22,6 +22,7 @@ locals {
     local.fastcdr_repositories,
     local.fmi_repositories,
     local.fogros2_repositories,
+    local.fortefibre_repositories,
     local.four_wheel_steering_msgs_repositories,
     local.foxglove_msgs_repositories,
     local.gazebo_repositories,

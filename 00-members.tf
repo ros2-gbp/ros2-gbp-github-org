@@ -23,6 +23,7 @@ locals {
       local.fastcdr_team,
       local.fmi_team,
       local.fogros2_team,
+      local.fortefibre_team,
       local.four_wheel_steering_msgs_team,
       local.foxglove_msgs_team,
       local.gazebo_team,
