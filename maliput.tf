@@ -9,11 +9,13 @@ locals {
     "maliput-release",
     "maliput_documentation-release",
     "maliput_dragway-release",
+    "maliput_drake-release",
     "maliput_integration-release",
     "maliput_integration_tests-release",
     "maliput_malidrive-release",
     "maliput_multilane-release",
     "maliput_object-release",
+    "maliput_object_py-release",
     "maliput_py-release",
   ]
 }
