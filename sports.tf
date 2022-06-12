@@ -4,6 +4,8 @@ locals {
   ]
 
   sports_repositories = [
+    "gc_spl-release",
+    "r2r_spl-release",
     "rcss3d_agent-release",
     "ros_image_to_qimage-release",
     "rot_conv_lib-release",
