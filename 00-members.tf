@@ -69,6 +69,7 @@ locals {
       local.realsense_team,
       local.rmf_team,
       local.roboception_team,
+      local.robot_calibration_team,
       local.robot_localization_team,
       local.robotis_team,
       local.robotwebtools_team,
