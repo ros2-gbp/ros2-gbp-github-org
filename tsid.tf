@@ -1,10 +1,10 @@
 locals {
   tsid_team = [
+    "andreadelprete",
     "jcarpent",
-    "wxmerkt",
     "nim65s",
     "olivier-stasse",
-    "andreadelprete",
+    "wxmerkt",
   ]
   tsid_repositories = [
     "tsid-release",

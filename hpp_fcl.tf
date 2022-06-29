@@ -2,8 +2,8 @@ locals {
   hpp_fcl_team = [
     "jcarpent",
     "jmirabel",
-    "wxmerkt",
     "nim65s",
+    "wxmerkt",
   ]
   hpp_fcl_repositories = [
     "hpp_fcl-release",

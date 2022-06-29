@@ -1,8 +1,8 @@
 locals {
   eigenpy_team = [
     "jcarpent",
-    "wxmerkt",
     "nim65s",
+    "wxmerkt",
   ]
   eigenpy_repositories = [
     "eigenpy-release",

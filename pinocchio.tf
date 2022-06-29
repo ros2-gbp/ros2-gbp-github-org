@@ -1,8 +1,8 @@
 locals {
   pinocchio_team = [
     "jcarpent",
-    "wxmerkt",
     "nim65s",
+    "wxmerkt",
   ]
   pinocchio_repositories = [
     "pinocchio-release",
