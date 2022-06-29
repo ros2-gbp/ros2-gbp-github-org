@@ -6,6 +6,8 @@ locals {
   control_repositories = [
     "control_msgs-release",
     "control_toolbox-release",
+    "gazebo_ros2_control-release",
+    "ign_ros2_control-release",
     "realtime_tools-release",
     "ros2_control-release",
     "ros2_controllers-release",
