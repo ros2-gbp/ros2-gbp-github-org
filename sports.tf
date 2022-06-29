@@ -7,6 +7,7 @@ locals {
     "gc_spl-release",
     "r2r_spl-release",
     "rcss3d_agent-release",
+    "rcss3d_nao-release",
     "ros_image_to_qimage-release",
     "rot_conv_lib-release",
     "rqt_image_overlay-release",
