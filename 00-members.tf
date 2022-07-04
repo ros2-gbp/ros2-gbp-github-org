@@ -111,6 +111,7 @@ locals {
       local.velodyne_team,
       local.vision_msgs_team,
       local.visp_team,
+      local.vrpn_team,
       local.xacro_team,
       local.zbar_ros_team,
       local.zenoh_bridge_dds_team,
