@@ -111,6 +111,7 @@ locals {
     local.velodyne_simulator_repositories,
     local.vision_msgs_repositories,
     local.visp_repositories,
+    local.wep21_repositories,
     local.xacro_repositories,
     local.zbar_ros_repositories,
     local.zenoh_bridge_dds_repositories,
