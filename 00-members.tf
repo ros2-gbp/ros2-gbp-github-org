@@ -30,6 +30,7 @@ locals {
       local.gazebo_team,
       local.geographic_info_team,
       local.grbl_team,
+      local.grid_map_team,
       local.gscam_team,
       local.gurumdds_team,
       local.hpp_fcl_team,
