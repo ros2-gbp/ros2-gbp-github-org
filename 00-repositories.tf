@@ -83,6 +83,7 @@ locals {
     local.rospy_message_converter_repositories,
     local.rplidar_ros_repositories,
     local.rqt_repositories,
+    local.rt_net_repositories,
     local.rtabmap_repositories,
     local.ruckig_repositories,
     local.security_wg_repositories,

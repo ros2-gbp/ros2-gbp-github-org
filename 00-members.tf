@@ -84,6 +84,7 @@ locals {
       local.rospy_message_converter_team,
       local.rplidar_ros_team,
       local.rqt_team,
+      local.rt_net_team,
       local.rtabmap_team,
       local.ruckig_team,
       local.security_wg_team,
