@@ -16,6 +16,7 @@ locals {
     "mjcarroll",
     "mjeronimo",
     "nuclearsandwich",
+    "quarkytale",
     "sloretz",
     "tfoote",
     "wjwwood",
