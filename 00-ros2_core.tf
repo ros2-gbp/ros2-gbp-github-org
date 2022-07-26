@@ -8,6 +8,7 @@ locals {
     "clalancette",
     "cottsay",
     "gbiggs",
+    "quarkytale",
     "hidmic",
     "ivanpauno",
     "j-rivero",
