@@ -139,6 +139,7 @@ resource "github_repository" "repositories" {
       has_downloads,
       has_issues,
       has_wiki,
+      homepage_url,
       vulnerability_alerts
     ]
   }
