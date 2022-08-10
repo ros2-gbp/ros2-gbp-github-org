@@ -12,7 +12,9 @@ locals {
     "rot_conv_lib-release",
     "rqt_image_overlay-release",
     "soccer_interfaces-release",
+    "soccer_vision_2d_layers-release",
     "soccer_vision_3d_rviz_markers-release",
+    "vision_msgs_layers-release",
   ]
 }
 
