@@ -90,6 +90,7 @@ locals {
       local.ruckig_team,
       local.security_wg_team,
       local.simple_launch_team,
+      local.skylove_team,
       local.slider_publisher_team,
       local.smacc2_team,
       local.sports_team,
