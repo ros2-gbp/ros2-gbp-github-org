@@ -89,6 +89,7 @@ locals {
     local.ruckig_repositories,
     local.security_wg_repositories,
     local.simple_launch_repositories,
+    local.skylove_repositories,
     local.slider_publisher_repositories,
     local.smacc2_repositories,
     local.sports_repositories,
