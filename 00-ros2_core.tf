@@ -186,4 +186,5 @@ module "ros_team" {
   team_name    = "ros2-team"
   members      = local.ros_team
   repositories = local.ros_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }
