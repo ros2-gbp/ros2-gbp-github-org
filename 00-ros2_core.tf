@@ -16,6 +16,7 @@ locals {
     "mjcarroll",
     "mjeronimo",
     "nuclearsandwich",
+    "quarkytale",
     "sloretz",
     "tfoote",
     "wjwwood",
@@ -36,7 +37,7 @@ locals {
     "rclpy-release",
     "ros2cli_common_extensions-release",
     "ros_environment-release",
-    "rosidl_defaults-release",
+    "rosidl_core-release",
     "rosidl_defaults-release",
     "sros2-release",
   ]
@@ -185,4 +186,5 @@ module "ros_team" {
   team_name    = "ros2-team"
   members      = local.ros_team
   repositories = local.ros_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

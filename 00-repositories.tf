@@ -38,6 +38,7 @@ locals {
     local.ijnek_repositories,
     local.imu_tools_repositories,
     local.irobot_education_repositories,
+    local.josh_newans_repositories,
     local.lanelet2_repositories,
     local.lgsvl_repositories,
     local.libg2o_repositories,
@@ -83,10 +84,12 @@ locals {
     local.rospy_message_converter_repositories,
     local.rplidar_ros_repositories,
     local.rqt_repositories,
+    local.rt_net_repositories,
     local.rtabmap_repositories,
     local.ruckig_repositories,
     local.security_wg_repositories,
     local.simple_launch_repositories,
+    local.skylove_repositories,
     local.slider_publisher_repositories,
     local.smacc2_repositories,
     local.sports_repositories,
@@ -138,6 +141,7 @@ resource "github_repository" "repositories" {
       has_downloads,
       has_issues,
       has_wiki,
+      homepage_url,
       vulnerability_alerts
     ]
   }

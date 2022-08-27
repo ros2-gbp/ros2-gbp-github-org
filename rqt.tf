@@ -21,6 +21,7 @@ locals {
     "rqt_service_caller-release",
     "rqt_shell-release",
     "rqt_srv-release",
+    "rqt_tf_tree-release",
     "rqt_top-release",
     "rqt_topic-release",
   ]
