@@ -4,6 +4,7 @@ locals {
   ]
   vrpn_repositories = [
     "vrpn-release",
+    "vrpn_mocap-release",
   ]
 }
 
