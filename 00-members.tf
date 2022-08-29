@@ -22,6 +22,7 @@ locals {
       local.dolly_team,
       local.eigenpy_team,
       local.fastcdr_team,
+      local.fictionlab_team,
       local.fmi_team,
       local.fogros2_team,
       local.fortefibre_team,

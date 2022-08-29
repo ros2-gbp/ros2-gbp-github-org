@@ -21,6 +21,7 @@ locals {
     local.dolly_repositories,
     local.eigenpy_repositories,
     local.fastcdr_repositories,
+    local.fictionlab_repositories,
     local.fmi_repositories,
     local.fogros2_repositories,
     local.fortefibre_repositories,
