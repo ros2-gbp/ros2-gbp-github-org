@@ -1,0 +1,20 @@
+locals {
+  fictionlab_team = [
+    "Bitterisland6",
+    "bjsowa",
+    "szlachcic",
+  ]
+  fictionlab_repositories = [
+    "leo_common-release",
+    "leo_desktop-release",
+    "leo_robot-release",
+  ]
+}
+
+module "fictionlab_team" {
+  source       = "./modules/release_team"
+  team_name    = "fictionlab"
+  members      = local.fictionlab_team
+  repositories = local.fictionlab_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
+}
