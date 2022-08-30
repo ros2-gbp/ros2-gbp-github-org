@@ -80,6 +80,7 @@ locals {
       local.robotis_team,
       local.robotwebtools_team,
       local.ros_canopen_team,
+      local.ros_industrial_team,
       local.ros_team,
       local.rosauth_team,
       local.rosbag2_team,
