@@ -6,7 +6,6 @@ locals {
     "mjd3",
     "SimeonOA",
     "zhanhugo",
-    "ghassemiramtin",
     "xzrderek",
   ]
   fogros2_repositories = [
