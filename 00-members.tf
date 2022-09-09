@@ -116,6 +116,7 @@ locals {
       local.velodyne_simulator_team,
       local.velodyne_team,
       local.vision_msgs_team,
+      local.vision_opencv_team,
       local.visp_team,
       local.vrpn_team,
       local.wep21_team,
