@@ -79,6 +79,7 @@ locals {
     local.robotis_repositories,
     local.robotwebtools_repositories,
     local.ros_canopen_repositories,
+    local.ros_industrial_repositories,
     local.ros_repositories,
     local.rosauth_repositories,
     local.rosbag2_repositories,
