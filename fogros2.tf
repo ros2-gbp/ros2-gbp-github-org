@@ -1,7 +1,6 @@
 locals {
   fogros2_team = [
     "vmayoral",
-    "jeffi",
     "KeplerC",
     "KDharmarajanDev",
     "mjd3",
