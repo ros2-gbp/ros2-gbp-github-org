@@ -1,6 +1,5 @@
 locals {
   tsid_team = [
-    "andreadelprete",
     "jcarpent",
     "nim65s",
     "olivier-stasse",
