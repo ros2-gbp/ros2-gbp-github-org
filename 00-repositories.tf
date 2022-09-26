@@ -97,6 +97,7 @@ locals {
     local.sports_repositories,
     local.swri_repositories,
     local.system_modes_repositories,
+    local.teamspatzenhirn_repositories,
     local.tf_transformations_repositories,
     local.tier4_repositories,
     local.tooling_wg_repositories,

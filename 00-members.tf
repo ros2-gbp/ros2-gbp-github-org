@@ -98,6 +98,7 @@ locals {
       local.sports_team,
       local.swri_team,
       local.system_modes_team,
+      local.teamspatzenhirn_team,
       local.tf_transformations_team,
       local.tier4_team,
       local.tooling_wg_team,
