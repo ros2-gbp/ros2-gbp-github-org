@@ -52,6 +52,7 @@ locals {
     local.moveit_repositories,
     local.mrpt2_repositories,
     local.mrt_cmake_modules_repositories,
+    local.naoqi_repositories,
     local.navigation_repositories,
     local.neobotix_repositories,
     local.nmea_repositories,
