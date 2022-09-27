@@ -10,6 +10,7 @@ locals {
     "mrpt_sensors-release",
     "mrpt_slam-release",
     "pose_cov_ops-release",
+    "mvsim-release"
   ]
 }
 
