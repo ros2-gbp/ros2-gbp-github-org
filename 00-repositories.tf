@@ -40,6 +40,7 @@ locals {
     local.imu_tools_repositories,
     local.irobot_education_repositories,
     local.josh_newans_repositories,
+    local.kobuki_base_repositories,
     local.lanelet2_repositories,
     local.lgsvl_repositories,
     local.libg2o_repositories,
