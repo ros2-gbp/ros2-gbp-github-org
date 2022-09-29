@@ -1,5 +1,7 @@
 locals {
   apriltag_team = [
+    "christian-rauch",
+    "christianrauch",
     "mkrogius",
     "wxmerkt",
   ]
