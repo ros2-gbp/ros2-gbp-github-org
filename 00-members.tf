@@ -41,6 +41,7 @@ locals {
       local.imu_tools_team,
       local.irobot_education_team,
       local.josh_newans_team,
+      local.kobuki_base_team,
       local.lanelet2_team,
       local.lgsvl_team,
       local.libg2o_team,
