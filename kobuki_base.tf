@@ -4,6 +4,7 @@ locals {
     "stonier",
   ]
   kobuki_base_repositories = [
+    "kobuki_ros_interfaces-release",
     "kobuki_velocity_smoother-release",
   ]
 }
