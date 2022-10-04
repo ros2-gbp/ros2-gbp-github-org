@@ -3,6 +3,7 @@ locals {
     "MichaelOrlov",
     "defunctzombie",
     "emersonknapp",
+    "james-rms",
     "jhurliman",
     "jtbandes",
     "wep21",
