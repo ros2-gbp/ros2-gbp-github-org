@@ -1,12 +1,15 @@
 locals {
   robotis_team = [
     "ROBOTIS-Will",
+    "robotpilot",
   ]
   robotis_repositories = [
     "dynamixel_sdk-release",
     "hls_lfcd_lds_driver-release",
     "turtlebot3_msgs-release",
     "turtlebot3_simulations-release",
+    "dynamixel_workbench-release",
+    "dynamixel_workbench_msgs-release",
   ]
 }
 
