@@ -8,6 +8,7 @@ locals {
     "control_toolbox-release",
     "gazebo_ros2_control-release",
     "ign_ros2_control-release",
+    "kinematics_interface-release",
     "realtime_tools-release",
     "ros2_control-release",
     "ros2_controllers-release",
