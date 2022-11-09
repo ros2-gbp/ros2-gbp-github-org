@@ -37,6 +37,7 @@ locals {
     local.iceoryx_repositories,
     local.ifm3d_repositories,
     local.ijnek_repositories,
+    local.image_transport_plugins_repositories,
     local.imu_tools_repositories,
     local.irobot_education_repositories,
     local.josh_newans_repositories,

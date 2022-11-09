@@ -38,6 +38,7 @@ locals {
       local.iceoryx_team,
       local.ifm3d_team,
       local.ijnek_team,
+      local.image_transport_plugins_team,
       local.imu_tools_team,
       local.irobot_education_team,
       local.josh_newans_team,
