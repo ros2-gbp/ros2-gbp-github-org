@@ -104,6 +104,7 @@ locals {
     local.system_modes_repositories,
     local.teamspatzenhirn_repositories,
     local.tf_transformations_repositories,
+    local.the_construct_repositories,
     local.tier4_repositories,
     local.tooling_wg_repositories,
     local.tracing_repositories,
