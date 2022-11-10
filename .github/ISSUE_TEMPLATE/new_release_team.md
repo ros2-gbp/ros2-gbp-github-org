@@ -11,8 +11,10 @@ title: 'Add release team'
   Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.
   -->
   * [FIRST_REPOSITORY](SOURCE URL)
+    * [ros/rosdistro source entry](LINK TO SOURCE FIELD IN ROS/ROSDISTRO)
     * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>
   * [SECOND REPOSITORY](SOURCE URL)
+    * [ros/rosdistro source entry](LINK TO SOURCE FIELD IN ROS/ROSDISTRO)
     * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>
   * ...
 
