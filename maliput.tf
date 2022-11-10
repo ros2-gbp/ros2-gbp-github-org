@@ -28,4 +28,5 @@ module "maliput_team" {
   team_name    = "maliput"
   members      = local.maliput_team
   repositories = local.maliput_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }

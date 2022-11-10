@@ -16,4 +16,5 @@ module "foxglove_bridge_team" {
   team_name    = "foxglove_bridge"
   members      = local.foxglove_bridge_team
   repositories = local.foxglove_bridge_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
 }
