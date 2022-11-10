@@ -5,6 +5,7 @@ locals {
     "szlachcic",
   ]
   fictionlab_repositories = [
+    "aruco_opencv-release",
     "leo_common-release",
     "leo_desktop-release",
     "leo_robot-release",
