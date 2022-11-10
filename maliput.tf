@@ -17,7 +17,9 @@ locals {
     "maliput_multilane-release",
     "maliput_object-release",
     "maliput_object_py-release",
+    "maliput_osm-release",
     "maliput_py-release",
+    "maliput_sparse-release",
   ]
 }
 
