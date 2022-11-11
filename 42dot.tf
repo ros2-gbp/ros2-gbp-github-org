@@ -3,7 +3,7 @@ locals {
     "huchijwk",
   ]
   _42dot_repositories = [
-    "42dot-release",
+    "foros-release",
   ]
 }
 
