@@ -21,6 +21,7 @@ locals {
       local.cyclonedds_team,
       local.diagnostics_team,
       local.dolly_team,
+      local.dynamixel_community_team,
       local.eigenpy_team,
       local.fastcdr_team,
       local.fictionlab_team,
