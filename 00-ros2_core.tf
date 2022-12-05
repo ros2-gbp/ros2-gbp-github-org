@@ -13,6 +13,7 @@ locals {
     "j-rivero",
     "jacobperron",
     "mabelzhang",
+    "methylDragon",
     "mjcarroll",
     "mjeronimo",
     "nuclearsandwich",
