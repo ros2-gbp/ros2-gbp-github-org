@@ -20,6 +20,7 @@ locals {
     "maliput_osm-release",
     "maliput_py-release",
     "maliput_sparse-release",
+    "maliput_viz-release",
   ]
 }
 
