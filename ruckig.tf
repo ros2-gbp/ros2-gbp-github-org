@@ -1,6 +1,7 @@
 locals {
   ruckig_team = [
     "pantor",
+    "vatanaksoytezer",
   ]
   ruckig_repositories = [
     "ruckig-release",
