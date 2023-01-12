@@ -4,6 +4,7 @@ locals {
   ]
   behaviortree_repositories = [
     "behaviortree_cpp-release",
+    "behaviortree_cpp-release-v4",
   ]
 }
 
