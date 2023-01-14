@@ -154,6 +154,7 @@ resource "github_repository" "repositories" {
       etag,
       has_downloads,
       has_issues,
+      has_projects,
       has_wiki,
       homepage_url,
       vulnerability_alerts
@@ -177,6 +178,7 @@ resource "github_repository" "ros2-gbp-github-org" {
       description,
       etag,
       has_downloads,
+      has_projects,
       has_issues,
       has_wiki,
       vulnerability_alerts
