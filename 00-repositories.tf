@@ -13,6 +13,7 @@ locals {
     local.aws_repositories,
     local.behaviortree_repositories,
     local.bno055_repositories,
+    local.cascade_lifecycle_repositories,
     local.connextdds_repositories,
     local.control_box_rst_repositories,
     local.control_repositories,
