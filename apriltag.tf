@@ -7,6 +7,8 @@ locals {
   ]
   apriltag_repositories = [
     "apriltag-release",
+    "apriltag_msgs-release",
+    "apriltag_ros-release",
   ]
 }
 
