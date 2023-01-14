@@ -96,6 +96,7 @@ locals {
     local.rt_net_repositories,
     local.rtabmap_repositories,
     local.ruckig_repositories,
+    local.schunk_svh_repositories,
     local.security_wg_repositories,
     local.simple_launch_repositories,
     local.skylove_repositories,
