@@ -97,6 +97,7 @@ locals {
       local.rt_net_team,
       local.rtabmap_team,
       local.ruckig_team,
+      local.schunk_svh_team,
       local.security_wg_team,
       local.simple_launch_team,
       local.skylove_team,
