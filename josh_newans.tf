@@ -3,6 +3,7 @@ locals {
     "joshnewans",
   ]
   josh_newans_repositories = [
+    "joy_tester-release",
     "twist_stamper-release",
   ]
 }
