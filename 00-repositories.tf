@@ -77,6 +77,7 @@ locals {
     local.picknik_repositories,
     local.pinocchio_repositories,
     local.plotjuggler_repositories,
+    local.py_trees_repositories,
     local.rclc_repositories,
     local.rcpputils_repositories,
     local.realsense_repositories,

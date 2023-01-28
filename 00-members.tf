@@ -78,6 +78,7 @@ locals {
       local.picknik_team,
       local.pinocchio_team,
       local.plotjuggler_team,
+      local.py_trees_team,
       local.rclc_team,
       local.rcpputils_team,
       local.realsense_team,
