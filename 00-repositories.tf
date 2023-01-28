@@ -115,6 +115,7 @@ locals {
     local.transport_drivers_repositories,
     local.tsid_repositories,
     local.turtlebot4_repositories,
+    local.tuw_robotics_repositories,
     local.twist_mux_repositories,
     local.ublox_repositories,
     local.udp_msgs_repositories,
