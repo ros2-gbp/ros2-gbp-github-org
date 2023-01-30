@@ -1,6 +1,7 @@
 locals {
   lanelet2_team = [
     "poggenhans",
+    "immel-f",
   ]
   lanelet2_repositories = [
     "lanelet2-release",
