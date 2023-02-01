@@ -6,6 +6,7 @@ locals {
     "tylerjw",
     "v4hn",
     "vatanaksoytezer",
+    "christhrasher",
   ]
   moveit_repositories = [
     "generate_parameter_library-release",
