@@ -15,6 +15,7 @@ locals {
       local.aws_team,
       local.behaviortree_team,
       local.bno055_team,
+      local.borglab_team,
       local.cascade_lifecycle_team,
       local.connextdds_team,
       local.control_box_rst_team,
