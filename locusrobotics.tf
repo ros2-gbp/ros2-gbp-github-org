@@ -1,5 +1,6 @@
 locals {
   locusrobotics_team = [
+    "ayrton04",
     "svwilliams",
   ]
   locusrobotics_repositories = [
