@@ -1,5 +1,6 @@
 locals {
   lanelet2_team = [
+    "immel-f",
     "poggenhans",
   ]
   lanelet2_repositories = [
