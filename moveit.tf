@@ -14,6 +14,7 @@ locals {
     "moveit2-release",
     "moveit_msgs-release",
     "moveit_resources-release",
+    "moveit_task_constructor-release",
     "moveit_visual_tools-release",
     "pick_ik-release",
     "random_numbers-release",
