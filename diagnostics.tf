@@ -1,7 +1,7 @@
 locals {
   diagnostics_team = [
-    "ralph-lange",
     "ct2034",
+    "ralph-lange",
   ]
   diagnostics_repositories = [
     "diagnostics-release",
