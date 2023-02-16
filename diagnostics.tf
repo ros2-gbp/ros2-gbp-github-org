@@ -1,5 +1,6 @@
 locals {
   diagnostics_team = [
+    "ct2034",
     "ralph-lange",
   ]
   diagnostics_repositories = [
