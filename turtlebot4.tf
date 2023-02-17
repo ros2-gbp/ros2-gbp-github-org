@@ -10,6 +10,7 @@ locals {
     "turtlebot4_desktop-release",
     "turtlebot4_examples-release",
     "turtlebot4_robot-release",
+    "turtlebot4_setup-release",
     "turtlebot4_simulator-release",
     "turtlebot4_tutorials-release",
   ]
