@@ -1,6 +1,7 @@
 locals {
   vision_msgs_team = [
     "Kukanani",
+    "SteveMacenski",
   ]
   vision_msgs_repositories = [
     "vision_msgs-release",
