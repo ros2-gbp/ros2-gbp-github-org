@@ -10,10 +10,10 @@ locals {
   gazebo_repositories = [
     "gazebo_ros2_control-release",
     "gazebo_ros_pkgs-release",
-    "ign_rviz-release",
+    "gz_cmake2_vendor-release",
+    "gz_math6_vendor-release",
     "ign_ros2_control-release",
-    "ignition_cmake2_vendor-release",
-    "ignition_math6_vendor-release",
+    "ign_rviz-release",
     "ros_ign-release",
   ]
 }
