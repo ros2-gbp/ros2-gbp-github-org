@@ -4,6 +4,7 @@ locals {
     "ottojo",
   ]
   teamspatzenhirn_repositories = [
+    "rig_reconfigure-release",
     "rviz_2d_overlay_plugins-release",
   ]
 }
