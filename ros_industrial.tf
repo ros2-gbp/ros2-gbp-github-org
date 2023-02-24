@@ -5,6 +5,7 @@ locals {
   ]
   ros_industrial_repositories = [
     "ros_industrial_cmake_boilerplate-release",
+    "stomp-release",
   ]
 }
 
