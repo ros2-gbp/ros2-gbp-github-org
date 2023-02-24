@@ -1,6 +1,7 @@
 locals {
   ros_industrial_team = [
     "Levi-Armstrong",
+    "marip8",
   ]
   ros_industrial_repositories = [
     "ros_industrial_cmake_boilerplate-release",
