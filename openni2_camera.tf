@@ -1,7 +1,7 @@
 locals {
   openni2_camera_team = [
-    "mikeferguson",
     "130s",
+    "mikeferguson",
   ]
   openni2_camera_repositories = [
     "openni2_camera-release",
