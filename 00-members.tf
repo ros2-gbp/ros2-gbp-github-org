@@ -52,6 +52,7 @@ locals {
       local.lanelet2_team,
       local.lgsvl_team,
       local.libg2o_team,
+      local.libcamera_team,
       local.locator_ros_bridge_team,
       local.locusrobotics_team,
       local.maliput_team,

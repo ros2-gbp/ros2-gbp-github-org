@@ -50,6 +50,7 @@ locals {
     local.kobuki_base_repositories,
     local.lanelet2_repositories,
     local.lgsvl_repositories,
+    local.libcamera_repositories,
     local.libg2o_repositories,
     local.locator_ros_bridge_repositories,
     local.locusrobotics_repositories,
