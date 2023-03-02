@@ -72,6 +72,7 @@ locals {
       local.object_analytics_team,
       local.octomap_team,
       local.ompl_team,
+      local.openni2_camera_team,
       local.ouster_drivers_team,
       local.ouxt_team,
       local.pal_robotics_team,
