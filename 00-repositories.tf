@@ -71,6 +71,7 @@ locals {
     local.object_analytics_repositories,
     local.octomap_repositories,
     local.ompl_repositories,
+    local_openni2_camera_repositories,
     local.ouster_drivers_repositories,
     local.ouxt_repositories,
     local.pal_robotics_repositories,
