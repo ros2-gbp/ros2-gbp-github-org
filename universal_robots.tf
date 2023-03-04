@@ -1,5 +1,6 @@
 locals {
   universal_robots_team = [
+    "RobertWilbrandt",
     "fmauch",
     "t-schnell",
   ]
