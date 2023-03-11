@@ -107,6 +107,7 @@ locals {
       local.schunk_svh_team,
       local.security_wg_team,
       local.simple_launch_team,
+      local.simple_robotics_team,
       local.skylove_team,
       local.slider_publisher_team,
       local.smacc2_team,
