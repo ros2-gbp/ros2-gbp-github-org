@@ -4,6 +4,7 @@ locals {
   ]
   wep21_repositories = [
     "bag2_to_image-release",
+    "tinyspline_vendor-release",
     "turbojpeg_compressed_image_transport-release",
   ]
 }
