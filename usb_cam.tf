@@ -1,6 +1,7 @@
 locals {
   usb_cam_team = [
     "flynneva",
+    "knorth55",
   ]
   usb_cam_repositories = [
     "usb_cam-release",
