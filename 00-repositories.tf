@@ -22,6 +22,7 @@ locals {
     local.cyberbotics_repositories,
     local.cyclonedds_repositories,
     local.diagnostics_repositories,
+    local.dlu_repositories,
     local.dolly_repositories,
     local.dynamixel_community_repositories,
     local.eigenpy_repositories,
