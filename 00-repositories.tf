@@ -56,6 +56,7 @@ locals {
     local.locusrobotics_repositories,
     local.maliput_repositories,
     local.mavlink_repositories,
+    local.metro_robots_repositories,
     local.microstrain_repositories,
     local.micro_ros_diagnostics_repositories,
     local.micro_ros_msgs_repositories,
