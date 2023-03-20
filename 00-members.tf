@@ -112,6 +112,7 @@ locals {
       local.slider_publisher_team,
       local.smacc2_team,
       local.sports_team,
+      local.stonier_team,
       local.swri_team,
       local.system_modes_team,
       local.teamspatzenhirn_team,
