@@ -8,6 +8,7 @@ locals {
     "hash_library_vendor-release",
     "osqp_vendor-release",
     "tensorrt_cmake_module-release",
+    "zmqpp_vendor-release",
   ]
 }
 
