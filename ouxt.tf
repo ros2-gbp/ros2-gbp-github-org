@@ -3,6 +3,7 @@ locals {
     "hakuturu583",
   ]
   ouxt_repositories = [
+    "boost_geometry_util-release",
     "color_names-release",
     "nmea_hardware_interface-release",
     "ouxt_common-release",
