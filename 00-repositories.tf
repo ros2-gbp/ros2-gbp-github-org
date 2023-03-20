@@ -38,6 +38,7 @@ locals {
     local.grbl_repositories,
     local.grid_map_repositories,
     local.gscam_repositories,
+    local.gstavrinos_repositories,
     local.gurumdds_repositories,
     local.hpp_fcl_repositories,
     local.iceoryx_repositories,
