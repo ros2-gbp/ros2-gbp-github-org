@@ -4,6 +4,7 @@ locals {
   ]
   metro_robots_repositories = [
     "ros_system_fingerprint-release",
+    "simple_actions-release",
   ]
 }
 
