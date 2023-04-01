@@ -112,6 +112,7 @@ locals {
     local.slider_publisher_repositories,
     local.smacc2_repositories,
     local.sports_repositories,
+    local.stonier_repositories,
     local.swri_repositories,
     local.system_modes_repositories,
     local.teamspatzenhirn_repositories,
