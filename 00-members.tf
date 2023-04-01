@@ -47,6 +47,7 @@ locals {
       local.ijnek_team,
       local.image_transport_plugins_team,
       local.imu_tools_team,
+      local.introlab_team,
       local.irobot_education_team,
       local.josh_newans_team,
       local.kobuki_base_team,
