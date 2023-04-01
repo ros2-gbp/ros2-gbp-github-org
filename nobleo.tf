@@ -5,6 +5,7 @@ locals {
   nobleo_repositories = [
     "libnabo-release",
     "libpointmatcher-release",
+    "rtcm_msgs-release",
   ]
 }
 
