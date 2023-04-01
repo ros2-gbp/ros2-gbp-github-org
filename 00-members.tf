@@ -40,6 +40,7 @@ locals {
       local.grbl_team,
       local.grid_map_team,
       local.gscam_team,
+      local.gstavrinos_team,
       local.gurumdds_team,
       local.hpp_fcl_team,
       local.iceoryx_team,
