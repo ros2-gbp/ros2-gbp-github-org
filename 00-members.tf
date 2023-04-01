@@ -60,6 +60,7 @@ locals {
       local.locusrobotics_team,
       local.maliput_team,
       local.mavlink_team,
+      local.metro_robots_team,
       local.micro_ros_diagnostics_team,
       local.micro_ros_msgs_team,
       local.microstrain_team,
