@@ -10,6 +10,7 @@ locals {
     local.apriltag_repositories,
     local.astuff_repositories,
     local.async_web_server_cpp_repositories,
+    local.aussierobots_repositories,
     local.autoware_repositories,
     local.aws_repositories,
     local.behaviortree_repositories,

@@ -11,6 +11,7 @@ locals {
       local.apriltag_team,
       local.astuff_team,
       local.async_web_server_cpp_team,
+      local.aussierobots_team,
       local.autoware_team,
       local.aws_team,
       local.behaviortree_team,
