@@ -6,6 +6,7 @@ locals {
     "vatanaksoytezer",
   ]
   picknik_repositories = [
+    "cpp_polyfills-release",
     "graph_msgs-release",
     "launch_param_builder-release",
     "picknik_ament_copyright-release",
