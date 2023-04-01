@@ -10,6 +10,7 @@ locals {
     "laser_geometry-release",
     "object_recognition_msgs-release",
     "pcl_msgs-release",
+    "perception_open3d-release",
     "perception_pcl-release",
     "pointcloud_to_laserscan-release",
     "radar_msgs-release",
