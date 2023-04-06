@@ -103,6 +103,7 @@ locals {
     local.rosbag2_repositories,
     local.rospy_message_converter_repositories,
     local.rplidar_ros_repositories,
+    local.rplidar_repositories,
     local.rqt_repositories,
     local.rt_net_repositories,
     local.rtabmap_repositories,

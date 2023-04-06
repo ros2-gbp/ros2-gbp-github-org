@@ -104,6 +104,7 @@ locals {
       local.rosbag2_team,
       local.rospy_message_converter_team,
       local.rplidar_ros_team,
+      local.rplidar_team,
       local.rqt_team,
       local.rt_net_team,
       local.rtabmap_team,
