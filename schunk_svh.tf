@@ -1,5 +1,6 @@
 locals {
   schunk_svh_team = [
+    "harry-arnst",
     "stefanscherzinger",
   ]
   schunk_svh_repositories = [
