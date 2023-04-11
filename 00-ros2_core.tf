@@ -21,6 +21,7 @@ locals {
     "sloretz",
     "tfoote",
     "wjwwood",
+    "Yadunund",
   ]
 
   ros_core_repositories = [
