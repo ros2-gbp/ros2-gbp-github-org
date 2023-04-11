@@ -149,6 +149,8 @@ locals {
     "rosbridge_suite-release",
     "rosidl-release",
     "rosidl_dds-release",
+    "rosidl_dynamic_typesupport-release",
+    "rosidl_dynamic_typesupport_fastrtps-release",
     "rosidl_python-release",
     "rosidl_runtime_py-release",
     "rosidl_typesupport-release",
