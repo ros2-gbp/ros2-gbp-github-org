@@ -5,7 +5,9 @@ locals {
   tuw_robotics_repositories = [
     "marker_msgs-release",
     "marker_rviz_plugin-release",
+    "tuw_geometry-release",
     "tuw_msgs-release",
+    "tuw_rviz_plugins-release",
   ]
 }
 
