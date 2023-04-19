@@ -11,6 +11,7 @@ locals {
     "cottsay",
     "nuclearsandwich",
     "tfoote",
+    "Yadunund",
   ]
 }
 
