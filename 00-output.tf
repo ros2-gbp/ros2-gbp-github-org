@@ -2,7 +2,7 @@
 output "unmanaged_members" {
   value = setsubtract(
     [for member in data.github_organization.ros2-gbp.members : lower(member)],
-    [for member in setunion(local.ros_admins, local.non_admin_members) : lower(member)]
+    [for member in local.members : lower(member)]
   )
 }
 

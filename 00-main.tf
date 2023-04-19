@@ -14,10 +14,3 @@ locals {
     "Yadunund",
   ]
 }
-
-resource "github_membership" "ros_admins" {
-  for_each = toset(local.ros_admins)
-  username = each.value
-  role     = "admin"
-}
-
