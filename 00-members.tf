@@ -155,7 +155,7 @@ locals {
 resource "github_membership" "members" {
   for_each = local.members
 
-  username = each.value 
+  username = each.value
   role     = contains(local.ros_admins, each.value) ? "admin" : "member"
 }
 
