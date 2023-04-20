@@ -19,9 +19,7 @@ locals {
     "maliput_object_py-release",
     "maliput_osm-release",
     "maliput_py-release",
-    "maliput_ros",
-    "maliput_ros_interfaces",
-    "maliput_ros_translation",
+    "maliput_ros-release",
     "maliput_sparse-release",
     "maliput_viz-release",
   ]
