@@ -15,6 +15,7 @@ locals {
     "ign_ros2_control-release",
     "ign_rviz-release",
     "ros_ign-release",
+    "ros_gz-release",
   ]
 }
 
