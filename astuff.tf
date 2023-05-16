@@ -3,6 +3,7 @@ locals {
     "icolwell-as",
   ]
   astuff_repositories = [
+    "astuff_sensor_msgs-release",
     "automotive_autonomy_msgs-release",
     "avt_vimba_camera-release",
   ]
