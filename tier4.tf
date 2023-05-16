@@ -6,6 +6,7 @@ locals {
   tier4_repositories = [
     "cudnn_cmake_module-release",
     "hash_library_vendor-release",
+    "heaphook-release",
     "osqp_vendor-release",
     "tensorrt_cmake_module-release",
     "zmqpp_vendor-release",
