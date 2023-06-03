@@ -3,10 +3,13 @@ locals {
     "DLu",
   ]
   metro_robots_repositories = [
+    "classic_bags-release",
     "color_util-release",
     "polygon_ros-release",
     "ros_system_fingerprint-release",
     "simple_actions-release",
+    "social_nav_ros-release",
+    "urdf_launch-release",
   ]
 }
 
