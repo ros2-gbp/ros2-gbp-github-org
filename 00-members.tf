@@ -74,6 +74,7 @@ locals {
     local.nobleo_team,
     local.nodl_team,
     local.ntpd_driver_team,
+    local.numsr_team,
     local.object_analytics_team,
     local.octomap_team,
     local.ompl_team,

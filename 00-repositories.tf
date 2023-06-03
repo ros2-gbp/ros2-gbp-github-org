@@ -74,6 +74,7 @@ locals {
     local.nobleo_repositories,
     local.nodl_repositories,
     local.ntpd_driver_repositories,
+    local.numsr_repositories,
     local.object_analytics_repositories,
     local.octomap_repositories,
     local.ompl_repositories,
