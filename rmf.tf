@@ -21,6 +21,7 @@ locals {
     "rmf_traffic-release",
     "rmf_traffic_editor-release",
     "rmf_utils-release",
+    "rmf_variants-release",
     "rmf_visualization-release",
     "rmf_visualization_msgs-release",
     "stubborn_buddies-release",
