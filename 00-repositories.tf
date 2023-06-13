@@ -26,6 +26,7 @@ locals {
     local.dolly_repositories,
     local.dynamixel_community_repositories,
     local.eigenpy_repositories,
+    local.executive_smach_repositories,
     local.fastcdr_repositories,
     local.fictionlab_repositories,
     local.fmi_repositories,
