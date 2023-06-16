@@ -1,6 +1,7 @@
 locals {
   septentrio_users_team = [
     "septentrio-users",
+    "tibordome",
   ]
   septentrio_users_repositories = [
     "septentrio_gnss_driver_ros2-release",
