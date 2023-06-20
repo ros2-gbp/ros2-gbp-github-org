@@ -2,6 +2,8 @@ locals {
   picknik_team = [
     "DLu",
     "JafarAbdi",
+    "MarqRazz",
+    "moriarty",
     "tylerjw",
     "vatanaksoytezer",
   ]
