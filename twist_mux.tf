@@ -4,6 +4,7 @@ locals {
   ]
   twist_mux_repositories = [
     "twist_mux-release",
+    "twist_mux_msgs-release",
   ]
 }
 
