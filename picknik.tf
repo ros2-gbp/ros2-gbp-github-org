@@ -12,6 +12,7 @@ locals {
     "graph_msgs-release",
     "launch_param_builder-release",
     "picknik_ament_copyright-release",
+    "picknik_controllers-release",
     "rviz_visual_tools-release",
     "snowbot_release",
   ]
