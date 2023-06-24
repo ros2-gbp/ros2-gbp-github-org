@@ -26,6 +26,7 @@ locals {
     local.dolly_team,
     local.dynamixel_community_team,
     local.eigenpy_team,
+    local.executive_smach_team,
     local.fastcdr_team,
     local.fictionlab_team,
     local.fmi_team,
