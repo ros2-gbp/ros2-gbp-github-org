@@ -1,7 +1,9 @@
 locals {
   rt_net_team = [
+    "Kuwamai",
     "ShotaAk",
     "Tiryoh",
+    "YusukeKato",
     "shu-rt",
   ]
   rt_net_repositories = [
