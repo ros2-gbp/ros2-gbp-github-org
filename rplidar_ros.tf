@@ -1,6 +1,6 @@
 locals {
   rplidar_ros_team = [
-    "allenh1",
+    "deyouslamtec",
   ]
   rplidar_ros_repositories = [
     "rplidar_ros-release",
