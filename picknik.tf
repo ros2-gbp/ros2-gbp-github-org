@@ -13,6 +13,7 @@ locals {
     "launch_param_builder-release",
     "picknik_ament_copyright-release",
     "picknik_controllers-release",
+    "ros2_robotiq_gripper-release",
     "rviz_visual_tools-release",
     "snowbot_release",
   ]
