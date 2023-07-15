@@ -51,6 +51,7 @@ locals {
     local.introlab_repositories,
     local.irobot_education_repositories,
     local.josh_newans_repositories,
+    local.kinova_robotics_repositories,
     local.kobuki_base_repositories,
     local.lanelet2_repositories,
     local.lgsvl_repositories,

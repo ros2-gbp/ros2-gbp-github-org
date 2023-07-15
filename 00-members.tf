@@ -51,6 +51,7 @@ locals {
     local.introlab_team,
     local.irobot_education_team,
     local.josh_newans_team,
+    local.kinova_robotics_team,
     local.kobuki_base_team,
     local.lanelet2_team,
     local.lgsvl_team,
