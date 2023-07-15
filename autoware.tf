@@ -1,7 +1,5 @@
 locals {
   autoware_team = [
-    "JWhitleyWork",
-    "kenji-miyake",
     "wep21",
   ]
 
