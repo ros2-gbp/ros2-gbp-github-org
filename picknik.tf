@@ -1,19 +1,24 @@
 locals {
   picknik_team = [
+    "ChrisThrasher",
     "DLu",
     "JafarAbdi",
     "MarqRazz",
     "moriarty",
+    "sea-bass",
     "tylerjw",
     "vatanaksoytezer",
   ]
   picknik_repositories = [
     "cpp_polyfills-release",
+    "generate_parameter_library-release",
     "graph_msgs-release",
     "launch_param_builder-release",
+    "pick_ik-release",
     "picknik_ament_copyright-release",
     "picknik_controllers-release",
     "ros2_robotiq_gripper-release",
+    "rsl-release",
     "rviz_visual_tools-release",
     "snowbot_release",
   ]
