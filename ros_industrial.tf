@@ -5,6 +5,8 @@ locals {
     "marip8",
   ]
   ros_industrial_repositories = [
+    "reach-release",
+    "reach_ros2-release",
     "ros2_canopen-release",
     "ros_industrial_cmake_boilerplate-release",
     "stomp-release",
