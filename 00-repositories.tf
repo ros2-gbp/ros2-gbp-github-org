@@ -29,6 +29,7 @@ locals {
     local.executive_smach_repositories,
     local.fastcdr_repositories,
     local.fictionlab_repositories,
+    local.flexbe_repositories,
     local.fmi_repositories,
     local.fogros2_repositories,
     local.fortefibre_repositories,

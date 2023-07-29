@@ -29,6 +29,7 @@ locals {
     local.executive_smach_team,
     local.fastcdr_team,
     local.fictionlab_team,
+    local.flexbe_team,
     local.fmi_team,
     local.fogros2_team,
     local.fortefibre_team,
