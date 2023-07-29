@@ -102,6 +102,7 @@ locals {
     local.robotwebtools_team,
     local.ros_admins,
     local.ros_canopen_team,
+    local.ros_event_camera_team,
     local.ros_industrial_team,
     local.ros_team,
     local.rosauth_team,
