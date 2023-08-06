@@ -3,6 +3,7 @@ locals {
     "wep21",
   ]
   wep21_repositories = [
+    "aws_sdk_cpp_vendor-release",
     "bag2_to_image-release",
     "tinyspline_vendor-release",
     "turbojpeg_compressed_image_transport-release",
