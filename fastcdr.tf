@@ -1,7 +1,7 @@
 locals {
   fastcdr_team = [
-    "MiguelCompany",
     "EduPonz",
+    "MiguelCompany",
   ]
   fastcdr_repositories = [
     "fastcdr-release",
