@@ -25,6 +25,7 @@ locals {
     local.diagnostics_repositories,
     local.dolly_repositories,
     local.dynamixel_community_repositories,
+    local.eclipse_ecal_repositories,
     local.eigenpy_repositories,
     local.executive_smach_repositories,
     local.fastcdr_repositories,
