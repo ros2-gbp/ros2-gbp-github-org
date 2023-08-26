@@ -25,6 +25,7 @@ locals {
     local.diagnostics_team,
     local.dolly_team,
     local.dynamixel_community_team,
+    local.eclipse_ecal_team,
     local.eigenpy_team,
     local.executive_smach_team,
     local.fastcdr_team,
