@@ -84,6 +84,7 @@ locals {
     local.ompl_repositories,
     local.openni2_camera_repositories,
     local.ouster_drivers_repositories,
+    local.ouster_repositories,
     local.ouxt_repositories,
     local.pal_robotics_repositories,
     local.perception_repositories,
