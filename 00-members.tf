@@ -83,6 +83,7 @@ locals {
     local.ompl_team,
     local.openni2_camera_team,
     local.ouster_drivers_team,
+    local.ouster_team,
     local.ouxt_team,
     local.pal_robotics_team,
     local.perception_team,
