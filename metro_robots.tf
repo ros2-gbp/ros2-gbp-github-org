@@ -5,10 +5,14 @@ locals {
   metro_robots_repositories = [
     "classic_bags-release",
     "color_util-release",
+    "metrics_msgs-release",
+    "metro_gazebo_plugins-release",
+    "metro_nav-release",
     "polygon_ros-release",
     "ros_system_fingerprint-release",
     "simple_actions-release",
     "social_nav_ros-release",
+    "the_navigation_gauntlet-release",
     "urdf_launch-release",
   ]
 }
