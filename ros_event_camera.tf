@@ -4,7 +4,10 @@ locals {
     "k-chaney",
   ]
   ros_event_camera_repositories = [
+    "event_camera_codecs-release",
     "event_camera_msgs-release",
+    "event_camera_py-release",
+    "event_camera_renderer-release",
     "metavision_driver-release",
   ]
 }
