@@ -130,6 +130,7 @@ locals {
     local.swri_repositories,
     local.system_modes_repositories,
     local.teamspatzenhirn_repositories,
+    local.techmagic_repositories,
     local.tf_transformations_repositories,
     local.the_construct_repositories,
     local.tier4_repositories,

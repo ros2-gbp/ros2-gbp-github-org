@@ -131,6 +131,7 @@ locals {
     local.swri_team,
     local.system_modes_team,
     local.teamspatzenhirn_team,
+    local.techmagic_team,
     local.tf_transformations_team,
     local.the_construct_team,
     local.tier4_team,
