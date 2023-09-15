@@ -1,6 +1,5 @@
 locals {
   eclipse_ecal_team = [
-    "FlorianReimold",
     "wep21",
   ]
   eclipse_ecal_repositories = [
