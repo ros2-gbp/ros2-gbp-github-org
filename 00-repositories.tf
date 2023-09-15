@@ -93,6 +93,7 @@ locals {
     local.pinocchio_repositories,
     local.plansys2_repositories,
     local.plotjuggler_repositories,
+    local.point_cloud_transport_repositories,
     local.py_trees_repositories,
     local.rclc_repositories,
     local.rcpputils_repositories,
