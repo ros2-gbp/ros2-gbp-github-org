@@ -4,7 +4,6 @@ locals {
     "mbusy",
     "mikaelarguedas",
     "nlyubova",
-    "suryaambrose",
     "zygopter",
   ]
   naoqi_repositories = [
