@@ -81,6 +81,7 @@ locals {
     local.numsr_team,
     local.object_analytics_team,
     local.octomap_team,
+    local.odri_team,
     local.ompl_team,
     local.openni2_camera_team,
     local.ouster_drivers_team,
@@ -168,4 +169,3 @@ resource "github_membership" "members" {
   username = each.value
   role     = contains(local.ros_admins, each.value) ? "admin" : "member"
 }
-
