@@ -1,7 +1,6 @@
 locals {
   flexbe_team = [
     "dcconner",
-    "pschillinger",
   ]
   flexbe_repositories = [
     "flexbe_app-release",
