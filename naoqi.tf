@@ -3,6 +3,7 @@ locals {
     "Karsten1987",
     "mbusy",
     "mikaelarguedas",
+    "nlyubova",
   ]
   naoqi_repositories = [
     "libqi-release",
