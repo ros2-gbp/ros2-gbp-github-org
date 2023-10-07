@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    github = {
+      source  = "integrations/github"
+      version = "5.34.0"
+    }
+  }
+}
+
 resource "github_team" "release_team" {
   name                      = var.team_name
   description               = "ROS release managers for the ${var.team_name} project"
