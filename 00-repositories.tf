@@ -5,6 +5,7 @@ locals {
     local._archived_repositories,
     local.acceleration_wg_repositories,
     local.ackermann_msgs_repositories,
+    local.andino_repositories,
     local.apex_repositories,
     local.aerostack2_repositories,
     local.apriltag_repositories,
