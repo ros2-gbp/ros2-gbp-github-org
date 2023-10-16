@@ -24,6 +24,7 @@ locals {
     local.cyberbotics_repositories,
     local.cyclonedds_repositories,
     local.diagnostics_repositories,
+    local.dexory_repositories,
     local.dolly_repositories,
     local.dynamixel_community_repositories,
     local.eclipse_ecal_repositories,

@@ -23,6 +23,7 @@ locals {
     local.control_team,
     local.cyberbotics_team,
     local.cyclonedds_team,
+    local.dexory_team,
     local.diagnostics_team,
     local.dolly_team,
     local.dynamixel_community_team,
