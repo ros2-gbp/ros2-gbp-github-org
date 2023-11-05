@@ -2,6 +2,7 @@ locals {
   fictionlab_team = [
     "Bitterisland6",
     "bjsowa",
+    "jasiex01",
     "szlachcic",
   ]
   fictionlab_repositories = [
