@@ -1,6 +1,6 @@
 locals {
   mobile_catkin_modules_build_development_tools_team = [
-    "Ronaldson Bellande",
+    "RonaldsonBellande",
   ]
   mobile_catkin_modules_build_development_tools_repositories = [
     "mobile_catkin_modules_build_development_tools-release",
