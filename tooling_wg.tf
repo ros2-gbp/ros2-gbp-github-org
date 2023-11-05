@@ -1,6 +1,7 @@
 locals {
   tooling_wg_team = [
     "MichaelOrlov",
+    "christophebedard",
     "defunctzombie",
     "emersonknapp",
     "james-rms",
