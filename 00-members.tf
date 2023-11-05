@@ -78,6 +78,7 @@ locals {
     local.naoqi_team,
     local.navigation_team,
     local.neobotix_team,
+    local.nlamprian_team,
     local.nmea_team,
     local.nobleo_team,
     local.nodl_team,
