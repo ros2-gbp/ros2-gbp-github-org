@@ -10,6 +10,7 @@ locals {
     "leo_common-release",
     "leo_desktop-release",
     "leo_robot-release",
+    "leo_simulator-release",
   ]
 }
 
