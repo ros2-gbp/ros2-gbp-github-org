@@ -4,6 +4,7 @@ locals {
     "mbusy",
     "mikaelarguedas",
     "nlyubova",
+    "victorpaleologue",
   ]
   naoqi_repositories = [
     "libqi-release",
