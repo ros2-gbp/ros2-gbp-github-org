@@ -6,6 +6,7 @@ locals {
     local.acceleration_wg_team,
     local.ackermann_msgs_team,
     local.aerostack2_team,
+    local.andino_team,
     local.apex_team,
     local.apriltag_team,
     local.astuff_team,
@@ -15,6 +16,7 @@ locals {
     local.aws_team,
     local.behaviortree_team,
     local.bno055_team,
+    local.boeing_team,
     local.borglab_team,
     local.cascade_lifecycle_team,
     local.connextdds_team,
@@ -22,6 +24,7 @@ locals {
     local.control_team,
     local.cyberbotics_team,
     local.cyclonedds_team,
+    local.dexory_team,
     local.diagnostics_team,
     local.dolly_team,
     local.dynamixel_community_team,
@@ -75,6 +78,7 @@ locals {
     local.naoqi_team,
     local.navigation_team,
     local.neobotix_team,
+    local.nlamprian_team,
     local.nmea_team,
     local.nobleo_team,
     local.nodl_team,
@@ -82,6 +86,7 @@ locals {
     local.numsr_team,
     local.object_analytics_team,
     local.octomap_team,
+    local.odri_team,
     local.ompl_team,
     local.openni2_camera_team,
     local.ouster_drivers_team,
@@ -122,6 +127,7 @@ locals {
     local.schunk_svh_team,
     local.security_wg_team,
     local.septentrio_users_team,
+    local.sick_safevisionary_team,
     local.simple_launch_team,
     local.simple_robotics_team,
     local.skylove_team,
@@ -169,4 +175,3 @@ resource "github_membership" "members" {
   username = each.value
   role     = contains(local.ros_admins, each.value) ? "admin" : "member"
 }
-
