@@ -75,6 +75,7 @@ locals {
     local.mrpt2_repositories,
     local.mrt_cmake_modules_repositories,
     local.mobile_catkin_modules_build_development_tools_repositories,
+    local.mobile_message_service_generator_repositories,
     local.naoqi_repositories,
     local.navigation_repositories,
     local.neobotix_repositories,
