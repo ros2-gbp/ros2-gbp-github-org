@@ -79,6 +79,7 @@ locals {
     local.humanoid_robot_module_team,
     local.humanoid_robot_demos_team,
     local.humanoid_robot_messages_team,
+    local.humanoid_robot_utility_team,
     local.naoqi_team,
     local.navigation_team,
     local.neobotix_team,
