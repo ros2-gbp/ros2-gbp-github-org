@@ -81,6 +81,7 @@ locals {
     local.humanoid_robot_messages_team,
     local.humanoid_robot_utility_team,
     local.humanoid_robot_framework_team,
+    local.humanoid_robot_tools_team,
     local.naoqi_team,
     local.navigation_team,
     local.neobotix_team,
