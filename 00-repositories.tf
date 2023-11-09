@@ -79,6 +79,7 @@ locals {
     local.humanoid_robot_module_repositories,
     local.humanoid_robot_demos_repositories,
     local.humanoid_robot_messages_repositories,
+    local.humanoid_robot_utility_repositories,
     local.naoqi_repositories,
     local.navigation_repositories,
     local.neobotix_repositories,
