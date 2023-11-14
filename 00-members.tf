@@ -76,7 +76,7 @@ locals {
     local.mrt_cmake_modules_team,
     local.mobile_catkin_modules_build_development_tools_team,
     local.mobile_message_service_generator_team,
-    local.humanoid_robot_module_team,
+    local.humanoid_robot_intelligence_control_system_module_team,
     local.naoqi_team,
     local.navigation_team,
     local.neobotix_team,
