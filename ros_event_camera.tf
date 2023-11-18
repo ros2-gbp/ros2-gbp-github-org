@@ -8,6 +8,7 @@ locals {
     "event_camera_msgs-release",
     "event_camera_py-release",
     "event_camera_renderer-release",
+    "libcaer_driver-release",
     "metavision_driver-release",
   ]
 }
