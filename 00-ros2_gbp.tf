@@ -41,6 +41,6 @@ resource "github_team_membership" "docs_team" {
 
 resource "github_team_repository" "docs_team" {
   team_id    = github_team.docs_team.id
-  repository = ".github"
+  repository = github_repository.dotgithub.name
   permission = "maintain"
 }
