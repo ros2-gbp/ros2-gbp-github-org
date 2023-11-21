@@ -4,6 +4,7 @@ locals {
     "jacobperron",
     "jonbinney",
     "paulbovbel",
+    "fred-apex-ai",
   ]
   perception_repositories = [
     "laser_filters-release",
