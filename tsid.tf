@@ -6,6 +6,7 @@ locals {
     "wxmerkt",
   ]
   tsid_repositories = [
+    "eiquadprog-release",
     "tsid-release",
   ]
 }
