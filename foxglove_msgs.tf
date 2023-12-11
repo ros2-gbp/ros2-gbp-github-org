@@ -3,7 +3,6 @@ locals {
     "achim-k",
     "amacneil",
     "defunctzombie",
-    "jhurliman",
     "jtbandes",
     "wep21"
   ]
