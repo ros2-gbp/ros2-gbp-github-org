@@ -1,10 +1,9 @@
 locals {
   gazebo_team = [
     "ahcorde",
-    "chapulina",
+    "azeey",
     "clalancette",
     "j-rivero",
-    "jacobperron",
     "mjcarroll",
   ]
   gazebo_repositories = [
