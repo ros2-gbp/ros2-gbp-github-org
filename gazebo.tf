@@ -1,10 +1,10 @@
 locals {
   gazebo_team = [
     "ahcorde",
+    "azeey",
     "clalancette",
     "j-rivero",
     "mjcarroll",
-    "azeey",
   ]
   gazebo_repositories = [
     "gazebo_ros2_control-release",
