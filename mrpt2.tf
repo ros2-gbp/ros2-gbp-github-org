@@ -5,6 +5,7 @@ locals {
   ]
   mrpt2_repositories = [
     "mola-release",
+    "mola_common-release",
     "mp2p_icp-release",
     "mrpt2-release",
     "mrpt_msgs-release",
