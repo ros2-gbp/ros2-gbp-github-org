@@ -4,10 +4,12 @@ locals {
     "arne48",
     "mlautman",
     "srishtidh",
+    "ahcorde",
   ]
   rqt_repositories = [
     "rqt_action-release",
     "rqt_console-release",
+    "rqt_gauges-release",
     "rqt_image_view-release",
     "rqt_moveit-release",
     "rqt_msg-release",
