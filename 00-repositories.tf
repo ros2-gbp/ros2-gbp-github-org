@@ -32,6 +32,7 @@ locals {
     local.eigenpy_repositories,
     local.executive_smach_repositories,
     local.fastcdr_repositories,
+    local.ffmpeg_image_transport_repositories,
     local.fictionlab_repositories,
     local.flexbe_repositories,
     local.fmi_repositories,
