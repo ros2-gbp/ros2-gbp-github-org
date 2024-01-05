@@ -72,6 +72,7 @@ locals {
     local.micro_ros_diagnostics_repositories,
     local.micro_ros_msgs_repositories,
     local.minipada_repositories,
+    local.mocap_optitrack_repositories,
     local.moveit_repositories,
     local.mrpt2_repositories,
     local.mrt_cmake_modules_repositories,
