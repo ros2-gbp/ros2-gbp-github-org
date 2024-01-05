@@ -90,6 +90,7 @@ locals {
     local.odri_repositories,
     local.ompl_repositories,
     local.openni2_camera_repositories,
+    local.orco_repositories,
     local.ouster_drivers_repositories,
     local.ouster_repositories,
     local.ouxt_repositories,

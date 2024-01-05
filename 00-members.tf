@@ -90,6 +90,7 @@ locals {
     local.odri_team,
     local.ompl_team,
     local.openni2_camera_team,
+    local.orco_team,
     local.ouster_drivers_team,
     local.ouster_team,
     local.ouxt_team,
