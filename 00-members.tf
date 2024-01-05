@@ -94,6 +94,7 @@ locals {
     local.ouster_team,
     local.ouxt_team,
     local.pal_robotics_team,
+    local.pangolin_team,
     local.perception_team,
     local.phidgets_team,
     local.picknik_team,
