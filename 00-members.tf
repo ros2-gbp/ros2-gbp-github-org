@@ -138,6 +138,7 @@ locals {
     local.security_wg_team,
     local.septentrio_users_team,
     local.sick_safevisionary_team,
+    local.sick_scan_xd_team,
     local.simple_launch_team,
     local.simple_robotics_team,
     local.skylove_team,

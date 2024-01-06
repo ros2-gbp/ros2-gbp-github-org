@@ -136,6 +136,7 @@ locals {
     local.security_wg_repositories,
     local.septentrio_users_repositories,
     local.sick_safevisionary_repositories,
+    local.sick_scan_xd_repositories,
     local.simple_launch_repositories,
     local.simple_robotics_repositories,
     local.skylove_repositories,
