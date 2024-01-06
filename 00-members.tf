@@ -52,6 +52,7 @@ locals {
     local.ifm3d_team,
     local.ijnek_team,
     local.image_transport_plugins_team,
+    local.imrclab_team,
     local.imu_pipeline_team,
     local.imu_tools_team,
     local.introlab_team,
