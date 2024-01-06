@@ -20,6 +20,7 @@ locals {
     local.boeing_repositories,
     local.borglab_repositories,
     local.cascade_lifecycle_repositories,
+    local.cerberus_repositories,
     local.connextdds_repositories,
     local.control_box_rst_repositories,
     local.control_repositories,

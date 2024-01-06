@@ -20,6 +20,7 @@ locals {
     local.boeing_team,
     local.borglab_team,
     local.cascade_lifecycle_team,
+    local.cerberus_team,
     local.connextdds_team,
     local.control_box_rst_team,
     local.control_team,
