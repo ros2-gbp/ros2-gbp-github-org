@@ -141,6 +141,7 @@ locals {
     local.sports_repositories,
     local.stonier_repositories,
     local.swri_repositories,
+    local.sync_parameter_server_repositories,
     local.system_modes_repositories,
     local.teamspatzenhirn_repositories,
     local.techmagic_repositories,
