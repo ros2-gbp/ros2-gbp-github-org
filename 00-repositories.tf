@@ -100,6 +100,7 @@ locals {
     local.ouster_repositories,
     local.ouxt_repositories,
     local.pal_robotics_repositories,
+    local.pangolin_repositories,
     local.perception_repositories,
     local.phidgets_repositories,
     local.picknik_repositories,
