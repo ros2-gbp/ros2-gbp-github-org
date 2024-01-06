@@ -6,7 +6,7 @@ locals {
     "mmaralit-adi",
   ]
   analogdevicesinc_tmcl_repositories = [
-    "tmcl_ros2-release",
+    "adi_tmcl-release",
   ]
 }
 
