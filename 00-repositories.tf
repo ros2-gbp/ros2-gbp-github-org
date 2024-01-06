@@ -18,6 +18,7 @@ locals {
     local.bno055_repositories,
     local.boeing_repositories,
     local.borglab_repositories,
+    local.caret_repositories,
     local.cascade_lifecycle_repositories,
     local.connextdds_repositories,
     local.control_box_rst_repositories,
