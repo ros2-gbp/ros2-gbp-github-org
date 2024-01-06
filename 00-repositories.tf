@@ -57,6 +57,7 @@ locals {
     local.ifm3d_repositories,
     local.ijnek_repositories,
     local.image_transport_plugins_repositories,
+    local.imrclab_repositories,
     local.imu_pipeline_repositories,
     local.imu_tools_repositories,
     local.introlab_repositories,
