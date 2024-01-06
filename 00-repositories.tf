@@ -32,6 +32,7 @@ locals {
     local.dynamixel_community_repositories,
     local.eclipse_ecal_repositories,
     local.eigenpy_repositories,
+    local.ess_imu_driver2_repositories,
     local.event_camera_repositories,
     local.executive_smach_repositories,
     local.fastcdr_repositories,

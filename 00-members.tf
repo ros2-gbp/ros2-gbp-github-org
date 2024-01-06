@@ -32,6 +32,7 @@ locals {
     local.dynamixel_community_team,
     local.eclipse_ecal_team,
     local.eigenpy_team,
+    local.ess_imu_driver2_team,
     local.event_camera_team,
     local.executive_smach_team,
     local.fastcdr_team,
