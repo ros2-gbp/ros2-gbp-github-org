@@ -1,7 +1,7 @@
 locals {
   tri_team = [
     "ahcorde",
-    "caguero"
+    "caguero",
   ]
   tri_repositories = [
     "rqt_gauges-release",
