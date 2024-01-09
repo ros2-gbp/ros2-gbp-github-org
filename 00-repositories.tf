@@ -158,6 +158,7 @@ locals {
     local.tooling_wg_repositories,
     local.tracing_repositories,
     local.transport_drivers_repositories,
+    local.tri_repositories,
     local.tsid_repositories,
     local.turtlebot4_repositories,
     local.tuw_robotics_repositories,

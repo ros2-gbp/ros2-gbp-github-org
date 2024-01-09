@@ -160,6 +160,7 @@ locals {
     local.tooling_wg_team,
     local.tracing_team,
     local.transport_drivers_team,
+    local.tri_team,
     local.tsid_team,
     local.turtlebot4_team,
     local.tuw_robotics_team,
