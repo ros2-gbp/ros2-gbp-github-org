@@ -1,6 +1,6 @@
 locals {
   autoware_team = [
-    "wep21",
+    "mitsudome-r",
   ]
 
   autoware_repositories = [

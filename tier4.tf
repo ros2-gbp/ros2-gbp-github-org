@@ -1,6 +1,6 @@
 locals {
   tier4_team = [
-    "wep21",
+    "mitsudome-r",
   ]
   tier4_repositories = [
     "cudnn_cmake_module-release",
