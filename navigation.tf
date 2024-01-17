@@ -3,10 +3,8 @@ locals {
     "JWhitleyWork",
     "SteveMacenski",
     "paulbovbel",
-    "ahcorde",
   ]
   navigation_repositories = [
-    "image_pipeline-release",
     "navigation-release",
     "navigation2-release",
     "navigation_msgs-release",
