@@ -3,6 +3,7 @@ locals {
     "JWhitleyWork",
     "SteveMacenski",
     "paulbovbel",
+    "ahcorde",
   ]
   navigation_repositories = [
     "image_pipeline-release",
