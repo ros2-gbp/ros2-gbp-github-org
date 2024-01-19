@@ -1,7 +1,7 @@
 locals {
   ros_industrial_team = [
     "Levi-Armstrong",
-    "ipa-cmh",
+    "hellantos",
     "marip8",
   ]
   ros_industrial_repositories = [
