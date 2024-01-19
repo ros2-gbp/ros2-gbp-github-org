@@ -1,5 +1,6 @@
 locals {
   vision_team = [
+    "JWhitleyWork",
     "ahcorde",
     "mikeferguson",
   ]
