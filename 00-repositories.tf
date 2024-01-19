@@ -174,6 +174,7 @@ locals {
     local.velodyne_simulator_repositories,
     local.vision_msgs_repositories,
     local.vision_opencv_repositories,
+    local.vision_repositories,
     local.visp_repositories,
     local.vrpn_repositories,
     local.wep21_repositories,
