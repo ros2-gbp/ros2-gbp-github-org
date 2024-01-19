@@ -28,6 +28,7 @@ locals {
     local.control_repositories,
     local.cyberbotics_repositories,
     local.cyclonedds_repositories,
+    local.data_tamer_repositories,
     local.dexory_repositories,
     local.diagnostics_repositories,
     local.dolly_repositories,
