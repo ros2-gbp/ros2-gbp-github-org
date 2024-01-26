@@ -4,7 +4,7 @@ locals {
     "ShotaAk",
     "Tiryoh",
     "YusukeKato",
-    "shu-rt",
+    "shu-13",
   ]
   rt_net_repositories = [
     "raspimouse2-release",
