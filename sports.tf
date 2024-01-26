@@ -4,7 +4,7 @@ locals {
   ]
 
   sports_repositories = [
-    "gc_spl-release",
+    "game_controller_spl-release",
     "r2r_spl-release",
     "rcss3d_agent-release",
     "rcss3d_nao-release",
