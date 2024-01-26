@@ -115,6 +115,7 @@ locals {
     "laser_geometry-release",
     "laser_proc-release",
     "libyaml_vendor-release",
+    "linux_isolate_process-release",
     "mimick_vendor-release",
     "navigation_msgs-release",
     "nodl_to_policy-release",
