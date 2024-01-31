@@ -1,5 +1,6 @@
 locals {
   cyberbotics_team = [
+    "Yadunund",
     "BenjaminDeleze",
     "ad-daniel",
     "omichel",
