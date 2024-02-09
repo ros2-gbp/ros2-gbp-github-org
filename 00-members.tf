@@ -124,6 +124,7 @@ locals {
     local.robotis_team,
     local.robotwebtools_team,
     local.ros2_gbp_docs_team,
+    local.ros4hri_team,
     local.ros_admins,
     local.ros_canopen_team,
     local.ros_event_camera_team,
