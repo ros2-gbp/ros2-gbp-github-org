@@ -6,6 +6,9 @@ locals {
   ]
   boeing_repositories = [
     "boeing_gazebo_model_attachement_plugin-release",
+    "gazebo_no_physics_plugin-release",
+    "gazebo_planar_move_plugin-release",
+    "gazebo_set_joint_positions_plugin-release",
   ]
 }
 
