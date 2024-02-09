@@ -81,6 +81,7 @@ locals {
     local.micro_ros_msgs_team,
     local.microstrain_team,
     local.minipada_team,
+    local.misc_utilities_team,
     local.moveit_team,
     local.mrpt2_team,
     local.mrt_cmake_modules_team,
