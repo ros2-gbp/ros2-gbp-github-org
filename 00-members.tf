@@ -20,6 +20,7 @@ locals {
     local.bno055_team,
     local.boeing_team,
     local.borglab_team,
+    local.bosch_engineering_ohw_team,
     local.caret_team,
     local.cascade_lifecycle_team,
     local.cerberus_team,
