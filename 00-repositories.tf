@@ -123,6 +123,7 @@ locals {
     local.robot_localization_repositories,
     local.robotis_repositories,
     local.robotwebtools_repositories,
+    local.ros4hri_repositories,
     local.ros_canopen_repositories,
     local.ros_event_camera_repositories,
     local.ros_industrial_repositories,
