@@ -6,6 +6,7 @@ locals {
     "MarqRazz",
     "moriarty",
     "sea-bass",
+    "sjahr",
     "tylerjw",
     "vatanaksoytezer",
   ]
