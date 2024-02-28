@@ -9,6 +9,7 @@ locals {
     "audrow",
     "clalancette",
     "cottsay",
+    "marcoag",
     "nuclearsandwich",
     "tfoote",
     "Yadunund",
