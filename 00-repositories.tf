@@ -182,6 +182,7 @@ locals {
     local.vision_opencv_repositories,
     local.vision_repositories,
     local.visp_repositories,
+    local.visualization_repositories,
     local.vrpn_repositories,
     local.wep21_repositories,
     local.xacro_repositories,

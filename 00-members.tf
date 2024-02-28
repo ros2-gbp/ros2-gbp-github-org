@@ -184,6 +184,7 @@ locals {
     local.vision_opencv_team,
     local.vision_team,
     local.visp_team,
+    local.visualization_team,
     local.vrpn_team,
     local.wep21_team,
     local.xacro_team,
