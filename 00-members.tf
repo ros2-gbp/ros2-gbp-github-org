@@ -42,6 +42,7 @@ locals {
     local.fastcdr_team,
     local.ffmpeg_image_transport_team,
     local.fictionlab_team,
+    local.fields2cover_team,
     local.flexbe_team,
     local.fmi_team,
     local.fogros2_team,
