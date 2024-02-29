@@ -61,6 +61,7 @@ locals {
     local.iceoryx_team,
     local.ifm3d_team,
     local.ijnek_team,
+    local.ika_rwth_aachen_team,
     local.image_transport_plugins_team,
     local.imrclab_team,
     local.imu_pipeline_team,
