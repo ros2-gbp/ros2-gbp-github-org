@@ -22,6 +22,7 @@ locals {
     "rsl-release",
     "rviz_visual_tools-release",
     "snowbot_release",
+    "topic_based_ros2_control-release",
   ]
 }
 
