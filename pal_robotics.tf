@@ -7,6 +7,7 @@ locals {
   ]
   pal_robotics_repositories = [
     "backward_ros-release",
+    "pal_statistics-release",
   ]
 }
 
