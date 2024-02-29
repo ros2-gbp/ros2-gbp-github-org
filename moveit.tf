@@ -4,6 +4,7 @@ locals {
     "christhrasher",
     "henningkayser",
     "rhaschke",
+    "sjahr",
     "tylerjw",
     "v4hn",
     "vatanaksoytezer",
