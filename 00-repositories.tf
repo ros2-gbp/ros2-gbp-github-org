@@ -164,6 +164,7 @@ locals {
     local.tier4_repositories,
     local.tooling_wg_repositories,
     local.tracing_repositories,
+    local.traclabs_repositories,
     local.transport_drivers_repositories,
     local.tri_repositories,
     local.tsid_repositories,
