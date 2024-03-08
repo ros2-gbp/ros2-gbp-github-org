@@ -166,6 +166,7 @@ locals {
     local.tier4_team,
     local.tooling_wg_team,
     local.tracing_team,
+    local.traclabs_team,
     local.transport_drivers_team,
     local.tri_team,
     local.tsid_team,
