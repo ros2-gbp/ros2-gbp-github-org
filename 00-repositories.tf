@@ -78,6 +78,7 @@ locals {
     local.locator_ros_bridge_repositories,
     local.locusrobotics_repositories,
     local.maliput_repositories,
+    local.marine_msgs_repositories,
     local.mavlink_repositories,
     local.metro_robots_repositories,
     local.microstrain_repositories,
