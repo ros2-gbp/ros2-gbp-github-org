@@ -78,6 +78,7 @@ locals {
     local.locator_ros_bridge_team,
     local.locusrobotics_team,
     local.maliput_team,
+    local.marine_msgs_team,
     local.mavlink_team,
     local.metro_robots_team,
     local.micro_ros_diagnostics_team,
