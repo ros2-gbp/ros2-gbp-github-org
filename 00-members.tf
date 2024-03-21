@@ -156,6 +156,7 @@ locals {
     local.skylove_team,
     local.slider_publisher_team,
     local.smacc2_team,
+    local.snt_arg_team,
     local.sports_team,
     local.stonier_team,
     local.swri_team,

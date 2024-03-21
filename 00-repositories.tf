@@ -154,6 +154,7 @@ locals {
     local.skylove_repositories,
     local.slider_publisher_repositories,
     local.smacc2_repositories,
+    local.snt_arg_repositories,
     local.sports_repositories,
     local.stonier_repositories,
     local.swri_repositories,
