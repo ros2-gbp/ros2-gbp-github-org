@@ -4,6 +4,7 @@ locals {
     "miferco97",
     "pariaspe",
     "perezsaura-david",
+    "javilinos",
   ]
   aerostack2_repositories = [
     "aerostack2-release",
