@@ -5,6 +5,14 @@ Changes to the organization structure are managed by the GitHub Terraform provid
 Each set of repositories is maintained by a release team with a name that matches the repository name (such as `octomap`), or in some cases, the umbrella project which maintains multiple release repositories (such as `navigation` or `tooling_wg`).
 Each release team's configuration is stored in its own file: `RELEASE_TEAM.tf` so, for example, configuration for the `tooling_wg` team is stored in `tooling_wg.tf`.
 
+## Formatting
+
+`terraform fmt` can be used to enforce consistent formatting of files in this project.
+Several files include long lists of local variables, repository names, or member usernames and these lists may be delimited by the sort sigils: `keep-sorted start` and `keep-sorted end`.
+There is a script this project which will automatically sort the lines between these sigils which you can use to check and enforce sort order before committing:
+```
+bin/sort-fields *.tf
+```
 
 ## Creating a new release team
 
