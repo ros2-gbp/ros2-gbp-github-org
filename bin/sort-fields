@@ -1,0 +1,72 @@
+#!/usr/bin/gawk -f
+# vim:ts=2:sw=2:noet
+
+function tmpfile_name(filename) {
+  return "." filename ".tmp"
+}
+
+function panic(msg) {
+	print FILENAME ":" FNR ": " msg > "/dev/stderr"
+	exit(1)
+}
+
+
+BEGIN {
+	if (!start_pattern) {
+		start_pattern = "keep-sorted start"
+	}
+	if (!end_pattern) {
+		end_pattern = "keep-sorted end"
+	}
+
+	files_n = 0
+	delete origfiles
+	delete tmpfiles
+
+
+}
+
+current_filename != FILENAME {
+	if (in_sort_lines) {
+		panic("Reached the end of " current_filename " without finding end pattern")
+	}
+	current_filename = FILENAME
+	tmpfile = tmpfile_name(current_filename)
+	tmpfiles[++files_n] = tmpfile
+	origfiles[files_n] = current_filename
+}
+
+in_sort_lines && $0 ~ start_pattern {
+	panic("Can't start a sort if already sorting")
+}
+
+$0 ~ start_pattern {
+	in_sort_lines = 1
+	lines_to_sort_n = 0
+	delete lines_to_sort
+	print $0 > tmpfile
+	next
+}
+
+$0 ~ end_pattern {
+	in_sort_lines = 0
+	asort(lines_to_sort)
+	for (i = 1; i <= lines_to_sort_n; i++) {
+		print lines_to_sort[i] > tmpfile
+	}
+	print $0 > tmpfile
+	next
+}
+
+in_sort_lines {
+	lines_to_sort[++lines_to_sort_n] = $0
+	next
+}
+
+{ print $0 > tmpfile }
+
+END {
+	for (i = 1; i <= files_n; i++) {
+		system("mv " tmpfiles[i] " " origfiles[i])
+	}
+}
