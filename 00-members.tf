@@ -2,6 +2,7 @@
 
 locals {
   members = setunion(
+    # keep-sorted start
     local._42dot_team,
     local.acceleration_wg_team,
     local.ackermann_msgs_team,
@@ -195,6 +196,7 @@ locals {
     local.xacro_team,
     local.zbar_ros_team,
     local.zenoh_bridge_dds_team,
+    # keep-sorted end
   )
 }
 

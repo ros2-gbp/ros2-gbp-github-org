@@ -1,5 +1,6 @@
 locals {
   _archived_repositories = [
+    # keep-sorted start
     "ament_python-release",
     "ament_tools-release",
     "ceres_solver-release",
@@ -17,5 +18,6 @@ locals {
     "system_tests-release",
     "turtlebot2_demo-release",
     "uncrustify-release",
+    # keep-sorted end
   ]
 }

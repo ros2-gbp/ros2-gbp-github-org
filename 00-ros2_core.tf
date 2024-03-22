@@ -1,5 +1,6 @@
 locals {
   ros_team = [
+    # keep-sorted start
     "adityapande-1995",
     "ahcorde",
     "audrow",
@@ -22,9 +23,11 @@ locals {
     "tfoote",
     "wjwwood",
     "Yadunund",
+    # keep-sorted end
   ]
 
   ros_core_repositories = [
+    # keep-sorted start
     "ament_cmake-release",
     "ament_cmake_ros-release",
     "ament_index-release",
@@ -42,18 +45,22 @@ locals {
     "rosidl_core-release",
     "rosidl_defaults-release",
     "sros2-release",
+    # keep-sorted end
   ]
 
   ros_base_repositories = [
+    # keep-sorted start
     "geometry2-release",
     "kdl_parser-release",
     "orocos_kdl_vendor-release",
     "robot_state_publisher-release",
     "rosbag2-release",
     "urdf-release",
+    # keep-sorted end
   ]
 
   ros_desktop_repositories = [
+    # keep-sorted start
     "angles-release",
     "depthimage_to_laserscan-release",
     "joystick_drivers-release",
@@ -63,9 +70,11 @@ locals {
     "demos-release",
     "tlsf-release",
     "examples-release",
+    # keep-sorted end
   ]
 
   ros_rqt_repositories = [
+    # keep-sorted start
     "rqt_action-release",
     "rqt_reconfigure-release",
     "rqt_console-release",
@@ -87,9 +96,11 @@ locals {
     "rqt_bag-release",
     "rqt-release",
     "rqt_tf_tree-release",
+    # keep-sorted end
   ]
 
   additional_ros_team_repositories = [
+    # keep-sorted start
     "ament_package-release",
     "bond_core-release",
     "cartographer-release",
@@ -176,6 +187,7 @@ locals {
     "variants-release",
     "vision_opencv-release",
     "yaml_cpp_vendor-release",
+    # keep-sorted end
   ]
 
   ros_repositories = setunion(

@@ -1,6 +1,7 @@
 # Create memberships for the distinct set of all team members who aren't admins.
 locals {
   organization_repositories = setunion(
+    # keep-sorted start
     local._42dot_repositories,
     local._archived_repositories,
     local.acceleration_wg_repositories,
@@ -193,6 +194,7 @@ locals {
     local.xacro_repositories,
     local.zbar_ros_repositories,
     local.zenoh_bridge_dds_repositories,
+    # keep-sorted end
   )
 }
 

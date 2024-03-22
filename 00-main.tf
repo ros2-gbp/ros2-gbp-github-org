@@ -6,6 +6,7 @@ data "github_organization_teams" "ros2-gbp" {}
 
 locals {
   ros_admins = [
+    # keep-sorted start
     "audrow",
     "clalancette",
     "cottsay",
@@ -13,5 +14,6 @@ locals {
     "nuclearsandwich",
     "tfoote",
     "Yadunund",
+    # keep-sorted end
   ]
 }
