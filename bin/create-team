@@ -25,3 +25,7 @@ sed -i "/^  organization_repositories = setunion(/ {
 sed -i "/^  members = setunion(/ {
     a\    local.${team_name}_team,
   }" 00-members.tf
+
+# Format and sort after creating to fix any issues.
+terraform fmt "$tf_file" 00-repositories.tf 00-members.tf
+bin/sort-tf-fields "$tf_file" 00-repositories.tf 00-members.tf
