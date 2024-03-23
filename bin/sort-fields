@@ -45,7 +45,7 @@ $0 ~ start_pattern {
 	next
 }
 
-$0 ~ end_pattern {
+in_sort_lines && $0 ~ end_pattern {
 	in_sort_lines = 0
 	asort(lines_to_sort)
 	for (i = 1; i <= lines_to_sort_n; i++) {
