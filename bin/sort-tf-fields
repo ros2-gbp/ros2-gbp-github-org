@@ -1,0 +1,22 @@
+#!/bin/sh
+# vim:ts=2:sw=2:noet
+
+for tf_file in "$@"; do
+	case "$tf_file" in
+		00-repositories.tf)
+			start_pattern='^  organization_repostiories = setunion\\($'
+			end_pattern='^  \\)'
+			;;
+		00-members.tf)
+			start_pattern='^  members = setunion\\($'
+			end_pattern='^  \\)'
+			;;
+		*)
+			start_pattern='^  [_a-z0-9]+_(admins|team|repositories) = \\[$' 
+			end_pattern='^  \\]$'
+	esac
+	bin/sort-fields \
+		-v start_pattern="$start_pattern" \
+		-v end_pattern="$end_pattern" \
+		"$tf_file"
+done
