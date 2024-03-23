@@ -4,7 +4,6 @@ locals {
     "ralph-lange",
     "slaible",
     "syyuen",
-
   ]
   locator_ros_bridge_repositories = [
     "locator_ros_bridge-release",

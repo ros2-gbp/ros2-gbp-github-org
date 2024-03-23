@@ -6,7 +6,6 @@ locals {
     "dirk-thomas",
     "jtbandes",
     "nuclearsandwich",
-
   ]
   robotwebtools_repositories = [
     "rosbridge_suite-release",
