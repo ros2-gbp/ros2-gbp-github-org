@@ -1,0 +1,27 @@
+#!/bin/sh
+
+team_name="$1"
+shift
+
+tf_file=${team_name}.tf
+
+awk -v team_name="$team_name" -v output="$tf_file" -v users_str="$*" < TEMPL.tf.tmp '
+BEGIN {
+  users_n = split(users_str, users, FS)
+}
+/"USER",/ {
+  for (i = 1; i <= users_n; i++) {
+    print "    \"" users[i] "\"," > output
+  }
+  next
+}
+/TEMPL/ { sub("TEMPL", team_name) }
+{ print > output }
+'
+
+sed -i "/^  organization_repositories = setunion(/ {
+    a\    local.${team_name}_repositories,
+  }" 00-repositories.tf
+sed -i "/^  members = setunion(/ {
+    a\    local.${team_name}_team,
+  }" 00-members.tf
