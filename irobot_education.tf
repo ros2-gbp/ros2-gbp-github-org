@@ -5,8 +5,8 @@ locals {
     "shamlian",
   ]
   irobot_education_repositories = [
-    "irobot_create_msgs-release",
     "create3_sim-release",
+    "irobot_create_msgs-release",
   ]
 }
 

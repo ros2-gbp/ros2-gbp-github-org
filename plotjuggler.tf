@@ -3,8 +3,8 @@ locals {
     "facontidavide",
   ]
   plotjuggler_repositories = [
-    "plotjuggler-ros-plugins-release",
     "plotjuggler-release",
+    "plotjuggler-ros-plugins-release",
     "plotjuggler_msgs-release",
   ]
 }

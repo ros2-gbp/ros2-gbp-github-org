@@ -1,7 +1,7 @@
 locals {
   cyberbotics_team = [
-    "Yadunund",
     "BenjaminDeleze",
+    "Yadunund",
     "ad-daniel",
     "omichel",
     "stefaniapedrazzi",

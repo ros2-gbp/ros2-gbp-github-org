@@ -1,8 +1,8 @@
 locals {
   odri_team = [
-    "olivier-stasse",
-    "nim65s",
     "MaximilienNaveau",
+    "nim65s",
+    "olivier-stasse",
   ]
   odri_repositories = [
     "odri_master_board_sdk-release",

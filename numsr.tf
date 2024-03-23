@@ -1,8 +1,8 @@
 locals {
   numsr_team = [
+    "hang-yin",
     "m-elwin",
     "ngmor",
-    "hang-yin",
   ]
   numsr_repositories = [
     "catch_ros2-release",

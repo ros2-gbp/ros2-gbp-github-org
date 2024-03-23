@@ -1,10 +1,10 @@
 locals {
   aerostack2_team = [
     "RPS98",
+    "javilinos",
     "miferco97",
     "pariaspe",
     "perezsaura-david",
-    "javilinos",
   ]
   aerostack2_repositories = [
     "aerostack2-release",

@@ -5,13 +5,13 @@ locals {
   ]
   robotis_repositories = [
     "dynamixel_sdk-release",
+    "dynamixel_workbench-release",
+    "dynamixel_workbench_msgs-release",
     "hls_lfcd_lds_driver-release",
     "ld08_driver-release",
     "turtlebot3_manipulation-release",
     "turtlebot3_msgs-release",
     "turtlebot3_simulations-release",
-    "dynamixel_workbench-release",
-    "dynamixel_workbench_msgs-release",
   ]
 }
 

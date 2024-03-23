@@ -1,7 +1,7 @@
 locals {
   black_coffee_robotics_team = [
-    "ggupta9777",
     "D-1shu",
+    "ggupta9777",
   ]
   black_coffee_robotics_repositories = [
     "bcr_bot-release",

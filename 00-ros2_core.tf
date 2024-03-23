@@ -1,9 +1,10 @@
 locals {
   ros_team = [
+    "Blast545",
+    "Yadunund",
     "adityapande-1995",
     "ahcorde",
     "audrow",
-    "Blast545",
     "chapulina",
     "clalancette",
     "cottsay",
@@ -21,7 +22,6 @@ locals {
     "sloretz",
     "tfoote",
     "wjwwood",
-    "Yadunund",
   ]
 
   ros_core_repositories = [
@@ -55,38 +55,38 @@ locals {
 
   ros_desktop_repositories = [
     "angles-release",
+    "demos-release",
     "depthimage_to_laserscan-release",
+    "examples-release",
     "joystick_drivers-release",
     "pcl_conversions-release",
     "teleop_twist_joy-release",
     "teleop_twist_keyboard-release",
-    "demos-release",
     "tlsf-release",
-    "examples-release",
   ]
 
   ros_rqt_repositories = [
+    "rqt-release",
     "rqt_action-release",
-    "rqt_reconfigure-release",
+    "rqt_bag-release",
+    "rqt_common_plugins-release",
     "rqt_console-release",
+    "rqt_graph-release",
+    "rqt_image_view-release",
+    "rqt_moveit-release",
     "rqt_msg-release",
     "rqt_plot-release",
     "rqt_publisher-release",
     "rqt_py_console-release",
+    "rqt_reconfigure-release",
+    "rqt_robot_monitor-release",
+    "rqt_robot_steering-release",
     "rqt_service_caller-release",
     "rqt_shell-release",
     "rqt_srv-release",
+    "rqt_tf_tree-release",
     "rqt_top-release",
     "rqt_topic-release",
-    "rqt_robot_steering-release",
-    "rqt_robot_monitor-release",
-    "rqt_moveit-release",
-    "rqt_image_view-release",
-    "rqt_graph-release",
-    "rqt_common_plugins-release",
-    "rqt_bag-release",
-    "rqt-release",
-    "rqt_tf_tree-release",
   ]
 
   additional_ros_team_repositories = [
@@ -166,8 +166,8 @@ locals {
     "tango_icons_vendor-release",
     "test_interface_files-release",
     "tinydir_vendor-release",
-    "tinyxml_vendor-release",
     "tinyxml2_vendor-release",
+    "tinyxml_vendor-release",
     "uncrustify_vendor-release",
     "unique_identifier_msgs-release",
     "urdfdom-release",

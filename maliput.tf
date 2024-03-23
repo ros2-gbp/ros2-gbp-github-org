@@ -1,9 +1,9 @@
 locals {
   maliput_team = [
+    "Voldivh",
     "agalbachicar",
     "francocipollone",
     "tfoote",
-    "Voldivh",
   ]
   maliput_repositories = [
     "maliput-release",

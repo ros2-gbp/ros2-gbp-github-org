@@ -1,8 +1,8 @@
 locals {
   rosbag2_team = [
     "Karsten1987",
-    "emersonknapp",
     "MichaelOrlov",
+    "emersonknapp",
   ]
 
   rosbag2_repositories = [

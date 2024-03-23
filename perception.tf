@@ -1,10 +1,10 @@
 locals {
   perception_team = [
     "SteveMacenski",
+    "fred-apex-ai",
     "jacobperron",
     "jonbinney",
     "paulbovbel",
-    "fred-apex-ai",
   ]
   perception_repositories = [
     "laser_filters-release",

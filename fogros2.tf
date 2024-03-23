@@ -1,12 +1,12 @@
 locals {
   fogros2_team = [
-    "vmayoral",
-    "KeplerC",
     "KDharmarajanDev",
-    "mjd3",
+    "KeplerC",
     "SimeonOA",
-    "zhanhugo",
+    "mjd3",
+    "vmayoral",
     "xzrderek",
+    "zhanhugo",
   ]
   fogros2_repositories = [
     "fogros2-release",

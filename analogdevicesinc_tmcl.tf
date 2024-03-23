@@ -1,8 +1,8 @@
 locals {
   analogdevicesinc_tmcl_team = [
     "CAcarADI",
-    "jmacagba",
     "KApostolADI",
+    "jmacagba",
     "mmaralit-adi",
   ]
   analogdevicesinc_tmcl_repositories = [

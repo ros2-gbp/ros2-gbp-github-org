@@ -1,8 +1,8 @@
 locals {
   rmf_team = [
+    "Yadunund",
     "codebot",
     "marcoag",
-    "Yadunund",
   ]
   rmf_repositories = [
     "ament_cmake_catch2-release",

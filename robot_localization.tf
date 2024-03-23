@@ -1,7 +1,7 @@
 locals {
   robot_localization_team = [
-    "ayrton04",
     "SteveMacenski",
+    "ayrton04",
   ]
   robot_localization_repositories = [
     "robot_localization-release",
