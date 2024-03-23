@@ -4,7 +4,7 @@
 for tf_file in "$@"; do
 	case "$tf_file" in
 		00-repositories.tf)
-			start_pattern='^  organization_repostiories = setunion\\($'
+			start_pattern='^  organization_repositories = setunion\\($'
 			end_pattern='^  \\)'
 			;;
 		00-members.tf)
