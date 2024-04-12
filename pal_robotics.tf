@@ -1,9 +1,9 @@
 locals {
   pal_robotics_team = [
+    "Noel215",
     "jordan-palacios",
     "lucamarchionni",
     "saikishor",
-    "v-lopez",
   ]
   pal_robotics_repositories = [
     "backward_ros-release",
