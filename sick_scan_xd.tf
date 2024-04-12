@@ -1,5 +1,6 @@
 locals {
   sick_scan_xd_team = [
+    "michael109",
     "rostest",
   ]
   sick_scan_xd_repositories = [
