@@ -3,6 +3,7 @@ locals {
     "Timple",
   ]
   nobleo_repositories = [
+    "azure_iot_sdk_c-release",
     "libnabo-release",
     "libpointmatcher-release",
     "magic_enum-release",
