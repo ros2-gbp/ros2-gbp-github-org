@@ -198,6 +198,13 @@ locals {
   )
 }
 
+resource "github_branch_default" "bloom_branch" {
+  for_each = github_repository.repositories
+
+  repository = each.value.name
+  branch     = "master"
+}
+
 resource "github_repository" "repositories" {
   for_each = local.organization_repositories
 
