@@ -211,6 +211,13 @@ resource "github_repository" "repositories" {
   archived     = contains(local._archived_repositories, each.value)
   visibility   = "public"
   has_projects = false
+
+  template {
+    owner                = "ros2-gbp"
+    repository           = "release-repository-template"
+    include_all_branches = true
+  }
+
   lifecycle {
     # Plans that destroy repository releases will delete the repository on
     # GitHub and that shouldn't be done in the normal course of operation.
@@ -225,6 +232,7 @@ resource "github_repository" "repositories" {
       has_issues,
       has_wiki,
       homepage_url,
+      template,
       vulnerability_alerts
     ]
   }
