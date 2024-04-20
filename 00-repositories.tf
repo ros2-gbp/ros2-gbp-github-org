@@ -207,9 +207,10 @@ resource "github_branch_default" "bloom_branch" {
 resource "github_repository" "repositories" {
   for_each = local.organization_repositories
 
-  name       = each.value
-  archived   = contains(local._archived_repositories, each.value)
-  visibility = "public"
+  name         = each.value
+  archived     = contains(local._archived_repositories, each.value)
+  visibility   = "public"
+  has_projects = false
   lifecycle {
     # Plans that destroy repository releases will delete the repository on
     # GitHub and that shouldn't be done in the normal course of operation.
@@ -222,7 +223,6 @@ resource "github_repository" "repositories" {
       etag,
       has_downloads,
       has_issues,
-      has_projects,
       has_wiki,
       homepage_url,
       vulnerability_alerts
@@ -233,8 +233,9 @@ resource "github_repository" "repositories" {
 # No team manages this repository.
 # It is writable by organization admins only.
 resource "github_repository" "ros2-gbp-github-org" {
-  name       = "ros2-gbp-github-org"
-  visibility = "public"
+  name         = "ros2-gbp-github-org"
+  visibility   = "public"
+  has_projects = false
   lifecycle {
     # Plans that destroy repository releases will delete the repository on
     # GitHub and that shouldn't be done in the normal course of operation.
@@ -246,7 +247,6 @@ resource "github_repository" "ros2-gbp-github-org" {
       description,
       etag,
       has_downloads,
-      has_projects,
       has_issues,
       has_wiki,
       vulnerability_alerts
