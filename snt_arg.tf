@@ -1,6 +1,7 @@
 locals {
   snt_arg_team = [
     "PedroS235",
+    "hridaybavle",
   ]
   snt_arg_repositories = [
     "unitree_ros-release",
