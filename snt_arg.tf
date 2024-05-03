@@ -4,6 +4,8 @@ locals {
     "hridaybavle",
   ]
   snt_arg_repositories = [
+    "fast_gicp-release",
+    "ndt_omp-release",
     "unitree_ros-release",
   ]
 }
