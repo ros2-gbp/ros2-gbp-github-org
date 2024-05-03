@@ -44,6 +44,7 @@ locals {
     local.fields2cover_team,
     local.filters_team,
     local.flexbe_team,
+    local.flir_camera_driver_team,
     local.fmi_team,
     local.fogros2_team,
     local.fortefibre_team,

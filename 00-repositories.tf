@@ -44,6 +44,7 @@ locals {
     local.fields2cover_repositories,
     local.filters_repositories,
     local.flexbe_repositories,
+    local.flir_camera_driver_repositories,
     local.fmi_repositories,
     local.fogros2_repositories,
     local.fortefibre_repositories,
