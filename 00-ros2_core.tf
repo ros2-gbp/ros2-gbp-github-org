@@ -141,6 +141,7 @@ locals {
     "rmw_dds_common-release",
     "rmw_fastrtps-release",
     "rmw_implementation-release",
+    "rmw_zenoh-release",
     "ros1_bridge-release",
     "ros2_message_filters-release",
     "ros2cli-release",
