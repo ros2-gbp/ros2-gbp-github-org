@@ -195,6 +195,7 @@ locals {
     local.vrpn_repositories,
     local.wep21_repositories,
     local.xacro_repositories,
+    local.yukkysaito_repositories,
     local.zbar_ros_repositories,
     local.zenoh_bridge_dds_repositories,
   )

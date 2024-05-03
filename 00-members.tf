@@ -197,6 +197,7 @@ locals {
     local.vrpn_team,
     local.wep21_team,
     local.xacro_team,
+    local.yukkysaito_team,
     local.zbar_ros_team,
     local.zenoh_bridge_dds_team,
   )
