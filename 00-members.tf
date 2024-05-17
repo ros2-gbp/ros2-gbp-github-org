@@ -6,6 +6,7 @@ locals {
     local.acceleration_wg_team,
     local.ackermann_msgs_team,
     local.aerostack2_team,
+    local.alliedvision_team,
     local.analogdevicesinc_tmcl_team,
     local.andino_team,
     local.apex_team,
