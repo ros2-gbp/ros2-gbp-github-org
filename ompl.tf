@@ -1,6 +1,7 @@
 locals {
   ompl_team = [
     "mamoll",
+    "yadunund",
   ]
   ompl_repositories = [
     "ompl-release",
