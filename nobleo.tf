@@ -8,6 +8,8 @@ locals {
     "libpointmatcher-release",
     "magic_enum-release",
     "rtcm_msgs-release",
+    "rviz_satellite-release",
+    "steering_functions-release",
   ]
 }
 
