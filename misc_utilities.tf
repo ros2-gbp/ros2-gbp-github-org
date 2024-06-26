@@ -8,6 +8,7 @@ locals {
     "ffmpeg_image_transport-release",
     "ffmpeg_image_transport_msgs-release",
     "ffmpeg_image_transport_tools-release",
+    "flex_sync-release",
   ]
 }
 
