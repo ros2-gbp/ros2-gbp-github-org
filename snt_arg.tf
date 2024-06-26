@@ -5,10 +5,13 @@ locals {
   ]
   snt_arg_repositories = [
     "fast_gicp-release",
+    "lidar_situational_graphs-release",
     "ndt_omp-release",
     "situational_graphs_dataset-release",
     "situational_graphs_msgs-release",
     "situational_graphs_reasoning-release",
+    "situational_graphs_reasoning_msgs-release",
+    "situational_graphs_wrapper-release",
     "unitree_ros-release",
   ]
 }
