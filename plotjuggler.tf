@@ -6,6 +6,7 @@ locals {
     "plotjuggler-release",
     "plotjuggler-ros-plugins-release",
     "plotjuggler_msgs-release",
+    "rosx_introspection-release",
   ]
 }
 
