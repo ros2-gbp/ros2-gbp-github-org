@@ -6,7 +6,9 @@ locals {
   snt_arg_repositories = [
     "fast_gicp-release",
     "ndt_omp-release",
+    "situational_graphs_dataset-release",
     "situational_graphs_msgs-release",
+    "situational_graphs_reasoning-release",
     "unitree_ros-release",
   ]
 }
