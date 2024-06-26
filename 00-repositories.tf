@@ -62,6 +62,7 @@ locals {
     local.gscam_repositories,
     local.gstavrinos_repositories,
     local.gurumdds_repositories,
+    local.hebi_repositories,
     local.hpp_fcl_repositories,
     local.iceoryx_repositories,
     local.ifm3d_repositories,
