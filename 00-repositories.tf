@@ -62,6 +62,7 @@ locals {
     local.gscam_repositories,
     local.gstavrinos_repositories,
     local.gurumdds_repositories,
+    local.hatchbed_repositories,
     local.hebi_repositories,
     local.hhcm_iit_repositories,
     local.hpp_fcl_repositories,

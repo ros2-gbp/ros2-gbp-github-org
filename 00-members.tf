@@ -62,6 +62,7 @@ locals {
     local.gscam_team,
     local.gstavrinos_team,
     local.gurumdds_team,
+    local.hatchbed_team,
     local.hebi_team,
     local.hhcm_iit_team,
     local.hpp_fcl_team,
