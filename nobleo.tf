@@ -7,6 +7,8 @@ locals {
     "libnabo-release",
     "libpointmatcher-release",
     "magic_enum-release",
+    "rslidar_msg-release",
+    "rslidar_sdk-release",
     "rtcm_msgs-release",
     "rviz_satellite-release",
     "steering_functions-release",
