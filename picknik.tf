@@ -5,6 +5,7 @@ locals {
     "JafarAbdi",
     "MarqRazz",
     "moriarty",
+    "pac48",
     "sea-bass",
     "sjahr",
     "tylerjw",
