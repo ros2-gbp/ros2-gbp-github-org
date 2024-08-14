@@ -144,6 +144,7 @@ locals {
     local.robot_localization_team,
     local.robotis_team,
     local.robotont_team,
+    local.robotraconteur_team,
     local.robotwebtools_team,
     local.ros2_gbp_docs_team,
     local.ros4hri_team,
