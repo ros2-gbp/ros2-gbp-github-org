@@ -56,6 +56,7 @@ locals {
     local.foxglove_msgs_repositories,
     local.franka_robotics_repositories,
     local.fraunhofer_iosb_ars_repositories,
+    local.fraunhofer_ipa_320_repositories,
     local.gazebo_repositories,
     local.geographic_info_repositories,
     local.grbl_repositories,
