@@ -107,7 +107,6 @@ locals {
     local.naoqi_repositories,
     local.navigation_repositories,
     local.neobotix_repositories,
-    local.neobotix_repositories,
     local.network_bridge_repositories,
     local.niwcpac_repositories,
     local.nlamprian_repositories,

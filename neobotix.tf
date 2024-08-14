@@ -4,6 +4,7 @@ locals {
   ]
   neobotix_repositories = [
     "neo_nav2_bringup-release",
+    "neo_simulation2-release",
   ]
 }
 
