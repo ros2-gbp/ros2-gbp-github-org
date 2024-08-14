@@ -6,6 +6,7 @@ locals {
     local.acceleration_wg_repositories,
     local.ackermann_msgs_repositories,
     local.aerostack2_repositories,
+    local.ai_prompt_msgs_repositories,
     local.alliedvision_repositories,
     local.analogdevicesinc_tmcl_repositories,
     local.andino_repositories,
