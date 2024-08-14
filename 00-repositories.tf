@@ -183,6 +183,7 @@ locals {
     local.transport_drivers_repositories,
     local.tri_repositories,
     local.tsid_repositories,
+    local.tuda_sim_repositories,
     local.turtlebot4_repositories,
     local.tuw_robotics_repositories,
     local.twist_mux_repositories,
