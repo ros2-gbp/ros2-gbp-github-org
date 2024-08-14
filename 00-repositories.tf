@@ -159,6 +159,7 @@ locals {
     local.rtabmap_repositories,
     local.ruckig_repositories,
     local.rudislabs_repositories,
+    local.scenario_execution_repositories,
     local.schunk_svh_repositories,
     local.security_wg_repositories,
     local.septentrio_users_repositories,
