@@ -4,6 +4,7 @@ locals {
     "mitsudome-r",
     "xmfcx",
     "youtalk",
+    "soblin",
   ]
 
   autoware_repositories = [
