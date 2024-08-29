@@ -5,8 +5,9 @@ locals {
     "StefanFabian",
   ]
   tuda_sim_repositories = [
-    "ros_babel_fish-release",
+    "hector_rviz_overlay-release",
     "qml_ros2_plugin-release",
+    "ros_babel_fish-release",
   ]
 }
 
