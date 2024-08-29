@@ -163,6 +163,7 @@ locals {
     local.schunk_svh_repositories,
     local.security_wg_repositories,
     local.septentrio_users_repositories,
+    local.sick_safetyscanners_repositories,
     local.sick_safevisionary_repositories,
     local.sick_scan_xd_repositories,
     local.simple_launch_repositories,
