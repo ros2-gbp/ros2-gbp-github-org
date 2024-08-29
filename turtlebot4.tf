@@ -4,6 +4,7 @@ locals {
     "roni-kreinin",
     "tfoote",
     "tonybaltovski",
+    "civerach-cpr"
   ]
   turtlebot4_repositories = [
     "turtlebot4-release",
