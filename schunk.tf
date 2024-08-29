@@ -1,18 +1,18 @@
 locals {
-  schunk_svh_team = [
+  schunk_team = [
     "harry-arnst",
     "stefanscherzinger",
   ]
-  schunk_svh_repositories = [
+  schunk_repositories = [
     "schunk_svh_library-release",
     "schunk_svh_ros_driver-release",
   ]
 }
 
-module "schunk_svh_team" {
+module "schunk_team" {
   source       = "./modules/release_team"
-  team_name    = "schunk_svh"
-  members      = local.schunk_svh_team
-  repositories = local.schunk_svh_repositories
+  team_name    = "schunk"
+  members      = local.schunk_team
+  repositories = local.schunk_repositories
   depends_on   = [github_membership.members, github_repository.repositories]
 }

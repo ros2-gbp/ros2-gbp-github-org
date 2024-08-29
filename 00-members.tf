@@ -162,7 +162,7 @@ locals {
     local.ruckig_team,
     local.rudislabs_team,
     local.scenario_execution_team,
-    local.schunk_svh_team,
+    local.schunk_team,
     local.security_wg_team,
     local.septentrio_users_team,
     local.sick_safetyscanners_team,
