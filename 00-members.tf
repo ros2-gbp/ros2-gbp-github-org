@@ -191,6 +191,7 @@ locals {
     local.tri_team,
     local.tsid_team,
     local.tuda_sim_team,
+    local.turtle_nest_team,
     local.turtlebot4_team,
     local.tuw_robotics_team,
     local.twist_mux_team,

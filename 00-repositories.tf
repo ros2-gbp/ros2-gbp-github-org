@@ -189,6 +189,7 @@ locals {
     local.tri_repositories,
     local.tsid_repositories,
     local.tuda_sim_repositories,
+    local.turtle_nest_repositories,
     local.turtlebot4_repositories,
     local.tuw_robotics_repositories,
     local.twist_mux_repositories,
