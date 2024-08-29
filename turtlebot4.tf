@@ -1,10 +1,10 @@
 locals {
   turtlebot4_team = [
+    "civerach-cpr"
     "kscottz",
     "roni-kreinin",
     "tfoote",
     "tonybaltovski",
-    "civerach-cpr"
   ]
   turtlebot4_repositories = [
     "turtlebot4-release",
