@@ -7,6 +7,7 @@ locals {
   ]
   black_coffee_robotics_repositories = [
     "bcr_bot-release",
+    "vector_pursuit_controller-release",
   ]
 }
 
