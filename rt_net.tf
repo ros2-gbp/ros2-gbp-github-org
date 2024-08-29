@@ -1,10 +1,9 @@
 locals {
   rt_net_team = [
+    "chama1176",
     "Kuwamai",
     "ShotaAk",
-    "Tiryoh",
     "YusukeKato",
-    "shu-13",
   ]
   rt_net_repositories = [
     "crane_plus-release",
