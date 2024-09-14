@@ -9,6 +9,7 @@ locals {
     "ffmpeg_image_transport_msgs-release",
     "ffmpeg_image_transport_tools-release",
     "flex_sync-release",
+    "foxglove_compressed_video_transport-release",
   ]
 }
 
