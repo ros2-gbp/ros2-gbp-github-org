@@ -10,6 +10,7 @@ locals {
     "Universal_Robots_ROS2_Driver-release",
     "ur_description-release",
     "ur_msgs-release",
+    "ur_simulation_gz-release",
   ]
 }
 
