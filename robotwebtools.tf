@@ -1,6 +1,7 @@
 locals {
   robotwebtools_team = [
     "achim-k",
+    "bjsowa",
     "defunctzombie",
     "dirk-thomas",
     "jtbandes",
