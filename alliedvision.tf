@@ -1,7 +1,6 @@
 locals {
   alliedvision_team = [
     "dlangenkamp-avt",
-    "fklostermann",
     "khoepke",
   ]
   alliedvision_repositories = [
