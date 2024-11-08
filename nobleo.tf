@@ -4,6 +4,7 @@ locals {
   ]
   nobleo_repositories = [
     "azure_iot_sdk_c-release",
+    "boost_sml_vendor-release",
     "libnabo-release",
     "libpointmatcher-release",
     "magic_enum-release",
