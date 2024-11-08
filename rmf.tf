@@ -2,6 +2,7 @@ locals {
   rmf_team = [
     "Yadunund",
     "codebot",
+    "luca-della-vedova",
     "marcoag",
   ]
   rmf_repositories = [
