@@ -179,6 +179,7 @@ locals {
     local.smacc2_repositories,
     local.snt_arg_repositories,
     local.sports_repositories,
+    local.stereolabs_repositories,
     local.stonier_repositories,
     local.swri_repositories,
     local.sync_parameter_server_repositories,

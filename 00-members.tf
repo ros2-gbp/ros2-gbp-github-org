@@ -181,6 +181,7 @@ locals {
     local.smacc2_team,
     local.snt_arg_team,
     local.sports_team,
+    local.stereolabs_team,
     local.stonier_team,
     local.swri_team,
     local.sync_parameter_server_team,
