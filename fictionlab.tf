@@ -11,6 +11,7 @@ locals {
     "leo_desktop-release",
     "leo_robot-release",
     "leo_simulator-release",
+    "rosbag2_to_video-release",
   ]
 }
 
