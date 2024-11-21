@@ -74,6 +74,7 @@ locals {
     local.ifm3d_repositories,
     local.ijnek_repositories,
     local.ika_rwth_aachen_repositories,
+    local.ikerlan_ker_repositories,
     local.image_transport_plugins_repositories,
     local.imrclab_repositories,
     local.imu_pipeline_repositories,
