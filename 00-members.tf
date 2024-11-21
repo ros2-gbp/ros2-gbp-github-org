@@ -26,6 +26,7 @@ locals {
     local.borglab_team,
     local.bosch_engineering_ohw_team,
     local.caret_team,
+    local.carologistics_team,
     local.cascade_lifecycle_team,
     local.cerberus_team,
     local.cognipilot_team,

@@ -26,6 +26,7 @@ locals {
     local.borglab_repositories,
     local.bosch_engineering_ohw_repositories,
     local.caret_repositories,
+    local.carologistics_repositories,
     local.cascade_lifecycle_repositories,
     local.cerberus_repositories,
     local.cognipilot_repositories,
