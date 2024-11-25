@@ -2,6 +2,7 @@
 
 locals {
   members = setunion(
+    local.4am_robotics_team,
     local._42dot_team,
     local.acceleration_wg_team,
     local.ackermann_msgs_team,
