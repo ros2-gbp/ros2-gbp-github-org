@@ -1,14 +1,14 @@
 locals {
-  4am_robotics_team = [
+  _4am_robotics_team = [
     "Deleh",
     "benmaidel",
   ]
-  4am_robotics_repositories = [
+  _4am_robotics_repositories = [
     "cob_common-release"
   ]
 }
 
-module "4am_robotics_team" {
+module "_4am_robotics_team" {
   source       = "./modules/release_team"
   team_name    = "4am-robotics"
   members      = local.4am_robotics_team

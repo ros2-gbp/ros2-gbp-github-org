@@ -1,8 +1,8 @@
 # Create memberships for the distinct set of all team members who aren't admins.
 locals {
   organization_repositories = setunion(
-    local.4am_robotics_repositories,
     local._42dot_repositories,
+    local._4am_robotics_repositories,
     local._archived_repositories,
     local.acceleration_wg_repositories,
     local.ackermann_msgs_repositories,
