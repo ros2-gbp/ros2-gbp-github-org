@@ -2,8 +2,10 @@ locals {
   franka_robotics_team = [
     "AndreasKuhner",
     "BarisYazici",
+    "Smith-JackSmith",
     "gomezgu",
     "kmohyeldin",
+    "ssilenzi",
     "winkma",
   ]
   franka_robotics_repositories = [
