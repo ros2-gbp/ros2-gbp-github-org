@@ -1,7 +1,7 @@
 locals {
   fraunhofer_iosb_ars_team = [
-    "boitumeloruf",
     "jpetereit",
+    "migranram",
     "rapzag",
     "thomasemter",
   ]
