@@ -207,6 +207,7 @@ locals {
     local.twist_mux_repositories,
     local.ublox_repositories,
     local.udp_msgs_repositories,
+    local.uleroboticsgroup_repositories,
     local.umdlife_repositories,
     local.universal_robots_repositories,
     local.urdf_tutorial_repositories,

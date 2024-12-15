@@ -209,6 +209,7 @@ locals {
     local.twist_mux_team,
     local.ublox_team,
     local.udp_msgs_team,
+    local.uleroboticsgroup_team,
     local.umdlife_team,
     local.universal_robots_team,
     local.urdf_tutorial_team,
