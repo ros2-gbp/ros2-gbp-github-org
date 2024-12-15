@@ -212,6 +212,7 @@ locals {
     local.urdf_tutorial_team,
     local.urg_team,
     local.usb_cam_team,
+    local.uw_graphics_team,
     local.v4l2_camera_team,
     local.velodyne_simulator_team,
     local.velodyne_team,
