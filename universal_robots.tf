@@ -1,9 +1,9 @@
 locals {
   universal_robots_team = [
-    "RobertWilbrandt",
-    "VinDp",
-    "fmauch",
-    "t-schnell",
+    "urfeex",
+    "urrsk",
+    "urmahp",
+    "SarveshMalladi",
   ]
   universal_robots_repositories = [
     "Universal_Robots_Client_Library-release",
