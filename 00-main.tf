@@ -10,8 +10,10 @@ locals {
     "audrow",
     "clalancette",
     "cottsay",
+    "gbiggs",
     "marcoag",
     "nuclearsandwich",
     "tfoote",
+    "vyorsi",
   ]
 }
