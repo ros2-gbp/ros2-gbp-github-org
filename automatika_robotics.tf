@@ -4,7 +4,9 @@ locals {
     "mkabtoul",
   ]
   automatika_robotics_repositories = [
+    "automatika_embodied_agents-release",
     "automatika_ros_sugar-release",
+    "kompass-release",
   ]
 }
 
