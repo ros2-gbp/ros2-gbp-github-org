@@ -8,6 +8,7 @@ locals {
     "py_trees_js-release",
     "py_trees_ros-release",
     "py_trees_ros_interfaces-release",
+    "py_trees_ros_tutorials-release",
     "py_trees_ros_viewer-release"
   ]
 }
