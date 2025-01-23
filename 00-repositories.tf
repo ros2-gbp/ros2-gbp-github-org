@@ -131,6 +131,7 @@ locals {
     local.ouster_drivers_repositories,
     local.ouster_repositories,
     local.ouxt_repositories,
+    local.p2p_industries_repositories,
     local.pal_robotics_repositories,
     local.pangolin_repositories,
     local.perception_repositories,
