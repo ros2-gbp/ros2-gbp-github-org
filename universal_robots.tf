@@ -11,6 +11,7 @@ locals {
     "ur_description-release",
     "ur_msgs-release",
     "ur_simulation_gz-release",
+    "urinterfaces-release",
   ]
 }
 
