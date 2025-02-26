@@ -175,6 +175,7 @@ locals {
     local.sick_safetyscanners_repositories,
     local.sick_safevisionary_repositories,
     local.sick_scan_xd_repositories,
+    local.signetlabdei_repositories,
     local.simple_grasping_repositories,
     local.simple_launch_repositories,
     local.simple_robotics_repositories,
