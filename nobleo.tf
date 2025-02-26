@@ -1,6 +1,7 @@
 locals {
   nobleo_team = [
     "Timple",
+    "Rayman",
   ]
   nobleo_repositories = [
     "azure_iot_sdk_c-release",
