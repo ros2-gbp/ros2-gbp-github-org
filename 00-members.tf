@@ -190,6 +190,7 @@ locals {
     local.stereolabs_team,
     local.stonier_team,
     local.swri_team,
+    local.synapticon_team,
     local.sync_parameter_server_team,
     local.system_modes_team,
     local.teamspatzenhirn_team,
