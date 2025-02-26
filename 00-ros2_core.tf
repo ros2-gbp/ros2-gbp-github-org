@@ -102,7 +102,7 @@ locals {
     "eigen_stl_containers-release",
     "example_interfaces-release",
     "fastcdr-release",
-    "fastrtps-release",
+    "fastdds-release",
     "fcl-release",
     "filters-release",
     "geometry_tutorials-release",
