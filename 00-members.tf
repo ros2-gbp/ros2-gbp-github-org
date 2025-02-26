@@ -83,6 +83,7 @@ locals {
     local.imrclab_team,
     local.imu_pipeline_team,
     local.imu_tools_team,
+    local.insight_gui_team,
     local.interactive_marker_twist_team,
     local.introlab_team,
     local.irobot_education_team,
