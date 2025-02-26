@@ -188,6 +188,7 @@ locals {
     local.stereolabs_repositories,
     local.stonier_repositories,
     local.swri_repositories,
+    local.synapticon_repositories,
     local.sync_parameter_server_repositories,
     local.system_modes_repositories,
     local.teamspatzenhirn_repositories,
