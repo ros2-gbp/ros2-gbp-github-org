@@ -3,6 +3,7 @@ locals {
     "gstavrinos",
   ]
   gstavrinos_repositories = [
+    "doom_ros-release",
     "odom_to_tf_ros2-release",
   ]
 }
