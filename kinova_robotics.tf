@@ -1,6 +1,6 @@
 locals {
   kinova_robotics_team = [
-    "felixmaisonneuve",
+    "aalmrad",
     "martinleroux",
     "moriarty",
   ]
