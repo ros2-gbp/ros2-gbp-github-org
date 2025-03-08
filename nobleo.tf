@@ -9,6 +9,7 @@ locals {
     "libnabo-release",
     "libpointmatcher-release",
     "magic_enum-release",
+    "nobleo_socketcan_bridge-release",
     "rslidar_msg-release",
     "rslidar_sdk-release",
     "rtcm_msgs-release",
