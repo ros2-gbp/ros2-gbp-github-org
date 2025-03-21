@@ -1,6 +1,7 @@
 locals {
   fortefibre_team = [
     "HansRobo",
+    "f0reachARR",
     "shouth",
   ]
   fortefibre_repositories = [
