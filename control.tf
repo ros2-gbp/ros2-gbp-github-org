@@ -11,6 +11,7 @@ locals {
     "kinematics_interface-release",
     "realtime_tools-release",
     "ros2_control-release",
+    "ros2_control_cmake-release",
     "ros2_controllers-release",
   ]
 }
