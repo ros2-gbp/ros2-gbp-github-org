@@ -7,6 +7,7 @@ locals {
   ]
   fraunhofer_iosb_ars_repositories = [
     "camera_aravis2-release",
+    "multisensor_calibration-release",
   ]
 }
 
