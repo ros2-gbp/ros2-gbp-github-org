@@ -7,6 +7,7 @@ locals {
   ]
   analogdevicesinc_robotics_sys_sw_repositories = [
     "adi_3dtof_image_stitching-release",
+    "depth_obstacle_detect_ros-release",
   ]
 }
 
