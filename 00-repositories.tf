@@ -51,6 +51,7 @@ locals {
     local.fictionlab_repositories,
     local.fields2cover_repositories,
     local.filters_repositories,
+    local.fkie_repositories,
     local.flexbe_repositories,
     local.flir_camera_driver_repositories,
     local.fmi_repositories,

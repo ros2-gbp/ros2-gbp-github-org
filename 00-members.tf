@@ -51,6 +51,7 @@ locals {
     local.fictionlab_team,
     local.fields2cover_team,
     local.filters_team,
+    local.fkie_team,
     local.flexbe_team,
     local.flir_camera_driver_team,
     local.fmi_team,
