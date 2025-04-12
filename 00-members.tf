@@ -219,6 +219,7 @@ locals {
     local.udp_msgs_team,
     local.uleroboticsgroup_team,
     local.umdlife_team,
+    local.unisa_acg_robotics_team,
     local.universal_robots_team,
     local.urdf_tutorial_team,
     local.urg_team,

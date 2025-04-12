@@ -217,6 +217,7 @@ locals {
     local.udp_msgs_repositories,
     local.uleroboticsgroup_repositories,
     local.umdlife_repositories,
+    local.unisa_acg_robotics_repositories,
     local.universal_robots_repositories,
     local.urdf_tutorial_repositories,
     local.urg_repositories,
