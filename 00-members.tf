@@ -113,6 +113,7 @@ locals {
     local.moveit_team,
     local.mrpt2_team,
     local.mrt_cmake_modules_team,
+    local.namo_robotics_team,
     local.naoqi_team,
     local.navigation_team,
     local.neobotix_team,
