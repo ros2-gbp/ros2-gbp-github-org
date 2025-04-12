@@ -6,6 +6,7 @@ locals {
     "console_bridge-release",
     "gmock_vendor-release",
     "gtest_vendor-release",
+    "librealsense-release",
     "linear_sum_assignment-release",
     "navigation-release",
     "osrf_testings_tools_cpp-release",
