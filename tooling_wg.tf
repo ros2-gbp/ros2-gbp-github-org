@@ -10,6 +10,7 @@ locals {
     "wep21",
   ]
   tooling_wg_repositories = [
+    "graph_monitor-release",
     "keyboard_handler-release",
     "libstatistics_collector-release",
     "rosbag2_storage_mcap-release",
