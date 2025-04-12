@@ -9,6 +9,7 @@ locals {
     local.aerostack2_team,
     local.ai_prompt_msgs_team,
     local.alliedvision_team,
+    local.analogdevices_robotics_team,
     local.analogdevicesinc_robotics_sys_sw_team,
     local.analogdevicesinc_tmcl_team,
     local.andino_team,
