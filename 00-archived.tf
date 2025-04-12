@@ -13,6 +13,7 @@ locals {
     "poco_vendor-release",
     "rmw_opensplice-release",
     "robot_model-release",
+    "ros2_intel_realsense-release",
     "ros_astra_camera-release",
     "rosidl_typesupport_opensplice-release",
     "system_tests-release",
