@@ -146,6 +146,7 @@ locals {
     local.plansys2_team,
     local.plotjuggler_team,
     local.point_cloud_transport_team,
+    local.polymath_robotics_team,
     local.pradyum_group_team,
     local.py_trees_team,
     local.rclc_team,
