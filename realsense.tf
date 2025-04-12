@@ -1,8 +1,8 @@
 locals {
   realsense_team = [
-    "SamerKhshiboun",
     "IntelRealSense",
-    "Nir-Az"
+    "Nir-Az",
+    "ashrafk93",
   ]
   realsense_repositories = [
     "librealsense2-release",
