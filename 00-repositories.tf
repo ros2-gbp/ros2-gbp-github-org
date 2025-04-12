@@ -9,6 +9,7 @@ locals {
     local.aerostack2_repositories,
     local.ai_prompt_msgs_repositories,
     local.alliedvision_repositories,
+    local.analogdevices_robotics_repositories,
     local.analogdevicesinc_robotics_sys_sw_repositories,
     local.analogdevicesinc_tmcl_repositories,
     local.andino_repositories,
