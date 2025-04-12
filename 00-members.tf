@@ -234,7 +234,6 @@ locals {
     local.visp_team,
     local.vrpn_team,
     local.wasp_research_group_team,
-    local.wasp_research_group_team,
     local.wep21_team,
     local.xacro_team,
     local.yukkysaito_team,

@@ -1,9 +1,12 @@
 locals {
   wasp_research_group_team = [
+    "MFernandezCarmona",
     "ajtudela",
   ]
   wasp_research_group_repositories = [
+    "laser_segmentation-release",
     "sicks300_ros2-release",
+    "slg_msgs-release",
   ]
 }
 
