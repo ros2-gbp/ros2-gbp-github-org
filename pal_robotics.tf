@@ -6,6 +6,7 @@ locals {
     "saikishor",
   ]
   pal_robotics_repositories = [
+    "aruco_ros-release",
     "backward_ros-release",
     "pal_statistics-release",
   ]
