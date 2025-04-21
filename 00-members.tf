@@ -148,6 +148,7 @@ locals {
     local.plotjuggler_team,
     local.point_cloud_transport_team,
     local.pradyum_group_team,
+    local.py_binding_tools_team,
     local.py_trees_team,
     local.rclc_team,
     local.rcpputils_team,
