@@ -91,6 +91,7 @@ locals {
     local.irobot_education_repositories,
     local.jafarabdi_repositories,
     local.josh_newans_repositories,
+    local.kinematics_interface_pinocchio_repositories,
     local.kinova_robotics_repositories,
     local.kobuki_base_repositories,
     local.kuka_repositories,
