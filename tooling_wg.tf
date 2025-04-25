@@ -13,6 +13,7 @@ locals {
     "graph_monitor-release",
     "keyboard_handler-release",
     "libstatistics_collector-release",
+    "rosbag2_broll-release",
     "rosbag2_storage_mcap-release",
     "topic_tools-release",
   ]
