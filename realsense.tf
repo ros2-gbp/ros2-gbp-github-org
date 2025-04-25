@@ -1,6 +1,5 @@
 locals {
   realsense_team = [
-    "IntelRealSense",
     "Nir-Az",
     "ashrafk93",
   ]
