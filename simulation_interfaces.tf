@@ -2,6 +2,7 @@ locals {
   simulation_interfaces_team = [
     "adamdbrw",
     "mjcarroll",
+    "zakmat",
   ]
   simulation_interfaces_repositories = [
     "simulation_interfaces-release",
