@@ -132,6 +132,7 @@ locals {
     local.octomap_repositories,
     local.odri_repositories,
     local.ompl_repositories,
+    local.openarm_repositories,
     local.open_sound_control_repositories,
     local.openni2_camera_repositories,
     local.orco_repositories,
