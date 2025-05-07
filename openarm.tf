@@ -3,7 +3,7 @@ locals {
     "thomasonzhou",
   ]
   openarm_repositories = [
-    "openarm_ros2",
+    "openarm_ros2-release",
   ]
 }
 
