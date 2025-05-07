@@ -1,6 +1,6 @@
 locals {
   openarm_team = [
-    "thomasonzhou"
+    "thomasonzhou",
   ]
   openarm_repositories = [
     "openarm_ros2",
