@@ -1,5 +1,6 @@
 locals {
   polymath_robotics_team = [
+    "emersonknapp",
     "troygibb",
   ]
   polymath_robotics_repositories = [
