@@ -186,6 +186,7 @@ locals {
     local.schunk_team,
     local.security_wg_team,
     local.septentrio_users_team,
+    local.shangao_team,
     local.sick_safetyscanners_team,
     local.sick_safevisionary_team,
     local.sick_scan_xd_team,

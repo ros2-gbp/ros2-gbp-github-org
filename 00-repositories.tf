@@ -184,6 +184,7 @@ locals {
     local.schunk_repositories,
     local.security_wg_repositories,
     local.septentrio_users_repositories,
+    local.shangao_repositories,
     local.sick_safetyscanners_repositories,
     local.sick_safevisionary_repositories,
     local.sick_scan_xd_repositories,
