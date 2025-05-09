@@ -151,6 +151,7 @@ locals {
     local.pradyum_group_repositories,
     local.py_binding_tools_repositories,
     local.py_trees_repositories,
+    local.rai_repositories,
     local.rclc_repositories,
     local.rcpputils_repositories,
     local.realsense_repositories,

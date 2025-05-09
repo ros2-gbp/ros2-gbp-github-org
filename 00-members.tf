@@ -151,6 +151,7 @@ locals {
     local.pradyum_group_team,
     local.py_binding_tools_team,
     local.py_trees_team,
+    local.rai_team,
     local.rclc_team,
     local.rcpputils_team,
     local.realsense_team,
