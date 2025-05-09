@@ -77,6 +77,7 @@ locals {
     local.hebi_repositories,
     local.hhcm_iit_repositories,
     local.hpp_fcl_repositories,
+    local.husarion_repositories,
     local.iceoryx_repositories,
     local.ifm3d_repositories,
     local.ijnek_repositories,
