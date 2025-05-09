@@ -77,6 +77,7 @@ locals {
     local.hebi_team,
     local.hhcm_iit_team,
     local.hpp_fcl_team,
+    local.husarion_team,
     local.iceoryx_team,
     local.ifm3d_team,
     local.ijnek_team,
