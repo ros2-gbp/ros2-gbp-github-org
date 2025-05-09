@@ -191,6 +191,7 @@ locals {
     local.simple_grasping_team,
     local.simple_launch_team,
     local.simple_robotics_team,
+    local.simulation_interfaces_team,
     local.skylove_team,
     local.slider_publisher_team,
     local.smacc2_team,
