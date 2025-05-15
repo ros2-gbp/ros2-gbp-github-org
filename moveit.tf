@@ -3,6 +3,7 @@ locals {
     "JafarAbdi",
     "christhrasher",
     "henningkayser",
+    "MarqRazz",
     "pac48",
     "rhaschke",
     "sea-bass",
