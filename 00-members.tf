@@ -176,6 +176,7 @@ locals {
     local.ros_team,
     local.rosauth_team,
     local.rosbag2_team,
+    local.rosidlcpp_team,
     local.rospy_message_converter_team,
     local.rplidar_ros_team,
     local.rqt_team,

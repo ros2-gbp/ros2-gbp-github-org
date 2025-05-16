@@ -174,6 +174,7 @@ locals {
     local.ros_repositories,
     local.rosauth_repositories,
     local.rosbag2_repositories,
+    local.rosidlcpp_repositories,
     local.rospy_message_converter_repositories,
     local.rplidar_ros_repositories,
     local.rqt_repositories,
