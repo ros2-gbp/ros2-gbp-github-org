@@ -1,7 +1,7 @@
 locals {
   rclc_team = [
     "JanStaschulat",
-    "pablogs9",
+    "4ntn",
   ]
   rclc_repositories = [
     "rclc-release",
