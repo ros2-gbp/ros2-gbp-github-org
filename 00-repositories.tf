@@ -29,6 +29,7 @@ locals {
     local.boeing_repositories,
     local.borglab_repositories,
     local.bosch_engineering_ohw_repositories,
+    local.canboat_vendor_repositories,
     local.caret_repositories,
     local.carologistics_repositories,
     local.cascade_lifecycle_repositories,
