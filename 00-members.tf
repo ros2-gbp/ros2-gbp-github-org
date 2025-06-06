@@ -221,6 +221,7 @@ locals {
     local.traclabs_team,
     local.transport_drivers_team,
     local.tri_team,
+    local.trimble_team,
     local.tsid_team,
     local.tuda_sim_team,
     local.turtle_nest_team,

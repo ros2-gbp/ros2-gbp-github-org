@@ -219,6 +219,7 @@ locals {
     local.traclabs_repositories,
     local.transport_drivers_repositories,
     local.tri_repositories,
+    local.trimble_repositories,
     local.tsid_repositories,
     local.tuda_sim_repositories,
     local.turtle_nest_repositories,
