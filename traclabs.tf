@@ -3,7 +3,7 @@ locals {
     "ana-GT",
     "kbrameld",
     "mlanighan",
-    "nstiurca",
+    "smgee",
   ]
   traclabs_repositories = [
     "trac_ik-release",
