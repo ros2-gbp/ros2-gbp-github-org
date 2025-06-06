@@ -29,6 +29,7 @@ locals {
     local.boeing_team,
     local.borglab_team,
     local.bosch_engineering_ohw_team,
+    local.canboat_vendor_team,
     local.caret_team,
     local.carologistics_team,
     local.cascade_lifecycle_team,
