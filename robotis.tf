@@ -5,6 +5,7 @@ locals {
   ]
   robotis_repositories = [
     "ai_worker-release",
+    "coin_d4_driver-release",
     "dynamixel_hardware_interface-release",
     "dynamixel_interfaces-release",
     "dynamixel_sdk-release",
