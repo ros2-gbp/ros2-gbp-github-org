@@ -4,6 +4,7 @@ locals {
     "MarqRazz",
     "christhrasher",
     "henningkayser",
+    "nbbrooks",
     "pac48",
     "rhaschke",
     "sea-bass",
