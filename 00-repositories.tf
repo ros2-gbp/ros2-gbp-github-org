@@ -63,6 +63,7 @@ locals {
     local.four_wheel_steering_msgs_repositories,
     local.foxglove_bridge_repositories,
     local.foxglove_msgs_repositories,
+    local.frame_editor_repositories,
     local.franka_robotics_repositories,
     local.fraunhofer_iosb_ars_repositories,
     local.fraunhofer_ipa_320_repositories,

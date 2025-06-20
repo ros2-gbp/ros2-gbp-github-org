@@ -63,6 +63,7 @@ locals {
     local.four_wheel_steering_msgs_team,
     local.foxglove_bridge_team,
     local.foxglove_msgs_team,
+    local.frame_editor_team,
     local.franka_robotics_team,
     local.fraunhofer_iosb_ars_team,
     local.fraunhofer_ipa_320_team,
