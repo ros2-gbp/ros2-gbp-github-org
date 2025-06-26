@@ -13,6 +13,7 @@ locals {
     "ros2_control-release",
     "ros2_control_cmake-release",
     "ros2_controllers-release",
+    "topic_based_hardware-release",
   ]
 }
 
