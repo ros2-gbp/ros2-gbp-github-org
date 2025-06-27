@@ -252,7 +252,7 @@ locals {
     local.xacro_team,
     local.yukkysaito_team,
     local.zbar_ros_team,
-    local.zenoh_bridge_dds_team,
+    local.zenoh_team,
   )
 }
 

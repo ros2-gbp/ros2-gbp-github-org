@@ -250,7 +250,7 @@ locals {
     local.xacro_repositories,
     local.yukkysaito_repositories,
     local.zbar_ros_repositories,
-    local.zenoh_bridge_dds_repositories,
+    local.zenoh_repositories,
   )
 }
 
