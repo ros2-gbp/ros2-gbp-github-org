@@ -4,7 +4,9 @@ locals {
     "techtasie",
   ]
   carologistics_repositories = [
+    "clips_executive-release",
     "clips_vendor-release",
+    "protobuf_comm-release",
   ]
 }
 
