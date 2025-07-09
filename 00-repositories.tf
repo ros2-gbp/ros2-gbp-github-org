@@ -160,6 +160,7 @@ locals {
     local.rclc_repositories,
     local.rcpputils_repositories,
     local.realsense_repositories,
+    local.reductstore_repositories,
     local.rmf_repositories,
     local.roboception_repositories,
     local.robot_calibration_repositories,
