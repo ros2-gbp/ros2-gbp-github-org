@@ -1,5 +1,6 @@
 locals {
   imrclab_team = [
+    "knmcguire",
     "whoenig",
   ]
   imrclab_repositories = [
