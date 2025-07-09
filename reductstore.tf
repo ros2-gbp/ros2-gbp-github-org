@@ -1,6 +1,7 @@
 locals {
   reductstore_team = [
     "AnthonyCvn",
+    "atimin",
   ]
   reductstore_repositories = [
     "reductstore_agent-release",
