@@ -182,6 +182,7 @@ locals {
     local.rqt_repositories,
     local.rt_net_repositories,
     local.rtabmap_repositories,
+    local.rtest_repositories,
     local.ruckig_repositories,
     local.rudislabs_repositories,
     local.scenario_execution_repositories,
