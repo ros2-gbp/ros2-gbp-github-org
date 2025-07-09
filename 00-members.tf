@@ -160,6 +160,7 @@ locals {
     local.rclc_team,
     local.rcpputils_team,
     local.realsense_team,
+    local.reductstore_team,
     local.rmf_team,
     local.roboception_team,
     local.robot_calibration_team,
