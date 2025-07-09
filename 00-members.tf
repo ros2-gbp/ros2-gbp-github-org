@@ -184,6 +184,7 @@ locals {
     local.rqt_team,
     local.rt_net_team,
     local.rtabmap_team,
+    local.rtest_team,
     local.ruckig_team,
     local.rudislabs_team,
     local.scenario_execution_team,
