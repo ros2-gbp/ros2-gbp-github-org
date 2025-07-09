@@ -4,6 +4,7 @@ locals {
     "fujitatomoya",
   ]
   sony_rdc_repositories = [
+    "rcl_logging_syslog-release",
     "service_load_balancing-release",
   ]
 }
