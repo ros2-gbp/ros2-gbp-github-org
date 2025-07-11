@@ -7,7 +7,6 @@ locals {
     "nbbrooks",
     "pac48",
     "rhaschke",
-    "sea-bass",
     "sjahr",
     "tylerjw",
     "v4hn",
