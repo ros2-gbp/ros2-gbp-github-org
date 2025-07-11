@@ -115,6 +115,7 @@ locals {
     "interactive_markers-release",
     "joint_state_publisher-release",
     "joystick_drivers-release",
+    "kdl_parser_py-release",
     "laser_geometry-release",
     "laser_proc-release",
     "libyaml_vendor-release",
