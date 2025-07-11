@@ -215,6 +215,7 @@ locals {
     local.the_construct_repositories,
     local.tier4_repositories,
     local.tooling_wg_repositories,
+    local.topic_based_hardware_repositories,
     local.tracing_repositories,
     local.traclabs_repositories,
     local.transport_drivers_repositories,
