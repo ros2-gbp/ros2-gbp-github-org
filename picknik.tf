@@ -7,7 +7,6 @@ locals {
     "moriarty",
     "nbbrooks",
     "pac48",
-    "sea-bass",
     "shaur-k",
     "sjahr",
     "tylerjw",
