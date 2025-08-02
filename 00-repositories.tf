@@ -34,6 +34,7 @@ locals {
     local.caret_repositories,
     local.carologistics_repositories,
     local.cascade_lifecycle_repositories,
+    local.cellumation_repositories,
     local.cerberus_repositories,
     local.cognipilot_repositories,
     local.connextdds_repositories,

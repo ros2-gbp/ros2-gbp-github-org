@@ -34,6 +34,7 @@ locals {
     local.caret_team,
     local.carologistics_team,
     local.cascade_lifecycle_team,
+    local.cellumation_team,
     local.cerberus_team,
     local.cognipilot_team,
     local.connextdds_team,
