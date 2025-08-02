@@ -9,6 +9,7 @@ locals {
     "rafal-gorecki",
   ]
   husarion_repositories = [
+    "husarion_components_description-release",
     "husarion_ugv_ros-release",
   ]
 }
