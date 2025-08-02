@@ -1,8 +1,11 @@
 locals {
   fortefibre_team = [
+    "HansRobo",
     "f0reachARR",
+    "shouth",
   ]
   fortefibre_repositories = [
+    "fluent_rviz-release",
     "parameter_expression-release",
   ]
 }
