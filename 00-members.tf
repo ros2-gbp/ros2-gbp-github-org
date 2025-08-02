@@ -37,6 +37,7 @@ locals {
     local.cascade_lifecycle_team,
     local.cellumation_team,
     local.cerberus_team,
+    local.chroma_team,
     local.cognipilot_team,
     local.connextdds_team,
     local.control_box_rst_team,

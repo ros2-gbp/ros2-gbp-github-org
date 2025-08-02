@@ -37,6 +37,7 @@ locals {
     local.cascade_lifecycle_repositories,
     local.cellumation_repositories,
     local.cerberus_repositories,
+    local.chroma_repositories,
     local.cognipilot_repositories,
     local.connextdds_repositories,
     local.control_box_rst_repositories,
