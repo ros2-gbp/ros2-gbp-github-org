@@ -1,5 +1,7 @@
 locals {
   bosch_engineering_ohw_team = [
+    "Gabriela-AdrianaLapuste",
+    "Sopterean-Calin",
     "daniel4ohw",
     "rcp1-beg",
     "shu-beg",
