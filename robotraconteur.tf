@@ -4,6 +4,7 @@ locals {
   ]
   robotraconteur_repositories = [
     "robotraconteur-release",
+    "robotraconteur_companion-release",
   ]
 }
 
