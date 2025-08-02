@@ -5,6 +5,8 @@ locals {
   ]
   fkie_repositories = [
     "fkie_message_filters-release",
+    "live555_vendor-release",
+    "rtsp_image_transport-release",
   ]
 }
 
