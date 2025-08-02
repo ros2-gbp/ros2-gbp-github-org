@@ -16,6 +16,7 @@ locals {
     local.apex_repositories,
     local.apriltag_repositories,
     local.ardrone_sdk_repositories,
+    local.asl_uzl_repositories,
     local.astuff_repositories,
     local.async_web_server_cpp_repositories,
     local.aussierobots_repositories,

@@ -16,6 +16,7 @@ locals {
     local.apex_team,
     local.apriltag_team,
     local.ardrone_sdk_team,
+    local.asl_uzl_team,
     local.astuff_team,
     local.async_web_server_cpp_team,
     local.aussierobots_team,
