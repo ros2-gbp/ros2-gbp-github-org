@@ -1,8 +1,10 @@
 locals {
   tier4_team = [
     "mitsudome-r",
+    "amadeuszsz",
   ]
   tier4_repositories = [
+    "agnocast-release",
     "cudnn_cmake_module-release",
     "hash_library_vendor-release",
     "heaphook-release",

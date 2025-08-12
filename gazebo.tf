@@ -3,6 +3,7 @@ locals {
     "ahcorde",
     "azeey",
     "clalancette",
+    "iche033",
     "j-rivero",
     "mjcarroll",
   ]

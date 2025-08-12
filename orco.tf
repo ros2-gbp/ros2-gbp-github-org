@@ -1,6 +1,6 @@
 locals {
   orco_team = [
-    "daviddorf2023",
+    "david-dorf",
   ]
   orco_repositories = [
     "multidim_rrt_planner-release",

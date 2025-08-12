@@ -6,6 +6,7 @@ locals {
     "omichel",
     "stefaniapedrazzi",
     "ygoumaz",
+    "lukicdarkoo",
   ]
   cyberbotics_repositories = [
     "webots_ros2-release",

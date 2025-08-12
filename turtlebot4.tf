@@ -1,5 +1,6 @@
 locals {
   turtlebot4_team = [
+    "civerachb-cpr",
     "kscottz",
     "roni-kreinin",
     "tfoote",

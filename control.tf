@@ -1,7 +1,7 @@
 locals {
   control_team = [
-    "Karsten1987",
     "bmagyar",
+    "christophfroehlich",
   ]
   control_repositories = [
     "control_msgs-release",
@@ -11,8 +11,9 @@ locals {
     "kinematics_interface-release",
     "realtime_tools-release",
     "ros2_control-release",
+    "ros2_control_cmake-release",
     "ros2_controllers-release",
-    "teleop_tools-release",
+    "topic_based_hardware-release",
   ]
 }
 

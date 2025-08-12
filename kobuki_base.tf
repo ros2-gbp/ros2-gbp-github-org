@@ -5,6 +5,7 @@ locals {
   ]
   kobuki_base_repositories = [
     "kobuki_core-release",
+    "kobuki_ros-release",
     "kobuki_ros_interfaces-release",
     "kobuki_velocity_smoother-release",
   ]

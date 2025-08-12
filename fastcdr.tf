@@ -5,9 +5,10 @@ locals {
   ]
   fastcdr_repositories = [
     "fastcdr-release",
-    "fastrtps-release",
+    "fastdds-release",
     "foonathan_memory_vendor-release",
     "rmw_fastrtps-release",
+    "rosidl_dynamic_typesupport_fastrtps-release",
     "rosidl_typesupport_fastrtps-release",
   ]
 }

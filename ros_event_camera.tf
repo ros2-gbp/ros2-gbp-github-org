@@ -9,7 +9,9 @@ locals {
     "event_camera_py-release",
     "event_camera_renderer-release",
     "libcaer_driver-release",
+    "libcaer_vendor-release",
     "metavision_driver-release",
+    "openeb_vendor-release",
   ]
 }
 

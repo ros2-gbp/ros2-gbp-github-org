@@ -8,6 +8,12 @@ locals {
   ]
   aerostack2_repositories = [
     "aerostack2-release",
+    "as2_platform_crazyfile-release",
+    "as2_platform_dji_osdk-release",
+    "as2_platform_dji_psdk-release",
+    "as2_platform_mavlink-release",
+    "as2_platform_pixhawk-release",
+    "as2_platform_tello-release",
   ]
 }
 

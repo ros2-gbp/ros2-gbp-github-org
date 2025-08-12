@@ -6,6 +6,7 @@ locals {
     "wxmerkt",
   ]
   hpp_fcl_repositories = [
+    "coal-release",
     "hpp_fcl-release",
   ]
 }

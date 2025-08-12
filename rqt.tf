@@ -3,7 +3,6 @@ locals {
     "DLu",
     "arne48",
     "mlautman",
-    "srishtidh",
   ]
   rqt_repositories = [
     "rqt_action-release",

@@ -5,6 +5,7 @@ locals {
   ]
   andino_repositories = [
     "andino-release",
+    "andino_gz-release",
   ]
 }
 

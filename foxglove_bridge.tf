@@ -1,7 +1,6 @@
 locals {
   foxglove_bridge_team = [
     "achim-k",
-    "amacneil",
     "defunctzombie",
     "jhurliman",
     "jtbandes",

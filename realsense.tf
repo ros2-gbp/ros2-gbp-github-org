@@ -1,10 +1,11 @@
 locals {
   realsense_team = [
-    "doronhi",
+    "Nir-Az",
+    "ashrafk93",
   ]
   realsense_repositories = [
-    "librealsense-release",
-    "ros2_intel_realsense-release",
+    "librealsense2-release",
+    "realsense-ros-release",
   ]
 }
 

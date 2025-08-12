@@ -2,7 +2,7 @@ locals {
   apex_team = [
     "LanderU",
     "carlossvg",
-    "erikatapex",
+    "christophebedard",
     "flynneva",
     "revati-naik",
   ]

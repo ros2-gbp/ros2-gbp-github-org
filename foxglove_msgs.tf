@@ -1,7 +1,6 @@
 locals {
   foxglove_msgs_team = [
     "achim-k",
-    "amacneil",
     "defunctzombie",
     "jtbandes",
     "wep21"

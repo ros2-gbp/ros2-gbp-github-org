@@ -7,6 +7,7 @@ locals {
   ]
   analogdevicesinc_tmcl_repositories = [
     "adi_tmcl-release",
+    "adi_tmcl_coe-release",
   ]
 }
 

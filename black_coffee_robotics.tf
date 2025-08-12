@@ -1,10 +1,13 @@
 locals {
   black_coffee_robotics_team = [
     "D-1shu",
+    "arthurgomes4",
+    "exMachina316",
     "ggupta9777",
   ]
   black_coffee_robotics_repositories = [
     "bcr_bot-release",
+    "vector_pursuit_controller-release",
   ]
 }
 

@@ -1,8 +1,10 @@
 locals {
   imrclab_team = [
+    "knmcguire",
     "whoenig",
   ]
   imrclab_repositories = [
+    "crazyswarm2-release",
     "motion_capture_tracking-release",
   ]
 }

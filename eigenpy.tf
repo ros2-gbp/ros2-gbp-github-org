@@ -6,6 +6,7 @@ locals {
   ]
   eigenpy_repositories = [
     "eigenpy-release",
+    "nanoeigenpy-release",
   ]
 }
 

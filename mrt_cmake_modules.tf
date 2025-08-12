@@ -1,6 +1,7 @@
 locals {
   mrt_cmake_modules_team = [
     "JohannesBeck",
+    "poggenhans",
   ]
   mrt_cmake_modules_repositories = [
     "mrt_cmake_modules-release",

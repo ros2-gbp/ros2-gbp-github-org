@@ -1,8 +1,11 @@
 locals {
   moveit_team = [
     "JafarAbdi",
+    "MarqRazz",
     "christhrasher",
     "henningkayser",
+    "nbbrooks",
+    "pac48",
     "rhaschke",
     "sjahr",
     "tylerjw",

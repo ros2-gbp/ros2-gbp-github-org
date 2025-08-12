@@ -5,6 +5,7 @@ locals {
     "paulbovbel",
   ]
   navigation_repositories = [
+    "nav2_minimal_turtlebot_simulation-release",
     "navigation-release",
     "navigation2-release",
     "navigation_msgs-release",
