@@ -4,6 +4,7 @@ locals {
     "arthurgomes4",
     "exMachina316",
     "ggupta9777",
+    "mathew4STAR",
   ]
   black_coffee_robotics_repositories = [
     "bcr_bot-release",
