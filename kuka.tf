@@ -1,8 +1,10 @@
 locals {
   kuka_team = [
     "Svastits",
-    "VX792",
     "kovacsge11",
+    "pasztork",
+    "altex111",
+    "Groebehavn",
   ]
   kuka_repositories = [
     "kuka_drivers-release",
