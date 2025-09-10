@@ -25,6 +25,7 @@ locals {
     local.aws_repositories,
     local.behaviortree_repositories,
     local.beluga_repositories,
+    local.better_launch_repositories,
     local.black_coffee_robotics_repositories,
     local.bno055_repositories,
     local.bno08x_repositories,
