@@ -166,6 +166,7 @@ locals {
     local.rai_team,
     local.rclc_team,
     local.rcpputils_team,
+    local.rdl_team,
     local.realsense_team,
     local.reductstore_team,
     local.rmf_team,
