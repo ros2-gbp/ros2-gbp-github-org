@@ -9,6 +9,7 @@ locals {
   ]
   analogdevices_robotics_repositories = [
     "adi_iio-release",
+    "adi_imu-release",
   ]
 }
 
