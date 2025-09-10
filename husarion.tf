@@ -5,7 +5,6 @@ locals {
     "KmakD",
     "delihus",
     "husarafal",
-    "miloszlagan",
     "rafal-gorecki",
   ]
   husarion_repositories = [
