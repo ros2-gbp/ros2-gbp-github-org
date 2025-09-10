@@ -9,6 +9,7 @@ locals {
   ]
   robotwebtools_repositories = [
     "rosbridge_suite-release",
+    "tf2_web_republisher-release",
     "web_video_server-release",
   ]
 }
