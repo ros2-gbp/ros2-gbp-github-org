@@ -2,7 +2,7 @@ locals {
   foxglove_bridge_team = [
     "achim-k",
     "defunctzombie",
-    "jhurliman",
+    "ericmlujan",
     "jtbandes",
   ]
   foxglove_bridge_repositories = [
