@@ -25,6 +25,7 @@ locals {
     local.aws_team,
     local.behaviortree_team,
     local.beluga_team,
+    local.better_launch_team,
     local.black_coffee_robotics_team,
     local.bno055_team,
     local.bno08x_team,
