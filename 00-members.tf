@@ -139,6 +139,7 @@ locals {
     local.octomap_team,
     local.odri_team,
     local.ompl_team,
+    local.open3d_team,
     local.open_sound_control_team,
     local.openarm_team,
     local.openni2_camera_team,
