@@ -5,6 +5,7 @@ locals {
   ]
   tier4_repositories = [
     "agnocast-release",
+    "callback_isolated_executor-release",
     "cudnn_cmake_module-release",
     "hash_library_vendor-release",
     "heaphook-release",
