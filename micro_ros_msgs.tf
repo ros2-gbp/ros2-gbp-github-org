@@ -1,6 +1,7 @@
 locals {
   micro_ros_msgs_team = [
-    "4ntn",
+    "EugenioCollado",
+    "Carlosespicur",
   ]
   micro_ros_msgs_repositories = [
     "micro_ros_msgs-release",
