@@ -7,6 +7,7 @@ locals {
     "mola-release",
     "mola_common-release",
     "mola_gnss_to_markers-release",
+    "mola_imu_preintegration-release",
     "mola_lidar_odometry-release",
     "mola_state_estimation-release",
     "mola_test_datasets-release",
