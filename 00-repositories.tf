@@ -166,6 +166,7 @@ locals {
     local.rai_repositories,
     local.rclc_repositories,
     local.rcpputils_repositories,
+    local.rdl_repositories,
     local.realsense_repositories,
     local.reductstore_repositories,
     local.rmf_repositories,
