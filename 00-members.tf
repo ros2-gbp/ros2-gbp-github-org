@@ -170,6 +170,7 @@ locals {
     local.realsense_team,
     local.reductstore_team,
     local.rmf_team,
+    local.roadmap_explorer_team,
     local.roboception_team,
     local.robot_calibration_team,
     local.robot_localization_team,
