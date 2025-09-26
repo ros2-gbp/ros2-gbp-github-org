@@ -23,6 +23,7 @@ locals {
     local.automatika_robotics_team,
     local.autoware_team,
     local.aws_team,
+    local.b_robotized_team,
     local.behaviortree_team,
     local.beluga_team,
     local.better_launch_team,

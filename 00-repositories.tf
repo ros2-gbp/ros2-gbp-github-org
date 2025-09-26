@@ -23,6 +23,7 @@ locals {
     local.automatika_robotics_repositories,
     local.autoware_repositories,
     local.aws_repositories,
+    local.b_robotized_repositories,
     local.behaviortree_repositories,
     local.beluga_repositories,
     local.better_launch_repositories,
