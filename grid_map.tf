@@ -1,5 +1,6 @@
 locals {
   grid_map_team = [
+    "ANYZichong",
     "Ryanf55",
     "maximilianwulf",
     "wep21",
