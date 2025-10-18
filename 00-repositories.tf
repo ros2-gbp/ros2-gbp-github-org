@@ -146,6 +146,7 @@ locals {
     local.open_sound_control_repositories,
     local.openarm_repositories,
     local.openni2_camera_repositories,
+    local.orbbec_camera_repositories,
     local.orco_repositories,
     local.ouster_drivers_repositories,
     local.ouster_repositories,
