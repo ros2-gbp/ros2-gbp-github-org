@@ -16,6 +16,7 @@ locals {
     "mrpt_msgs-release",
     "mrpt_navigation-release",
     "mrpt_path_planning-release",
+    "mrpt_ros_bridge-release",
     "mrpt_ros-release",
     "mrpt_sensors-release",
     "mrpt_slam-release",
