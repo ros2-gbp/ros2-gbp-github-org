@@ -2,6 +2,8 @@ locals {
   control_team = [
     "bmagyar",
     "christophfroehlich",
+    "destogl",
+    "saikishor",
   ]
   control_repositories = [
     "control_msgs-release",
