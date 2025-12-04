@@ -1,6 +1,7 @@
 locals {
   octomap_team = [
     "ahornung",
+    "wep21",
     "wxmerkt",
   ]
   octomap_repositories = [
