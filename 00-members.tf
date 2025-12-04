@@ -146,6 +146,7 @@ locals {
     local.open_sound_control_team,
     local.openarm_team,
     local.openni2_camera_team,
+    local.orbbec_camera_team,
     local.orco_team,
     local.ouster_drivers_team,
     local.ouster_team,
