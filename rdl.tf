@@ -3,6 +3,8 @@ locals {
     "jlack1987",
   ]
   rdl_repositories = [
+    "data_tamer_tools-release",
+    "foxglove_sdk_vendor-release",
     "rdl-release",
   ]
 }
