@@ -57,6 +57,7 @@ locals {
     local.ess_imu_driver2_team,
     local.event_camera_team,
     local.executive_smach_team,
+    local.facontidavide_team,
     local.fastcdr_team,
     local.fictionlab_team,
     local.fields2cover_team,

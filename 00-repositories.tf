@@ -57,6 +57,7 @@ locals {
     local.ess_imu_driver2_repositories,
     local.event_camera_repositories,
     local.executive_smach_repositories,
+    local.facontidavide_repositories,
     local.fastcdr_repositories,
     local.fictionlab_repositories,
     local.fields2cover_repositories,
