@@ -1,9 +1,9 @@
 locals {
   beluga_team = [
+    "LaBruma",
     "glpuga",
     "hidmic",
     "nahueespinosa",
-
   ]
   beluga_repositories = [
     "beluga-release",
