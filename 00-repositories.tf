@@ -56,6 +56,7 @@ locals {
     local.eigenpy_repositories,
     local.ess_imu_driver2_repositories,
     local.event_camera_repositories,
+    local.eventdispatch_repositories,
     local.executive_smach_repositories,
     local.facontidavide_repositories,
     local.fastcdr_repositories,
