@@ -1,6 +1,8 @@
 locals {
   pal_robotics_team = [
+    "AntoBrandi",
     "Noel215",
+    "ileniaperrella",
     "jordan-palacios",
     "lucamarchionni",
     "saikishor",
