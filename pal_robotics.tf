@@ -8,10 +8,22 @@ locals {
   pal_robotics_repositories = [
     "aruco_ros-release",
     "backward_ros-release",
+    "launch_pal-release",
     "mujoco_vendor-release",
+    "pal_pro_gripper-release",
+    "pal_sea_arm-release",
+    "pal_sea_arm_moveit_config-release",
+    "pal_sea_arm_simulation-release",
     "pal_statistics-release",
+    "pal_urdf_utils-release",
     "play_motion2-release",
     "play_motion_builder-release",
+    "tiago_pro_head_robot-release",
+    "tiago_pro_head_simulation-release",
+    "tiago_pro_moveit_config-release",
+    "tiago_pro_navigation-release",
+    "tiago_pro_robot-release",
+    "tiago_pro_simulation-release",
   ]
 }
 
