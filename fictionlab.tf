@@ -9,6 +9,7 @@ locals {
     "aruco_opencv-release",
     "leo_common-release",
     "leo_desktop-release",
+    "leo_examples-ros2-release",
     "leo_robot-release",
     "leo_simulator-release",
     "raph_common-release",
