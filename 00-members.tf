@@ -51,6 +51,7 @@ locals {
     local.diagnostics_team,
     local.dolly_team,
     local.dynamixel_community_team,
+    local.easynav_team,
     local.eclipse_ecal_team,
     local.eigenpy_team,
     local.ess_imu_driver2_team,
