@@ -6,6 +6,7 @@ locals {
   sony_rdc_repositories = [
     "persist_parameter_server-release",
     "rcl_logging_syslog-release",
+    "ros2ai-release",
     "service_load_balancing-release",
   ]
 }
