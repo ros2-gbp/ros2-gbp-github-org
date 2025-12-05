@@ -8,6 +8,7 @@ locals {
   pal_robotics_repositories = [
     "aruco_ros-release",
     "backward_ros-release",
+    "mujoco_vendor-release",
     "pal_statistics-release",
     "play_motion2-release",
     "play_motion_builder-release",
