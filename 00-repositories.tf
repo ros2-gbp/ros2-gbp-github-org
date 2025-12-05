@@ -167,6 +167,7 @@ locals {
     local.polymath_robotics_repositories,
     local.pradyum_group_repositories,
     local.prbonn_repositories,
+    local.px4_repositories,
     local.py_binding_tools_repositories,
     local.py_trees_repositories,
     local.pymoveit_repositories,
