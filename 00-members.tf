@@ -167,6 +167,7 @@ locals {
     local.polymath_robotics_team,
     local.pradyum_group_team,
     local.prbonn_team,
+    local.px4_team,
     local.py_binding_tools_team,
     local.py_trees_team,
     local.pymoveit_team,
