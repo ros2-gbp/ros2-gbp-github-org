@@ -1,8 +1,8 @@
 locals {
   sick_safevisionary_team = [
     "MGBla",
+    "chriseichmann",
     "lienhjoSICKAG",
-    "stefanscherzinger",
   ]
   sick_safevisionary_repositories = [
     "sick_safevisionary_base-release",
