@@ -139,6 +139,7 @@ locals {
     local.nodl_repositories,
     local.ntpd_driver_repositories,
     local.numsr_repositories,
+    local.nvidia_isaac_repositories,
     local.object_analytics_repositories,
     local.octomap_repositories,
     local.odri_repositories,
