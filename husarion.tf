@@ -10,6 +10,7 @@ locals {
   husarion_repositories = [
     "husarion_components_description-release",
     "husarion_ugv_ros-release",
+    "rosbot_ros-release",
   ]
 }
 
