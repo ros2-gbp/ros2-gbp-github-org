@@ -4,6 +4,8 @@ locals {
     "DLu",
     "JafarAbdi",
     "MarqRazz",
+    "bmagyar",
+    "christophfroehlich",
     "moriarty",
     "nbbrooks",
     "pac48",
