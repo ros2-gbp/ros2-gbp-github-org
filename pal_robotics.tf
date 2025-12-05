@@ -9,6 +9,7 @@ locals {
     "aruco_ros-release",
     "backward_ros-release",
     "pal_statistics-release",
+    "play_motion2-release",
     "play_motion_builder-release",
   ]
 }
