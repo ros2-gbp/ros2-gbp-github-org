@@ -6,6 +6,7 @@ locals {
   ]
   tuda_sim_repositories = [
     "hector_rviz_overlay-release",
+    "qml6_ros2_plugin-release",
     "qml_ros2_plugin-release",
     "ros_babel_fish-release",
   ]
