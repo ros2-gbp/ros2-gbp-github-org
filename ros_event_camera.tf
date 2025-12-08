@@ -10,6 +10,7 @@ locals {
     "event_camera_renderer-release",
     "event_image_reconstruction_fibar-release",
     "fibar_lib-release",
+    "frequency_cam-release",
     "libcaer_driver-release",
     "libcaer_vendor-release",
     "metavision_driver-release",
