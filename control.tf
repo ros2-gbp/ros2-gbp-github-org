@@ -3,6 +3,7 @@ locals {
     "bmagyar",
     "christophfroehlich",
     "destogl",
+    "MarqRazz",
     "saikishor",
   ]
   control_repositories = [
