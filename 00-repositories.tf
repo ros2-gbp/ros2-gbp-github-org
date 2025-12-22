@@ -44,6 +44,7 @@ locals {
     local.connextdds_repositories,
     local.control_box_rst_repositories,
     local.control_repositories,
+    local.crocoddyl_repositories,
     local.ctu_vras_repositories,
     local.cyberbotics_repositories,
     local.cyclonedds_repositories,
