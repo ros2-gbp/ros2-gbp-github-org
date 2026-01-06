@@ -3,6 +3,7 @@ locals {
     "mitsudome-r",
     "amadeuszsz",
     "sykwer",
+    "mojomex",
   ]
   tier4_repositories = [
     "agnocast-release",
