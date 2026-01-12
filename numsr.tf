@@ -3,6 +3,7 @@ locals {
     "hang-yin",
     "m-elwin",
     "ngmor",
+    "Sharwin24",
   ]
   numsr_repositories = [
     "catch_ros2-release",
