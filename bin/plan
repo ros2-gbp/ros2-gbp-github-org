@@ -1,3 +1,4 @@
 #!/bin/sh
 
-exec terraform plan -out plan.out | tee plan.txt
+PARALLELISM=${PARALLELISM:=128}
+exec terraform plan -parallelism=$PARALLELISM -out plan.out | tee plan.txt
