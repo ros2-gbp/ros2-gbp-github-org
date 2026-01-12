@@ -189,6 +189,7 @@ locals {
     local.robotraconteur_repositories,
     local.robotwebtools_repositories,
     local.ros2_rust_repositories,
+    local.ros2tree_repositories,
     local.ros4hri_repositories,
     local.ros_canopen_repositories,
     local.ros_event_camera_repositories,
