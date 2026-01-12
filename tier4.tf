@@ -12,7 +12,6 @@ locals {
     "heaphook-release",
     "osqp_vendor-release",
     "tensorrt_cmake_module-release",
-    "zmqpp_vendor-release",
   ]
 }
 

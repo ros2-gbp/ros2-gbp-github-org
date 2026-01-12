@@ -20,6 +20,7 @@ locals {
     "qpoases_vendor-release",
     "ros2_socketcan-release",
     "tvm_vendor-release",
+    "zmqpp_vendor-release",
   ]
 }
 
