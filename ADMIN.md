@@ -52,7 +52,7 @@ These will be created or destroyed whenever members or repositories are added or
 Terraform plan is taking longer and longer so reviewing and merging PRs in batches is recommended.
 Here is a workflow that I (nuclearsandwich) have settled as of 2025
 
-### Setup 
+### Setup
 
 * Fire up a fresh browser window open on <https://github.com/ros2-gbp/ros2-gbp-github-org/issues>
 * In a terminal, pull up [ros2/ros2-gbp-github-org](https://github.com/ros2-gbp/ros2-gbp-github-org/)
@@ -60,7 +60,7 @@ Here is a workflow that I (nuclearsandwich) have settled as of 2025
 
 ### Reviewing issues
 
-* Create a fresh tab for an issue, check the necessary review elements per the [review guidelines](./REVIEW_GUIDELINES.md). 
+* Create a fresh tab for an issue, check the necessary review elements per the [review guidelines](./REVIEW_GUIDELINES.md).
 * If the issue isn't ready to process, apply one of the labels to note what is missing, close it and move on.
 * If it is, create a branch with `git checkout -b i/$ISSUE_NUMBER`.
 * Make the necessary edits to complete the request.
@@ -79,4 +79,3 @@ After you've gone through all open issues and pull requests, follow the instruct
 This can take a while so getting a beverage, a snack, or taking a walk is warranted.
 
 Once the deployment has completed successfully, add a message like "This change has been deployed." on each of the relevant issues so that the requestors know it has been fulfilled.
-
