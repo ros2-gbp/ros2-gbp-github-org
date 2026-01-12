@@ -1,6 +1,7 @@
 locals {
   tier4_team = [
     "mitsudome-r",
+    "mojomex",
     "amadeuszsz",
     "sykwer",
   ]
