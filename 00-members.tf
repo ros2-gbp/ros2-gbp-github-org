@@ -44,6 +44,7 @@ locals {
     local.connextdds_team,
     local.control_box_rst_team,
     local.control_team,
+    local.ctu_vras_team,
     local.cyberbotics_team,
     local.cyclonedds_team,
     local.data_tamer_team,
