@@ -6,7 +6,7 @@ title: 'Add new release repositories'
 
 <!--
   Which release team will maintain these repositories?
-  If you do not yet have a release team in the ros2-gbp-github-org project, please instead use the [new release team](https://github.com/ros2-gbp/ros2-gbp-github-org/issues/new?assignees=&labels=&projects=&template=new_release_team.md&title=Add+release+team) template instead.
+  If you do not yet have a release team in the ros2-gbp-github-org project, please use the [new release team](https://github.com/ros2-gbp/ros2-gbp-github-org/issues/new?assignees=&labels=&projects=&template=new_release_team.md&title=Add+release+team) template instead.
   That template supports adding a new team and repositories at the same time.
 -->
 * Name of the release team: 
