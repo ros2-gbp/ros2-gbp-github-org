@@ -1,9 +1,9 @@
 locals {
   tier4_team = [
     "mitsudome-r",
+    "mojomex",
     "amadeuszsz",
     "sykwer",
-    "mojomex",
   ]
   tier4_repositories = [
     "agnocast-release",
