@@ -6,6 +6,8 @@ locals {
   ]
   hebi_repositories = [
     "hebi_cpp_api-release",
+    "hebi_hardware-release",
+    "hebi_msgs-release",
   ]
 }
 
