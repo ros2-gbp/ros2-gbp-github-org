@@ -46,3 +46,36 @@ In most situations for this project you should only see changed and added resour
 
 `github_team_membership` and `github_team_repository` resources are created within the `release_team` module.
 These will be created or destroyed whenever members or repositories are added or removed from a release team.
+
+## Workflow for processing PRs
+
+Terraform plan is taking longer and longer so reviewing and merging PRs in batches is recommended.
+Here is a workflow that I (nuclearsandwich) have settled as of 2025
+
+### Setup
+
+* Fire up a fresh browser window open on <https://github.com/ros2-gbp/ros2-gbp-github-org/issues>
+* In a terminal, pull up [ros2/ros2-gbp-github-org](https://github.com/ros2-gbp/ros2-gbp-github-org/)
+* In a second terminal or tab, open up [ros/rosdistro](https://github.com/ros/rosdistro) which can help quickly grep for packages in the rosdistro index.
+
+### Reviewing issues
+
+* Create a fresh tab for an issue, check the necessary review elements per the [review guidelines](./REVIEW_GUIDELINES.md).
+* If the issue isn't ready to process, apply one of the labels to note what is missing, close it and move on.
+* If it is, create a branch with `git checkout -b i/$ISSUE_NUMBER`.
+* Make the necessary edits to complete the request.
+* Commit the change `git commit -m 'Update release repository or team membership.'`
+* Push the branch up to ros2-gbp `git push origin i/$ISSUE_NUMBER`
+* Create a pull request `gh pr create --body "Resolves i/$ISSUE_NUMBER."`
+* Poll using `gh pr checks` and wait for the checks to pass.
+* Merge the pull request with `gh pr merge --squash`, it will close the issue automatically.
+* Return to the `latest` branch and update. `git checkout latest && git pull origin latest`
+* Keep the issue tab open so you can notify once changes are deployed.
+* Take up another issue and repeat until complete.
+
+### Deploy changes
+
+After you've gone through all open issues and pull requests, follow the instructions above in the [Terraform](#Terraform) section to plan and apply new changes.
+This can take a while so getting a beverage, a snack, or taking a walk is warranted.
+
+Once the deployment has completed successfully, add a message like "This change has been deployed." on each of the relevant issues so that the requestors know it has been fulfilled.
