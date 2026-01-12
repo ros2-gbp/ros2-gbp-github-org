@@ -2,6 +2,7 @@ locals {
   hebi_team = [
     "cwbollinger",
     "hr1799",
+    "iamtesch",
   ]
   hebi_repositories = [
     "hebi_cpp_api-release",
