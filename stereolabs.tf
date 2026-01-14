@@ -7,6 +7,7 @@ locals {
   ]
   stereolabs_repositories = [
     "zed-ros2-interfaces-release",
+    "zed-ros2-description-release",
   ]
 }
 
