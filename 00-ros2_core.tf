@@ -19,7 +19,6 @@ locals {
     "methylDragon",
     "mjcarroll",
     "mjeronimo",
-    "nuclearsandwich",
     "quarkytale",
     "sloretz",
     "tfoote",
