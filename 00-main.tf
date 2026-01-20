@@ -12,7 +12,6 @@ locals {
     "cottsay",
     "gbiggs",
     "marcoag",
-    "nuclearsandwich",
     "tfoote",
     "vyorsi",
   ]
