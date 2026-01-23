@@ -236,6 +236,7 @@ locals {
     local.techmagic_repositories,
     local.teleop_repositories,
     local.tf_transformations_repositories,
+    local.tf_tree_terminal_repositories,
     local.the_construct_repositories,
     local.tier4_repositories,
     local.tooling_wg_repositories,
