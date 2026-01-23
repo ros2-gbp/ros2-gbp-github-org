@@ -3,6 +3,8 @@ locals {
     "peci1",
   ]
   ctu_vras_repositories = [
+    "compass-release",
+    "cras_msgs-release",
     "cras_ros_utils-release",
   ]
 }
