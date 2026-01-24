@@ -20,6 +20,7 @@ locals {
     local.astuff_repositories,
     local.async_web_server_cpp_repositories,
     local.aussierobots_repositories,
+    local.autoapms_repositories,
     local.automatika_robotics_repositories,
     local.autoware_repositories,
     local.aws_repositories,
