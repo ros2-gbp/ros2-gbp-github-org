@@ -31,6 +31,7 @@ locals {
     local.black_coffee_robotics_team,
     local.bno055_team,
     local.bno08x_team,
+    local.bob_team,
     local.boeing_team,
     local.borglab_team,
     local.bosch_engineering_ohw_team,
