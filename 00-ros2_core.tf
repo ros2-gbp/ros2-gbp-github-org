@@ -20,6 +20,7 @@ locals {
     "mjcarroll",
     "mjeronimo",
     "quarkytale",
+    "scpeters",
     "sloretz",
     "tfoote",
     "wjwwood",
