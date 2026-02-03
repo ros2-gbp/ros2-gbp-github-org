@@ -31,6 +31,7 @@ locals {
     local.black_coffee_robotics_repositories,
     local.bno055_repositories,
     local.bno08x_repositories,
+    local.bob_repositories,
     local.boeing_repositories,
     local.borglab_repositories,
     local.bosch_engineering_ohw_repositories,
