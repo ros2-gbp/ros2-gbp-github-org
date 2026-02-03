@@ -10,6 +10,7 @@ locals {
     "clalancette",
     "cottsay",
     "emersonknapp",
+    "fujitatomoya",
     "gbiggs",
     "hidmic",
     "ivanpauno",
