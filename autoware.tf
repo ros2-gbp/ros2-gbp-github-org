@@ -16,6 +16,7 @@ locals {
     "autoware_internal_msgs-release",
     "autoware_lanelet2_extension-release",
     "autoware_msgs-release",
+    "autoware_rviz_plugins-release",
     "autoware_utils-release",
     "qpoases_vendor-release",
     "ros2_socketcan-release",
