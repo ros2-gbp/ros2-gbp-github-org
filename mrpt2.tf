@@ -4,11 +4,13 @@ locals {
     "jolting",
   ]
   mrpt2_repositories = [
+    "gtsam2mrpt_serial-release",
     "mola-release",
     "mola_common-release",
     "mola_gnss_to_markers-release",
     "mola_imu_preintegration-release",
     "mola_lidar_odometry-release",
+    "mola_mapper_2d-release",
     "mola_state_estimation-release",
     "mola_test_datasets-release",
     "mp2p_icp-release",
