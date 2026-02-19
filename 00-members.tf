@@ -99,6 +99,7 @@ locals {
     local.ika_rwth_aachen_team,
     local.ikerlan_ker_team,
     local.image_transport_plugins_team,
+    local.impedance_control_team,
     local.imrclab_team,
     local.imu_pipeline_team,
     local.imu_tools_team,
