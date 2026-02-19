@@ -193,6 +193,7 @@ locals {
     local.robotwebtools_team,
     local.ros2_gbp_docs_team,
     local.ros2_rust_team,
+    local.ros2_snapshot_team,
     local.ros2tree_team,
     local.ros4hri_team,
     local.ros_admins,
