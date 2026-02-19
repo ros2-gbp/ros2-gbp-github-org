@@ -135,6 +135,7 @@ locals {
     local.mrt_cmake_modules_repositories,
     local.namo_robotics_repositories,
     local.naoqi_repositories,
+    local.naturerobots_repositories,
     local.navigation_repositories,
     local.neobotix_repositories,
     local.network_bridge_repositories,
