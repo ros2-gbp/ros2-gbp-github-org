@@ -261,6 +261,7 @@ locals {
     local.umdlife_repositories,
     local.unisa_acg_robotics_repositories,
     local.universal_robots_repositories,
+    local.uos_repositories,
     local.urdf_tutorial_repositories,
     local.urg_repositories,
     local.usb_cam_repositories,
