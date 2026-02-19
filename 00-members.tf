@@ -135,6 +135,7 @@ locals {
     local.mrt_cmake_modules_team,
     local.namo_robotics_team,
     local.naoqi_team,
+    local.naturerobots_team,
     local.navigation_team,
     local.neobotix_team,
     local.network_bridge_team,
