@@ -47,6 +47,7 @@ locals {
     local.control_box_rst_team,
     local.control_team,
     local.crocoddyl_team,
+    local.crx_kinematics_team,
     local.ctu_vras_team,
     local.cyberbotics_team,
     local.cyclonedds_team,
