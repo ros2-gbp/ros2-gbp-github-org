@@ -5,10 +5,12 @@ locals {
     "xmfcx",
     "youtalk",
     "soblin",
+    "sykwer",
   ]
 
   autoware_repositories = [
     "acado_vendor-release",
+    "agnocast-release",
     "autoware_adapi_msgs-release",
     "autoware_auto_msgs-release",
     "autoware_cmake-release",
