@@ -115,6 +115,7 @@ locals {
     local.kobuki_base_team,
     local.kuka_team,
     local.lanelet2_team,
+    local.lfc_team,
     local.lgsvl_team,
     local.libcamera_team,
     local.libg2o_team,
