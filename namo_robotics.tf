@@ -4,6 +4,7 @@ locals {
   ]
   namo_robotics_repositories = [
     "aruco_markers-release",
+    "system_webview-release",
   ]
 }
 
