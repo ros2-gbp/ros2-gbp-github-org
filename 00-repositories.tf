@@ -100,6 +100,7 @@ locals {
     local.ika_rwth_aachen_repositories,
     local.ikerlan_ker_repositories,
     local.image_transport_plugins_repositories,
+    local.impedance_control_repositories,
     local.imrclab_repositories,
     local.imu_pipeline_repositories,
     local.imu_tools_repositories,
