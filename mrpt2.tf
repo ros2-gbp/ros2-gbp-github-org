@@ -11,6 +11,7 @@ locals {
     "mola_imu_preintegration-release",
     "mola_lidar_odometry-release",
     "mola_mapper_2d-release",
+    "mola_sm_loop_closure-release",
     "mola_state_estimation-release",
     "mola_test_datasets-release",
     "mp2p_icp-release",
