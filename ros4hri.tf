@@ -3,7 +3,11 @@ locals {
     "severin-lemaignan",
   ]
   ros4hri_repositories = [
+    "hri_actions_msgs-release",
     "hri_msgs-release",
+    "hri_rviz-release",
+    "human_description-release",
+    "libhri-release",
   ]
 }
 
