@@ -26,6 +26,7 @@ locals {
     "tiago_pro_navigation-release",
     "tiago_pro_robot-release",
     "tiago_pro_simulation-release",
+    "urdf_test-release",
   ]
 }
 
