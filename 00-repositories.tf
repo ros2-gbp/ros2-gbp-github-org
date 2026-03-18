@@ -116,6 +116,7 @@ locals {
     local.kobuki_base_repositories,
     local.kuka_repositories,
     local.lanelet2_repositories,
+    local.lfc_repositories,
     local.lgsvl_repositories,
     local.libcamera_repositories,
     local.libg2o_repositories,
