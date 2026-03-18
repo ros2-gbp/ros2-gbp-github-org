@@ -2,9 +2,11 @@ locals {
   polymath_robotics_team = [
     "emersonknapp",
     "troygibb",
+    "zeerekahmad",
   ]
   polymath_robotics_repositories = [
     "replay_testing-release",
+    "socketcan_adapter-release",
   ]
 }
 
