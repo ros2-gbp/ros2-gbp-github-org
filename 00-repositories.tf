@@ -195,6 +195,7 @@ locals {
     local.robotont_repositories,
     local.robotraconteur_repositories,
     local.robotwebtools_repositories,
+    local.ros2_medkit_repositories,
     local.ros2_rust_repositories,
     local.ros2_snapshot_repositories,
     local.ros2tree_repositories,
