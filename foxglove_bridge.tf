@@ -3,6 +3,7 @@ locals {
     "achim-k",
     "defunctzombie",
     "ericmlujan",
+    "gasmith",
     "jtbandes",
   ]
   foxglove_bridge_repositories = [
