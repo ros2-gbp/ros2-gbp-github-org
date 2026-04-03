@@ -11,6 +11,7 @@ locals {
     "magic_enum-release",
     "mp_units_vendor-release",
     "nobleo_socketcan_bridge-release",
+    "pfs-release",
     "ros2_fmt_logger-release",
     "rslidar_msg-release",
     "rslidar_sdk-release",
