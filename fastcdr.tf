@@ -1,6 +1,6 @@
 locals {
   fastcdr_team = [
-    "EduPonz",
+    "rsanchez15",
     "MiguelCompany",
   ]
   fastcdr_repositories = [
