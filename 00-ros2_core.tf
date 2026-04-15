@@ -139,6 +139,7 @@ locals {
     "rcutils-release",
     "realtime_support-release",
     "resource_retriever-release",
+    "resource_retriever_service-release",
     "rmw-release",
     "rmw_connext-release", # archive after Foxy end-of-support
     "rmw_connextdds-release",
