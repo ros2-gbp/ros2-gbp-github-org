@@ -12,6 +12,7 @@ locals {
     "cottsay",
     "gbiggs",
     "marcoag",
+    "sloretz",
     "tfoote",
     "vyorsi",
   ]
