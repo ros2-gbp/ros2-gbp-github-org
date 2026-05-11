@@ -10,6 +10,7 @@ locals {
     "mola_common-release",
     "mola_gnss_to_markers-release",
     "mola_imu_preintegration-release",
+    "mola_input_ouster-release",
     "mola_lidar_odometry-release",
     "mola_mapper_2d-release",
     "mola_sm_loop_closure-release",
