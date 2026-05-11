@@ -6,6 +6,7 @@ locals {
   mrpt2_repositories = [
     "gtsam2mrpt_serial-release",
     "mola-release",
+    "mola_academic_datasets-release",
     "mola_common-release",
     "mola_gnss_to_markers-release",
     "mola_imu_preintegration-release",
@@ -16,6 +17,7 @@ locals {
     "mola_test_datasets-release",
     "mp2p_icp-release",
     "mrpt2-release",
+    "mrpt3-release",
     "mrpt_msgs-release",
     "mrpt_navigation-release",
     "mrpt_path_planning-release",
