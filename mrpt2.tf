@@ -28,6 +28,7 @@ locals {
     "mrpt_sensors-release",
     "mrpt_slam-release",
     "mvsim-release",
+    "nanoflann-release",
     "pose_cov_ops-release",
     "python_mrpt_ros-release",
     "rosbag_timing_inspector-release",
