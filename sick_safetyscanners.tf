@@ -1,6 +1,7 @@
 locals {
   sick_safetyscanners_team = [
-    "lenpuc",
+    "chriseichmann",
+    "thomtrapp",
   ]
   sick_safetyscanners_repositories = [
     "sick_safetyscanners2-release",
