@@ -9,6 +9,8 @@ locals {
   ]
   husarion_repositories = [
     "husarion_components_description-release",
+    "husarion_controllers-release",
+    "husarion_gz_worlds-release",
     "husarion_ugv_ros-release",
     "rosbot_ros-release",
   ]
