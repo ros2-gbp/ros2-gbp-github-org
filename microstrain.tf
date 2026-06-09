@@ -1,5 +1,6 @@
 locals {
   microstrain_team = [
+    "aidan-laracy-HBK",
     "robbiefish",
   ]
   microstrain_repositories = [
