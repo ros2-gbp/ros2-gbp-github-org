@@ -1,6 +1,7 @@
 locals {
   dexory_team = [
-    "nachovizzo",
+    "biofotis",
+    "doisyg",
   ]
 
   dexory_repositories = [
