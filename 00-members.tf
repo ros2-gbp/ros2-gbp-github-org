@@ -20,6 +20,7 @@ locals {
     local.asl_uzl_team,
     local.astuff_team,
     local.async_web_server_cpp_team,
+    local.audio_common_team,
     local.aussierobots_team,
     local.autoapms_team,
     local.automatika_robotics_team,
