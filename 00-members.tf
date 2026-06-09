@@ -265,6 +265,7 @@ locals {
     local.turtlebot4_team,
     local.tuw_robotics_team,
     local.twist_mux_team,
+    local.ubi_agni_team,
     local.ublox_team,
     local.udp_msgs_team,
     local.uleroboticsgroup_team,

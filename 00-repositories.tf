@@ -263,6 +263,7 @@ locals {
     local.turtlebot4_repositories,
     local.tuw_robotics_repositories,
     local.twist_mux_repositories,
+    local.ubi_agni_repositories,
     local.ublox_repositories,
     local.udp_msgs_repositories,
     local.uleroboticsgroup_repositories,
