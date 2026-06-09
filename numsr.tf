@@ -7,6 +7,7 @@ locals {
   ]
   numsr_repositories = [
     "catch_ros2-release",
+    "potential_fields-release",
   ]
 }
 
