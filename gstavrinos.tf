@@ -5,6 +5,7 @@ locals {
   gstavrinos_repositories = [
     "doom_ros-release",
     "odom_to_tf_ros2-release",
+    "video_to_image_msg_publisher-release",
   ]
 }
 
