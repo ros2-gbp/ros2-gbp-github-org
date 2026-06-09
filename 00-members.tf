@@ -144,6 +144,7 @@ locals {
     local.navigation_team,
     local.neobotix_team,
     local.network_bridge_team,
+    local.nineyards_robotics_team,
     local.niwcpac_team,
     local.nlamprian_team,
     local.nmea_team,
