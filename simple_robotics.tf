@@ -1,6 +1,7 @@
 locals {
   simple_robotics_team = [
     "jcarpent",
+    "nim65s",
     "wxmerkt",
   ]
   simple_robotics_repositories = [
