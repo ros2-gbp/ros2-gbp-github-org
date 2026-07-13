@@ -5,6 +5,7 @@ locals {
     "olivier-stasse",
   ]
   odri_repositories = [
+    "ndcurves-release",
     "odri_master_board_sdk-release",
   ]
 }
