@@ -1,6 +1,6 @@
 locals {
   rtest_team = [
-    "MariuszSzczepanikSpyrosoft",
+    "Mariusz-Szczepanik",
     "slci",
   ]
   rtest_repositories = [
