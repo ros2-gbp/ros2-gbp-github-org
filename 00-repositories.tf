@@ -208,6 +208,7 @@ locals {
     local.ros_event_camera_repositories,
     local.ros_industrial_repositories,
     local.ros_repositories,
+    local.ros_snapd_interfaces_repositories,
     local.rosauth_repositories,
     local.rosbag2_repositories,
     local.rosidlcpp_repositories,

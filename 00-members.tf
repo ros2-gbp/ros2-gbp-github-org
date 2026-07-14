@@ -209,6 +209,7 @@ locals {
     local.ros_canopen_team,
     local.ros_event_camera_team,
     local.ros_industrial_team,
+    local.ros_snapd_interfaces_team,
     local.ros_team,
     local.rosauth_team,
     local.rosbag2_team,
