@@ -214,6 +214,7 @@ locals {
     local.rosbag2_repositories,
     local.rosidlcpp_repositories,
     local.rospy_message_converter_repositories,
+    local.rplidar_driver_repositories,
     local.rplidar_ros_repositories,
     local.rqt_repositories,
     local.rt_net_repositories,
