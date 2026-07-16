@@ -8,6 +8,9 @@ locals {
   pal_robotics_repositories = [
     "aruco_ros-release",
     "backward_ros-release",
+    "kangaroo_moveit_config-release",
+    "kangaroo_robot-release",
+    "kangaroo_simulation-release",
     "launch_pal-release",
     "mujoco_vendor-release",
     "omni_base_navigation-release",
