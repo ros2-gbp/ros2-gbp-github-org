@@ -6,6 +6,8 @@ locals {
     "compass-release",
     "cras_msgs-release",
     "cras_ros_utils-release",
+    "robot_body_filter-release",
+    "sensor_filters-release",
   ]
 }
 
