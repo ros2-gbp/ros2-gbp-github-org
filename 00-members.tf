@@ -244,6 +244,7 @@ locals {
     local.sports_team,
     local.stereolabs_team,
     local.stonier_team,
+    local.swiftdds_team,
     local.swri_team,
     local.synapticon_team,
     local.sync_parameter_server_team,
