@@ -243,6 +243,7 @@ locals {
     local.sports_repositories,
     local.stereolabs_repositories,
     local.stonier_repositories,
+    local.swiftdds_repositories,
     local.swri_repositories,
     local.synapticon_repositories,
     local.sync_parameter_server_repositories,
