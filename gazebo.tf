@@ -2,6 +2,7 @@ locals {
   gazebo_team = [
     "ahcorde",
     "azeey",
+    "caguero",
     "clalancette",
     "iche033",
     "j-rivero",
