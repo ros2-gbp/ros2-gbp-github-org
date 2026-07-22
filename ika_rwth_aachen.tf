@@ -2,6 +2,7 @@ locals {
   ika_rwth_aachen_team = [
     "gkueppers",
     "jpbusch",
+    "lostendo",
     "lreiher",
   ]
   ika_rwth_aachen_repositories = [
