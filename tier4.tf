@@ -11,7 +11,6 @@ locals {
     "hash_library_vendor-release",
     "heaphook-release",
     "nebula-release",
-    "osqp_vendor-release",
     "sync_tooling_msgs-release",
     "tensorrt_cmake_module-release",
   ]
