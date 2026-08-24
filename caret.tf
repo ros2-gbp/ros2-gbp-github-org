@@ -3,6 +3,7 @@ locals {
     "h-suzuki-isp",
     "isp-uetsuki",
     "m-amatsu",
+    "miyakoshi-dev",
     "nabetetsu",
     "ymski",
   ]
