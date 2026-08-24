@@ -1,8 +1,16 @@
 locals {
   foxglove_msgs_team = [
     "achim-k",
+    "Avan1ko",
+    "bennetthardwick",
+    "clalancette",
     "defunctzombie",
+    "ericmlujan",
+    "gasmith",
+    "james-rms",
+    "jnastaskin-foxglove",
     "jtbandes",
+    "tom-foxglove",
     "wep21"
   ]
   foxglove_msgs_repositories = [

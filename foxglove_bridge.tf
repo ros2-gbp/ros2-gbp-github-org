@@ -1,10 +1,16 @@
 locals {
   foxglove_bridge_team = [
     "achim-k",
+    "Avan1ko",
+    "bennetthardwick",
+    "clalancette",
     "defunctzombie",
     "ericmlujan",
     "gasmith",
+    "james-rms",
+    "jnastaskin-foxglove",
     "jtbandes",
+    "tom-foxglove",
   ]
   foxglove_bridge_repositories = [
     "foxglove_bridge-release",
