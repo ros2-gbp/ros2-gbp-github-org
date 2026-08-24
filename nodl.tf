@@ -2,6 +2,9 @@ locals {
   nodl_team = [
     "Arnatious",
     "kyrofa",
+    "emersonknapp",
+    "lsy3",
+    "alistair-english",
   ]
   nodl_repositories = [
     "ament_nodl-release",
