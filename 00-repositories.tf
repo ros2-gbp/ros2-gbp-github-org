@@ -240,6 +240,7 @@ locals {
     local.smacc2_repositories,
     local.snt_arg_repositories,
     local.sony_rdc_repositories,
+    local.splat_ros_repositories,
     local.sports_repositories,
     local.stereolabs_repositories,
     local.stonier_repositories,
