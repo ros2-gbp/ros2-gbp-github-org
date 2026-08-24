@@ -147,6 +147,7 @@ locals {
     local.naturerobots_repositories,
     local.navigation_repositories,
     local.neobotix_repositories,
+    local.netft_repositories,
     local.network_bridge_repositories,
     local.nineyards_robotics_repositories,
     local.niwcpac_repositories,
