@@ -224,6 +224,7 @@ locals {
     local.rtest_team,
     local.ruckig_team,
     local.rudislabs_team,
+    local.sbg_team,
     local.scenario_execution_team,
     local.schunk_team,
     local.security_wg_team,
