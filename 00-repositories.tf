@@ -116,6 +116,7 @@ locals {
     local.jafarabdi_repositories,
     local.josh_newans_repositories,
     local.jrl_cmakemodules_repositories,
+    local.jsk_repositories,
     local.kinematics_interface_pinocchio_repositories,
     local.kinova_robotics_repositories,
     local.kobuki_base_repositories,

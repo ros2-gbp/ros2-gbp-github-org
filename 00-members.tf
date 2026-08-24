@@ -116,6 +116,7 @@ locals {
     local.jafarabdi_team,
     local.josh_newans_team,
     local.jrl_cmakemodules_team,
+    local.jsk_team,
     local.kinematics_interface_pinocchio_team,
     local.kinova_robotics_team,
     local.kobuki_base_team,
