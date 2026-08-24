@@ -3,7 +3,6 @@ locals {
     "urfeex",
     "urrsk",
     "urmahp",
-    "SarveshMalladi",
   ]
   universal_robots_repositories = [
     "Universal_Robots_Client_Library-release",
