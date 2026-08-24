@@ -85,6 +85,7 @@ locals {
     local.fraunhofer_iosb_ars_team,
     local.fraunhofer_ipa_320_team,
     local.gazebo_team,
+    local.gbionics_team,
     local.geographic_info_team,
     local.grbl_team,
     local.grid_map_geo_team,

@@ -85,6 +85,7 @@ locals {
     local.fraunhofer_iosb_ars_repositories,
     local.fraunhofer_ipa_320_repositories,
     local.gazebo_repositories,
+    local.gbionics_repositories,
     local.geographic_info_repositories,
     local.grbl_repositories,
     local.grid_map_geo_repositories,
