@@ -227,6 +227,7 @@ locals {
     local.rtest_repositories,
     local.ruckig_repositories,
     local.rudislabs_repositories,
+    local.sbg_repositories,
     local.scenario_execution_repositories,
     local.schunk_repositories,
     local.security_wg_repositories,
