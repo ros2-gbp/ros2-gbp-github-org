@@ -188,6 +188,7 @@ locals {
     local.py_trees_repositories,
     local.pymoveit_repositories,
     local.rai_repositories,
+    local.rainbow_robotics_repositories,
     local.rclc_repositories,
     local.rcpputils_repositories,
     local.rdl_repositories,

@@ -188,6 +188,7 @@ locals {
     local.py_trees_team,
     local.pymoveit_team,
     local.rai_team,
+    local.rainbow_robotics_team,
     local.rclc_team,
     local.rcpputils_team,
     local.rdl_team,
