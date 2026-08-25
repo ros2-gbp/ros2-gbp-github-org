@@ -264,6 +264,7 @@ locals {
     local.tf_tree_terminal_team,
     local.the_construct_team,
     local.tier4_team,
+    local.tobas_team,
     local.tooling_wg_team,
     local.topic_based_hardware_team,
     local.tracing_team,
