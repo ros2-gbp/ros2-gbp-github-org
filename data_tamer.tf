@@ -2,6 +2,7 @@ locals {
   data_tamer_team = [
     "facontidavide",
     "henrygerardmoore",
+    "nbbrooks",
   ]
   data_tamer_repositories = [
     "data_tamer-release",
