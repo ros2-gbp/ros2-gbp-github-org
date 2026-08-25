@@ -7,6 +7,7 @@ locals {
   ]
   splat_ros_repositories = [
     "rviz_splat-release",
+    "splat_interfaces-release",
   ]
 }
 
