@@ -2,6 +2,7 @@ locals {
   trimble_team = [
     "alambert-trimble",
     "andre-nguyen",
+    "andre-trimble",
     "bcong-trmb",
     "keithykleung",
   ]
