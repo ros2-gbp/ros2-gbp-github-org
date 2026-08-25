@@ -205,6 +205,7 @@ locals {
     local.robotont_team,
     local.robotraconteur_team,
     local.robotwebtools_team,
+    local.robstride_ros2_team,
     local.ros2_gbp_docs_team,
     local.ros2_medkit_team,
     local.ros2_rust_team,
