@@ -259,6 +259,7 @@ locals {
     local.teamspatzenhirn_repositories,
     local.techmagic_repositories,
     local.teleop_repositories,
+    local.tesseract_robotics_repositories,
     local.tf_transformations_repositories,
     local.tf_tree_terminal_repositories,
     local.the_construct_repositories,

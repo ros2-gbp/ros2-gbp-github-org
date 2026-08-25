@@ -261,6 +261,7 @@ locals {
     local.teamspatzenhirn_team,
     local.techmagic_team,
     local.teleop_team,
+    local.tesseract_robotics_team,
     local.tf_transformations_team,
     local.tf_tree_terminal_team,
     local.the_construct_team,
