@@ -263,6 +263,7 @@ locals {
     local.tf_tree_terminal_repositories,
     local.the_construct_repositories,
     local.tier4_repositories,
+    local.tobas_repositories,
     local.tooling_wg_repositories,
     local.topic_based_hardware_repositories,
     local.tracing_repositories,
