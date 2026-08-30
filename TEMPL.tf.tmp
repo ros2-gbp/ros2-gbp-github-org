@@ -1,0 +1,16 @@
+locals {
+  TEMPL_team = [
+    "USER",
+  ]
+  TEMPL_repositories = [
+    "TEMPL-release",
+  ]
+}
+
+module "TEMPL_team" {
+  source       = "./modules/release_team"
+  team_name    = "TEMPL"
+  members      = local.TEMPL_team
+  repositories = local.TEMPL_repositories
+  depends_on   = [github_membership.members, github_repository.repositories]
+}
