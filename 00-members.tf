@@ -96,6 +96,7 @@ locals {
     local.hatchbed_team,
     local.hebi_team,
     local.hhcm_iit_team,
+    local.honu_robotics_team,
     local.hpp_fcl_team,
     local.husarion_team,
     local.iceoryx_team,
