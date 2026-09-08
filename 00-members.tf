@@ -196,6 +196,7 @@ locals {
     local.rdl_team,
     local.realsense_team,
     local.reductstore_team,
+    local.rewire_team,
     local.rmf_team,
     local.roadmap_explorer_team,
     local.roboception_team,
