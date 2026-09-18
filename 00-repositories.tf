@@ -68,6 +68,7 @@ locals {
     local.executive_smach_repositories,
     local.facontidavide_repositories,
     local.fastcdr_repositories,
+    local.fastswarmsim_repositories,
     local.fictionlab_repositories,
     local.fields2cover_repositories,
     local.filters_repositories,
