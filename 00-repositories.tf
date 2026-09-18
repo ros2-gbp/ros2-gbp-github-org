@@ -56,6 +56,7 @@ locals {
     local.data_tamer_repositories,
     local.dexory_repositories,
     local.diagnostics_repositories,
+    local.dispatcher_repositories,
     local.dolly_repositories,
     local.dynamixel_community_repositories,
     local.dyno_robotics_repositories,
