@@ -68,6 +68,7 @@ locals {
     local.executive_smach_team,
     local.facontidavide_team,
     local.fastcdr_team,
+    local.fastswarmsim_team,
     local.fictionlab_team,
     local.fields2cover_team,
     local.filters_team,
