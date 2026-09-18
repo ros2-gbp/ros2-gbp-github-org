@@ -62,6 +62,7 @@ locals {
     local.easynav_repositories,
     local.eclipse_ecal_repositories,
     local.eigenpy_repositories,
+    local.enpose_tech_repositories,
     local.ess_imu_driver2_repositories,
     local.event_camera_repositories,
     local.eventdispatch_repositories,

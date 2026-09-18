@@ -62,6 +62,7 @@ locals {
     local.easynav_team,
     local.eclipse_ecal_team,
     local.eigenpy_team,
+    local.enpose_tech_team,
     local.ess_imu_driver2_team,
     local.event_camera_team,
     local.eventdispatch_team,
