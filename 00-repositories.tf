@@ -302,6 +302,7 @@ locals {
     local.vrpn_repositories,
     local.wasp_research_group_repositories,
     local.wep21_repositories,
+    local.wirestead_repositories,
     local.xacro_repositories,
     local.yukkysaito_repositories,
     local.zbar_ros_repositories,
