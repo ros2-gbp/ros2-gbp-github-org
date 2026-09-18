@@ -56,6 +56,7 @@ locals {
     local.data_tamer_team,
     local.dexory_team,
     local.diagnostics_team,
+    local.dispatcher_team,
     local.dolly_team,
     local.dynamixel_community_team,
     local.dyno_robotics_team,
