@@ -14,6 +14,7 @@ locals {
     local.analogdevicesinc_robotics_sys_sw_team,
     local.analogdevicesinc_tmcl_team,
     local.andino_team,
+    local.annin_robotics_team,
     local.apex_team,
     local.apriltag_team,
     local.ardrone_sdk_team,

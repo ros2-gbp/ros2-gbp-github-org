@@ -14,6 +14,7 @@ locals {
     local.analogdevicesinc_robotics_sys_sw_repositories,
     local.analogdevicesinc_tmcl_repositories,
     local.andino_repositories,
+    local.annin_robotics_repositories,
     local.apex_repositories,
     local.apriltag_repositories,
     local.ardrone_sdk_repositories,
