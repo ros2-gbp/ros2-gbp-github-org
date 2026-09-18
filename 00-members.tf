@@ -87,6 +87,7 @@ locals {
     local.gazebo_team,
     local.gbionics_team,
     local.geographic_info_team,
+    local.grasp_synergy_adapter_team,
     local.grbl_team,
     local.grid_map_geo_team,
     local.grid_map_team,
