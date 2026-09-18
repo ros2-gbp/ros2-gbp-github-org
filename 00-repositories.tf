@@ -128,6 +128,7 @@ locals {
     local.lgsvl_repositories,
     local.libcamera_repositories,
     local.libg2o_repositories,
+    local.localization_msgs_tools_repositories,
     local.locator_ros_bridge_repositories,
     local.locusrobotics_repositories,
     local.maliput_repositories,

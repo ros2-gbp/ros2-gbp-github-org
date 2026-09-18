@@ -128,6 +128,7 @@ locals {
     local.lgsvl_team,
     local.libcamera_team,
     local.libg2o_team,
+    local.localization_msgs_tools_team,
     local.locator_ros_bridge_team,
     local.locusrobotics_team,
     local.maliput_team,
