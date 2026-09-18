@@ -8,6 +8,7 @@ locals {
   ]
   tesseract_robotics_repositories = [
     "boost_plugin_loader-release",
+    "opw_kinematics-release",
   ]
 }
 
