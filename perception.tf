@@ -8,7 +8,7 @@ locals {
     "Rayman",
     "Timple",
     "ahcorde",
-    "wjwwood"
+    "wjwwood",
   ]
   perception_repositories = [
     "laser_filters-release",
