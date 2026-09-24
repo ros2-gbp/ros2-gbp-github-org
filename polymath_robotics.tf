@@ -3,6 +3,7 @@ locals {
     "emersonknapp",
     "troygibb",
     "zeerekahmad",
+    "skyegalaxy",
   ]
   polymath_robotics_repositories = [
     "replay_testing-release",
