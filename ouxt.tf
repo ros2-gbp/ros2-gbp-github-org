@@ -8,6 +8,7 @@ locals {
     "nmea_hardware_interface-release",
     "ouxt_common-release",
     "quaternion_operation-release",
+    "rviz2_cinematographer-release",
     "sol_vendor-release",
   ]
 }
