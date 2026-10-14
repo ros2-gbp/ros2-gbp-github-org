@@ -7,6 +7,7 @@ locals {
   tuda_sim_repositories = [
     "gstreamer_ros_babel_fish-release",
     "hector_rviz_overlay-release",
+    "kddockwidgets_qt6_vendor-release",
     "qml6_ros2_plugin-release",
     "qml_ros2_plugin-release",
     "ros_babel_fish-release",
