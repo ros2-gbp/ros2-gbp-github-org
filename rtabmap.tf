@@ -4,6 +4,7 @@ locals {
   ]
   rtabmap_repositories = [
     "rtabmap-release",
+    "rtabmap_ros-release",
   ]
 }
 
