@@ -4,6 +4,7 @@ locals {
   ]
   prbonn_repositories = [
     "rko_lio-release",
+    "rko_slam-release",
   ]
 }
 
