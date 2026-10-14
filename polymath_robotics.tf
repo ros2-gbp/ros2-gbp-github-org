@@ -1,6 +1,7 @@
 locals {
   polymath_robotics_team = [
     "emersonknapp",
+    "skyegalaxy",
     "troygibb",
     "zeerekahmad",
   ]
