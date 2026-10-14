@@ -1,9 +1,9 @@
 locals {
   polymath_robotics_team = [
     "emersonknapp",
+    "skyegalaxy",
     "troygibb",
     "zeerekahmad",
-    "skyegalaxy",
   ]
   polymath_robotics_repositories = [
     "replay_testing-release",
