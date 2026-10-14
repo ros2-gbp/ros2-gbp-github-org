@@ -6,6 +6,7 @@ locals {
     "zeerekahmad",
   ]
   polymath_robotics_repositories = [
+    "behaviortree_cpp_pluginlib-release",
     "replay_testing-release",
     "socketcan_adapter-release",
   ]
