@@ -4,6 +4,7 @@ locals {
     "atimin",
   ]
   reductstore_repositories = [
+    "reduct_bridge-release",
     "reductstore_agent-release",
   ]
 }
