@@ -1,5 +1,6 @@
 locals {
   orbbec_camera_team = [
+    "christian-rauch",
     "ob-yalian",
   ]
 
