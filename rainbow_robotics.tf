@@ -1,6 +1,7 @@
 locals {
   rainbow_robotics_team = [
     "gurbann",
+    "hanah-jang",
     "wonmu1107",
   ]
   rainbow_robotics_repositories = [
