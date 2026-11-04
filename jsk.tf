@@ -4,6 +4,7 @@ locals {
   ]
   jsk_repositories = [
     "jsk_common_msgs-release",
+    "jsk_common-release",
   ]
 }
 
