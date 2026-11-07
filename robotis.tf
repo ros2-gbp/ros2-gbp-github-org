@@ -2,6 +2,7 @@ locals {
   robotis_team = [
     "ROBOTIS-Will",
     "robotpilot",
+    "routiful",
   ]
   robotis_repositories = [
     "ai_worker-release",
