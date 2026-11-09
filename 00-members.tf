@@ -216,6 +216,7 @@ locals {
     local.robstride_ros2_team,
     local.ros2_gbp_docs_team,
     local.ros2_medkit_team,
+    local.ros2_pulse_team,
     local.ros2_rust_team,
     local.ros2_snapshot_team,
     local.ros2tree_team,
