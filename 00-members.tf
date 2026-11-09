@@ -176,6 +176,7 @@ locals {
     local.openni2_camera_team,
     local.orbbec_camera_team,
     local.orco_team,
+    local.oscp_team,
     local.ouster_drivers_team,
     local.ouster_team,
     local.ouxt_team,
