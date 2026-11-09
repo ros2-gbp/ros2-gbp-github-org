@@ -58,6 +58,7 @@ locals {
     local.diagnostics_team,
     local.dispatcher_team,
     local.dolly_team,
+    local.dynamic_message_introspection_team,
     local.dynamixel_community_team,
     local.dyno_robotics_team,
     local.easynav_team,
