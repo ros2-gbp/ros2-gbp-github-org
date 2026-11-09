@@ -58,6 +58,7 @@ locals {
     local.diagnostics_repositories,
     local.dispatcher_repositories,
     local.dolly_repositories,
+    local.dynamic_message_introspection_repositories,
     local.dynamixel_community_repositories,
     local.dyno_robotics_repositories,
     local.easynav_repositories,
