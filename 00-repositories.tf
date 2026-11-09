@@ -215,6 +215,7 @@ locals {
     local.robotwebtools_repositories,
     local.robstride_ros2_repositories,
     local.ros2_medkit_repositories,
+    local.ros2_pulse_repositories,
     local.ros2_rust_repositories,
     local.ros2_snapshot_repositories,
     local.ros2tree_repositories,
