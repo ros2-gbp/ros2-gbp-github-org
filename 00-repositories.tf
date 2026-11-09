@@ -190,6 +190,7 @@ locals {
     local.plansys2_repositories,
     local.plotjuggler_repositories,
     local.point_cloud_transport_repositories,
+    local.polka_repositories,
     local.polymath_robotics_repositories,
     local.pradyum_group_repositories,
     local.prbonn_repositories,
