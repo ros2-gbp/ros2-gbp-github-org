@@ -15,6 +15,7 @@ locals {
     "hls_lfcd_lds_driver-release",
     "ld08_driver-release",
     "open_manipulator-release",
+    "robotis_interfaces-release",
     "turtlebot3-release",
     "turtlebot3_applications-release",
     "turtlebot3_applications_msgs-release",
