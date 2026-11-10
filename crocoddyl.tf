@@ -8,6 +8,7 @@ locals {
   ]
   crocoddyl_repositories = [
     "crocoddyl-release",
+    "example-robot-descriptions-release",
   ]
 }
 
