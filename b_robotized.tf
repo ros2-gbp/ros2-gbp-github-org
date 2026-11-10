@@ -1,6 +1,7 @@
 locals {
   b_robotized_team = [
     "Nibanovic",
+    "habartakh",
   ]
   b_robotized_repositories = [
     "ads_vendor-release",
