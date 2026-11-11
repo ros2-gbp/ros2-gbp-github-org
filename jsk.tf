@@ -3,6 +3,7 @@ locals {
     "k-okada",
   ]
   jsk_repositories = [
+    "jsk_3rdparty-release",
     "jsk_common-release",
     "jsk_common_msgs-release",
   ]
