@@ -5,6 +5,7 @@ locals {
   ]
   mrpt2_repositories = [
     "gtsam2mrpt_serial-release",
+    "mcap_anonymizer-release",
     "mola-release",
     "mola_academic_datasets-release",
     "mola_common-release",
