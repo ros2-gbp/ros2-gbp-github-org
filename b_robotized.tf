@@ -7,7 +7,6 @@ locals {
     "ads_vendor-release",
     "b_robotized_moveit_plugins-release",
     "beckhoff_ads_driver-release",
-
   ]
 }
 
