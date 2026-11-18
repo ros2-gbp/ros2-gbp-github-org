@@ -6,6 +6,7 @@ locals {
     "jsk_3rdparty-release",
     "jsk_common-release",
     "jsk_common_msgs-release",
+    "jsk_visualization-release",
   ]
 }
 
