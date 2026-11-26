@@ -207,6 +207,7 @@ locals {
     local.realsense_repositories,
     local.reductstore_repositories,
     local.rmf_repositories,
+    local.rmw_unix_socket_cpp_repositories,
     local.roadmap_explorer_repositories,
     local.roboception_repositories,
     local.robot_calibration_repositories,
