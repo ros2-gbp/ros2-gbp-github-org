@@ -14,6 +14,7 @@ locals {
     "mola_input_ouster-release",
     "mola_input_rosbag1-release",
     "mola_lidar_odometry-release",
+    "mola_mapper-release",
     "mola_mapper_2d-release",
     "mola_sm_loop_closure-release",
     "mola_state_estimation-release",
