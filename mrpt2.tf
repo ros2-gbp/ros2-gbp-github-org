@@ -19,6 +19,7 @@ locals {
     "mola_sm_loop_closure-release",
     "mola_state_estimation-release",
     "mola_test_datasets-release",
+    "mola_vision-release",
     "mp2p_icp-release",
     "mrpt2-release",
     "mrpt3-release",
