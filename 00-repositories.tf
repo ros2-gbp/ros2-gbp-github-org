@@ -206,6 +206,7 @@ locals {
     local.rdl_repositories,
     local.realsense_repositories,
     local.reductstore_repositories,
+    local.rewire_repositories,
     local.rmf_repositories,
     local.rmw_unix_socket_cpp_repositories,
     local.roadmap_explorer_repositories,
